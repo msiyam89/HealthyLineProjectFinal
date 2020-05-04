@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="HealtyLineModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ContactUs">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserEmail" Type="nvarchar" MaxLength="500" />
+          <Property Name="UserFullNameArabic" Type="nvarchar" MaxLength="500" />
+          <Property Name="UserFullNameEnglish" Type="nvarchar" MaxLength="500" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="500" />
+          <Property Name="Message" Type="nvarchar(max)" />
+          <Property Name="IsRegistered" Type="bit" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="500" />
+          <Property Name="CreatedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Diseases">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameArabic" Type="nvarchar" MaxLength="500" />
+          <Property Name="NameEnglish" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="FoodMainCategories">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameArabic" Type="nvarchar" MaxLength="500" />
+          <Property Name="NameEnglish" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="FoodSubCategories">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FoodMainCategoryId" Type="int" />
+          <Property Name="NameArabic" Type="nvarchar" MaxLength="500" />
+          <Property Name="NameEnglish" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="Recipes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameArabic" Type="nvarchar" MaxLength="500" />
+          <Property Name="NameEnglish" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="RecipesIngredients">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RecipeId" Type="int" />
+          <Property Name="Ingredients" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="RecipesSteps">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RecipeId" Type="int" />
+          <Property Name="Details" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="UserDeseases">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="ProfileId" Type="int" />
+          <Property Name="DiseasesId" Type="int" />
+        </EntityType>
+        <EntityType Name="UserProfile">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FullNameArabic" Type="nvarchar" MaxLength="500" />
+          <Property Name="FullNameEnglish" Type="nvarchar" MaxLength="500" />
+          <Property Name="Gender" Type="bit" />
+          <Property Name="Birthdate" Type="datetime" />
+          <Property Name="Email" Type="nvarchar" MaxLength="200" />
+          <Property Name="MobileNumber" Type="nvarchar" MaxLength="200" />
+          <Property Name="CurrentWeight" Type="float" />
+          <Property Name="TargetWeight" Type="float" />
+          <Property Name="Height" Type="float" />
+          <Property Name="IdealWeight" Type="float" />
+          <Property Name="CreateBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreateDate" Type="datetime" />
+          <Property Name="UpdatedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="UpdateDate" Type="datetime" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <Association Name="FK_FoodSubCategories_FoodMainCategories">
+          <End Role="FoodMainCategories" Type="Self.FoodMainCategories" Multiplicity="0..1" />
+          <End Role="FoodSubCategories" Type="Self.FoodSubCategories" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FoodMainCategories">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FoodSubCategories">
+              <PropertyRef Name="FoodMainCategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RecipesIngredients_Recipes">
+          <End Role="Recipes" Type="Self.Recipes" Multiplicity="0..1" />
+          <End Role="RecipesIngredients" Type="Self.RecipesIngredients" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Recipes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RecipesIngredients">
+              <PropertyRef Name="RecipeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RecipesSteps_Recipes">
+          <End Role="Recipes" Type="Self.Recipes" Multiplicity="0..1" />
+          <End Role="RecipesSteps" Type="Self.RecipesSteps" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Recipes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RecipesSteps">
+              <PropertyRef Name="RecipeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserDeseases_Diseases">
+          <End Role="Diseases" Type="Self.Diseases" Multiplicity="0..1" />
+          <End Role="UserDeseases" Type="Self.UserDeseases" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Diseases">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UserDeseases">
+              <PropertyRef Name="DiseasesId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserDeseases_UserProfile">
+          <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="0..1" />
+          <End Role="UserDeseases" Type="Self.UserDeseases" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UserDeseases">
+              <PropertyRef Name="ProfileId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HealtyLineModelStoreContainer">
+          <EntitySet Name="ContactUs" EntityType="Self.ContactUs" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Diseases" EntityType="Self.Diseases" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FoodMainCategories" EntityType="Self.FoodMainCategories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FoodSubCategories" EntityType="Self.FoodSubCategories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Recipes" EntityType="Self.Recipes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RecipesIngredients" EntityType="Self.RecipesIngredients" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="RecipesSteps" EntityType="Self.RecipesSteps" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserDeseases" EntityType="Self.UserDeseases" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserProfile" EntityType="Self.UserProfile" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_FoodSubCategories_FoodMainCategories" Association="Self.FK_FoodSubCategories_FoodMainCategories">
+            <End Role="FoodMainCategories" EntitySet="FoodMainCategories" />
+            <End Role="FoodSubCategories" EntitySet="FoodSubCategories" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RecipesIngredients_Recipes" Association="Self.FK_RecipesIngredients_Recipes">
+            <End Role="Recipes" EntitySet="Recipes" />
+            <End Role="RecipesIngredients" EntitySet="RecipesIngredients" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RecipesSteps_Recipes" Association="Self.FK_RecipesSteps_Recipes">
+            <End Role="Recipes" EntitySet="Recipes" />
+            <End Role="RecipesSteps" EntitySet="RecipesSteps" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserDeseases_Diseases" Association="Self.FK_UserDeseases_Diseases">
+            <End Role="Diseases" EntitySet="Diseases" />
+            <End Role="UserDeseases" EntitySet="UserDeseases" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserDeseases_UserProfile" Association="Self.FK_UserDeseases_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfile" />
+            <End Role="UserDeseases" EntitySet="UserDeseases" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HealtyLineModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ContactU">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="UserFullNameArabic" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="UserFullNameEnglish" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="UserName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="IsRegistered" Type="Boolean" />
+          <Property Name="CreatedBy" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="Disease">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameArabic" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="NameEnglish" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="UserDeseases" Relationship="Self.FK_UserDeseases_Diseases" FromRole="Diseases" ToRole="UserDeseases" />
+        </EntityType>
+        <EntityType Name="FoodMainCategory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameArabic" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="NameEnglish" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="FoodSubCategories" Relationship="HealtyLineModel.FK_FoodSubCategories_FoodMainCategories" FromRole="FoodMainCategory" ToRole="FoodSubCategory" />
+        </EntityType>
+        <EntityType Name="FoodSubCategory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FoodMainCategoryId" Type="Int32" />
+          <Property Name="NameArabic" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="NameEnglish" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="FoodMainCategory" Relationship="HealtyLineModel.FK_FoodSubCategories_FoodMainCategories" FromRole="FoodSubCategory" ToRole="FoodMainCategory" />
+        </EntityType>
+        <EntityType Name="Recipe">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameArabic" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="NameEnglish" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="RecipesIngredients" Relationship="Self.FK_RecipesIngredients_Recipes" FromRole="Recipes" ToRole="RecipesIngredients" />
+          <NavigationProperty Name="RecipesSteps" Relationship="Self.FK_RecipesSteps_Recipes" FromRole="Recipes" ToRole="RecipesSteps" />
+        </EntityType>
+        <EntityType Name="RecipesIngredient">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RecipeId" Type="Int32" />
+          <Property Name="Ingredients" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Recipe" Relationship="Self.FK_RecipesIngredients_Recipes" FromRole="RecipesIngredients" ToRole="Recipes" />
+        </EntityType>
+        <EntityType Name="RecipesStep">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RecipeId" Type="Int32" />
+          <Property Name="Details" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Recipe" Relationship="Self.FK_RecipesSteps_Recipes" FromRole="RecipesSteps" ToRole="Recipes" />
+        </EntityType>
+        <EntityType Name="UserDeseas">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="ProfileId" Type="Int32" />
+          <Property Name="DiseasesId" Type="Int32" />
+          <NavigationProperty Name="Disease" Relationship="Self.FK_UserDeseases_Diseases" FromRole="UserDeseases" ToRole="Diseases" />
+          <NavigationProperty Name="UserProfile" Relationship="Self.FK_UserDeseases_UserProfile" FromRole="UserDeseases" ToRole="UserProfile" />
+        </EntityType>
+        <EntityType Name="UserProfile">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FullNameArabic" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="FullNameEnglish" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Gender" Type="Boolean" />
+          <Property Name="Birthdate" Type="DateTime" Precision="3" />
+          <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="MobileNumber" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="CurrentWeight" Type="Double" />
+          <Property Name="TargetWeight" Type="Double" />
+          <Property Name="Height" Type="Double" />
+          <Property Name="IdealWeight" Type="Double" />
+          <Property Name="CreateBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CreateDate" Type="DateTime" Precision="3" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="UpdateDate" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="UserDeseases" Relationship="Self.FK_UserDeseases_UserProfile" FromRole="UserProfile" ToRole="UserDeseases" />
+          <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_UserDeseases_Diseases">
+          <End Role="Diseases" Type="Self.Disease" Multiplicity="0..1" />
+          <End Role="UserDeseases" Type="Self.UserDeseas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Diseases">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UserDeseases">
+              <PropertyRef Name="DiseasesId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RecipesIngredients_Recipes">
+          <End Role="Recipes" Type="Self.Recipe" Multiplicity="0..1" />
+          <End Role="RecipesIngredients" Type="Self.RecipesIngredient" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Recipes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RecipesIngredients">
+              <PropertyRef Name="RecipeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_RecipesSteps_Recipes">
+          <End Role="Recipes" Type="Self.Recipe" Multiplicity="0..1" />
+          <End Role="RecipesSteps" Type="Self.RecipesStep" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Recipes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RecipesSteps">
+              <PropertyRef Name="RecipeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UserDeseases_UserProfile">
+          <End Role="UserProfile" Type="Self.UserProfile" Multiplicity="0..1" />
+          <End Role="UserDeseases" Type="Self.UserDeseas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UserDeseases">
+              <PropertyRef Name="ProfileId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HealtyLineContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ContactUs" EntityType="Self.ContactU" />
+          <EntitySet Name="Diseases" EntityType="Self.Disease" />
+          <EntitySet Name="FoodMainCategories" EntityType="Self.FoodMainCategory" />
+          <EntitySet Name="FoodSubCategories" EntityType="Self.FoodSubCategory" />
+          <EntitySet Name="Recipes" EntityType="Self.Recipe" />
+          <EntitySet Name="RecipesIngredients" EntityType="Self.RecipesIngredient" />
+          <EntitySet Name="RecipesSteps" EntityType="Self.RecipesStep" />
+          <EntitySet Name="UserDeseases" EntityType="Self.UserDeseas" />
+          <EntitySet Name="UserProfiles" EntityType="Self.UserProfile" />
+          <AssociationSet Name="FK_UserDeseases_Diseases" Association="Self.FK_UserDeseases_Diseases">
+            <End Role="Diseases" EntitySet="Diseases" />
+            <End Role="UserDeseases" EntitySet="UserDeseases" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RecipesIngredients_Recipes" Association="Self.FK_RecipesIngredients_Recipes">
+            <End Role="Recipes" EntitySet="Recipes" />
+            <End Role="RecipesIngredients" EntitySet="RecipesIngredients" />
+          </AssociationSet>
+          <AssociationSet Name="FK_RecipesSteps_Recipes" Association="Self.FK_RecipesSteps_Recipes">
+            <End Role="Recipes" EntitySet="Recipes" />
+            <End Role="RecipesSteps" EntitySet="RecipesSteps" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UserDeseases_UserProfile" Association="Self.FK_UserDeseases_UserProfile">
+            <End Role="UserProfile" EntitySet="UserProfiles" />
+            <End Role="UserDeseases" EntitySet="UserDeseases" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FoodSubCategories_FoodMainCategories" Association="HealtyLineModel.FK_FoodSubCategories_FoodMainCategories">
+            <End Role="FoodMainCategory" EntitySet="FoodMainCategories" />
+            <End Role="FoodSubCategory" EntitySet="FoodSubCategories" />
+          </AssociationSet>
+        </EntityContainer>
+        <Association Name="FK_FoodSubCategories_FoodMainCategories">
+          <End Type="HealtyLineModel.FoodMainCategory" Role="FoodMainCategory" Multiplicity="0..1" />
+          <End Type="HealtyLineModel.FoodSubCategory" Role="FoodSubCategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FoodMainCategory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FoodSubCategory">
+              <PropertyRef Name="FoodMainCategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="HealtyLineModelStoreContainer" CdmEntityContainer="HealtyLineContext">
+          <EntitySetMapping Name="ContactUs">
+            <EntityTypeMapping TypeName="HealtyLineModel.ContactU">
+              <MappingFragment StoreEntitySet="ContactUs">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
+                <ScalarProperty Name="UserFullNameArabic" ColumnName="UserFullNameArabic" />
+                <ScalarProperty Name="UserFullNameEnglish" ColumnName="UserFullNameEnglish" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Message" ColumnName="Message" />
+                <ScalarProperty Name="IsRegistered" ColumnName="IsRegistered" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Diseases">
+            <EntityTypeMapping TypeName="HealtyLineModel.Disease">
+              <MappingFragment StoreEntitySet="Diseases">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="NameArabic" ColumnName="NameArabic" />
+                <ScalarProperty Name="NameEnglish" ColumnName="NameEnglish" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FoodMainCategories">
+            <EntityTypeMapping TypeName="HealtyLineModel.FoodMainCategory">
+              <MappingFragment StoreEntitySet="FoodMainCategories">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="NameArabic" ColumnName="NameArabic" />
+                <ScalarProperty Name="NameEnglish" ColumnName="NameEnglish" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FoodSubCategories">
+            <EntityTypeMapping TypeName="HealtyLineModel.FoodSubCategory">
+              <MappingFragment StoreEntitySet="FoodSubCategories">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FoodMainCategoryId" ColumnName="FoodMainCategoryId" />
+                <ScalarProperty Name="NameArabic" ColumnName="NameArabic" />
+                <ScalarProperty Name="NameEnglish" ColumnName="NameEnglish" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Recipes">
+            <EntityTypeMapping TypeName="HealtyLineModel.Recipe">
+              <MappingFragment StoreEntitySet="Recipes">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="NameArabic" ColumnName="NameArabic" />
+                <ScalarProperty Name="NameEnglish" ColumnName="NameEnglish" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RecipesIngredients">
+            <EntityTypeMapping TypeName="HealtyLineModel.RecipesIngredient">
+              <MappingFragment StoreEntitySet="RecipesIngredients">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="RecipeId" ColumnName="RecipeId" />
+                <ScalarProperty Name="Ingredients" ColumnName="Ingredients" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RecipesSteps">
+            <EntityTypeMapping TypeName="HealtyLineModel.RecipesStep">
+              <MappingFragment StoreEntitySet="RecipesSteps">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="RecipeId" ColumnName="RecipeId" />
+                <ScalarProperty Name="Details" ColumnName="Details" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserDeseases">
+            <EntityTypeMapping TypeName="HealtyLineModel.UserDeseas">
+              <MappingFragment StoreEntitySet="UserDeseases">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ProfileId" ColumnName="ProfileId" />
+                <ScalarProperty Name="DiseasesId" ColumnName="DiseasesId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserProfiles">
+            <EntityTypeMapping TypeName="HealtyLineModel.UserProfile">
+              <MappingFragment StoreEntitySet="UserProfile">
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FullNameArabic" ColumnName="FullNameArabic" />
+                <ScalarProperty Name="FullNameEnglish" ColumnName="FullNameEnglish" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Birthdate" ColumnName="Birthdate" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+                <ScalarProperty Name="CurrentWeight" ColumnName="CurrentWeight" />
+                <ScalarProperty Name="TargetWeight" ColumnName="TargetWeight" />
+                <ScalarProperty Name="Height" ColumnName="Height" />
+                <ScalarProperty Name="IdealWeight" ColumnName="IdealWeight" />
+                <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+                <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
