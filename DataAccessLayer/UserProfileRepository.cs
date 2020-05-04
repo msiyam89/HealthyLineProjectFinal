@@ -79,13 +79,7 @@ namespace DataAccessLayer
             return result; 
         }
 
-        public static bool IsUserExist(string userName)
-        {
-            using (var context = new HealtyLineContext())
-            {
-                return context.UserProfiles.Where(x => x.UserName == userName || x.MobileNumber == mobileNumber).FirstOrDefault();
-            }
-        }
+       
         #endregion
     }
 }

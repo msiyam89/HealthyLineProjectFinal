@@ -120,8 +120,15 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\CalorieGuideController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\DiteProgramsController.cs" />
+    <Compile Include="Controllers\ExerciseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RrcipesBookController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -136,6 +143,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
+    <Compile Include="Models\CalorieGuide.cs" />
+    <Compile Include="Models\ContactUsModel.cs" />
+    <Compile Include="Models\DiseasesModel.cs" />
+    <Compile Include="Models\Ditprogram.cs" />
+    <Compile Include="Models\Exercise.cs" />
+    <Compile Include="Models\FoodMainCategoriesModel.cs" />
+    <Compile Include="Models\FoodSubCategoryModel.cs" />
+    <Compile Include="Models\IdealWeight.cs" />
+    <Compile Include="Models\RecipesBook.cs" />
+    <Compile Include="Models\RecipesIngredientsModel.cs" />
+    <Compile Include="Models\RecipesStepsModel.cs" />
+    <Compile Include="Models\RrcipesModel.cs" />
+    <Compile Include="Models\SigninModel.cs" />
+    <Compile Include="Models\UserDiseasesModel.cs" />
+    <Compile Include="Models\UserProfileModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +165,43 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\1.jpg" />
+    <Content Include="Content\Images\10.jpg" />
+    <Content Include="Content\Images\11.jpg" />
+    <Content Include="Content\Images\2.jpg" />
+    <Content Include="Content\Images\3.png" />
+    <Content Include="Content\Images\4.png" />
+    <Content Include="Content\Images\5.png" />
+    <Content Include="Content\Images\6.png" />
+    <Content Include="Content\Images\7.png" />
+    <Content Include="Content\Images\8.png" />
+    <Content Include="Content\Images\9.png" />
+    <Content Include="Content\Images\dit1.jpg" />
+    <Content Include="Content\Images\dit2.jpg" />
+    <Content Include="Content\Images\dit3.jpg" />
+    <Content Include="Content\Images\dit4.jpg" />
+    <Content Include="Content\Images\dit5.jpg" />
+    <Content Include="Content\Images\dit6.jpg" />
+    <Content Include="Content\Images\dit7.jpg" />
+    <Content Include="Content\Images\dit8.jpg" />
+    <Content Include="Content\Images\dit9.jpg" />
+    <Content Include="Content\Images\imag1.jpg" />
+    <Content Include="Content\Images\imag10.jpg" />
+    <Content Include="Content\Images\imag11.jpg" />
+    <Content Include="Content\Images\imag12.jpg" />
+    <Content Include="Content\Images\imag13.jpg" />
+    <Content Include="Content\Images\imag14.jpg" />
+    <Content Include="Content\Images\imag15.jpg" />
+    <Content Include="Content\Images\imag3.jpg" />
+    <Content Include="Content\Images\imag4.jpg" />
+    <Content Include="Content\Images\imag5.jpg" />
+    <Content Include="Content\Images\imag6.jpg" />
+    <Content Include="Content\Images\imag7.jpg" />
+    <Content Include="Content\Images\imag8.jpg" />
+    <Content Include="Content\Images\imag9.jpg" />
+    <Content Include="Content\Images\image2.jpg" />
+    <Content Include="Content\Images\nutrition.jpg" />
+    <Content Include="Content\Images\sport7.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -174,11 +233,43 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\Exercise.cshtml" />
+    <Content Include="Views\Account\IdealWeight.cshtml" />
+    <Content Include="Views\Account\Signin.cshtml" />
+    <Content Include="Views\Account\Signup.cshtml" />
+    <Content Include="Views\CalorieGuide\CalorieGuide.cshtml" />
+    <Content Include="Views\Contact\Contact.cshtml" />
+    <Content Include="Views\DitePrograms\Atkinsdiet.cshtml" />
+    <Content Include="Views\DitePrograms\Dietprogram.cshtml" />
+    <Content Include="Views\DitePrograms\Ketogenicdiet.cshtml" />
+    <Content Include="Views\DitePrograms\Mediterraneandiet.cshtml" />
+    <Content Include="Views\DitePrograms\Rawfooddiet.cshtml" />
+    <Content Include="Views\DitePrograms\SouthBeachdiet.cshtml" />
+    <Content Include="Views\DitePrograms\Vegandiet.cshtml" />
+    <Content Include="Views\DitePrograms\Vegetariandiet.cshtml" />
+    <Content Include="Views\DitePrograms\WeightWatchersdiet.cshtml" />
+    <Content Include="Views\DitePrograms\Zonediet.cshtml" />
+    <Content Include="Views\Exercise\Exercise.cshtml" />
+    <Content Include="Views\Home\IdealWeight.cshtml" />
+    <Content Include="Views\RrcipesBook\Asparagus.cshtml" />
+    <Content Include="Views\RrcipesBook\Beef.cshtml" />
+    <Content Include="Views\RrcipesBook\Boiled.cshtml" />
+    <Content Include="Views\RrcipesBook\BroccoliLight.cshtml" />
+    <Content Include="Views\RrcipesBook\Bulgurtomato.cshtml" />
+    <Content Include="Views\RrcipesBook\Chickenhot.cshtml" />
+    <Content Include="Views\RrcipesBook\Chinese.cshtml" />
+    <Content Include="Views\RrcipesBook\crisppancake.cshtml" />
+    <Content Include="Views\RrcipesBook\Grilledchicken.cshtml" />
+    <Content Include="Views\RrcipesBook\Grilledchickenlemon.cshtml" />
+    <Content Include="Views\RrcipesBook\Grilledfish.cshtml" />
+    <Content Include="Views\RrcipesBook\Indiansamosa.cshtml" />
+    <Content Include="Views\RrcipesBook\Marinatedchicken.cshtml" />
+    <Content Include="Views\RrcipesBook\Mushroomchicken.cshtml" />
+    <Content Include="Views\RrcipesBook\Potato.cshtml" />
+    <Content Include="Views\RrcipesBook\RecipesBook.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

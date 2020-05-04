@@ -1,0 +1,68 @@
+﻿@model MvcApplication1.Models.IdealWeightModel
+
+@using (Html.BeginForm())
+{
+    {@Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Calculate Ideal Weight</legend>
+        <ul>
+            <li>
+                <label>weight</label>
+                @Html.TextBoxFor(x => x.weight)KG<br />
+                @Html.ValidationMessageFor(x => x.weight)
+
+            </li>
+
+
+            <li>
+                <label>Height</label>
+                @Html.TextBoxFor(x => x.height)CM<br />
+                @Html.ValidationMessageFor(x => x.height)
+            </li>
+            <li>
+                <label>Age</label>
+                @Html.TextBoxFor(x => x.age)
+                @Html.ValidationMessageFor(x => x.age)
+            </li>
+            <li>
+                <label>Gender</label>
+                <select name="Gender" id="Gender">
+                    @foreach (DataAccess.Gender gender in Enum.GetValues(typeof(DataAccess.Gender)))
+                    {
+                        <option value="@((byte)gender)">@gender.ToString()</option>
+                    }
+                </select>
+                @Html.ValidationMessageFor(x => x.Gender)
+            </li>
+            @* <label>Daily ُffort</label>
+                     <select name="Dailyeffort" id="effort">
+                    @foreach (DataAccess.Dailyeffort dailyeffort in Enum.GetValues(typeof(DataAccess.Dailyeffort)))
+                    {
+                        <option value="@((byte)gender)">@gender.ToString()</option>
+                    }
+                </select>
+                @Html.ValidationMessageFor(x=>x.Dailyeffort)
+                    </li>*@
+
+
+
+
+            <li>
+                <input type="submit" value="Calculate" />
+            </li>
+        </ul>
+    </fieldset>
+    <p>
+        "The Calorie Calculator can be used to estimate the number of calories a person needs to consume each day. This calculator can also provide some simple guidelines for gaining or losing weigh
+        Your ideal body weight varies based on gender, age, and current health. This ideal weight calculator is an approximation and based on the standard equations provided by Welltech Solutions. Calculators are appropriate for healthy, non-pregnant adults."
+    </p>
+
+
+    <div>
+        @Html.ActionLink("Back to List", "IdelWeight")
+    </div>
+}
+@section Scripts {
+    Scripts.Render("~/bundles/jqueryval")
+}

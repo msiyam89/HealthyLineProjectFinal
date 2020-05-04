@@ -1,9 +1,11 @@
-﻿using HealthyLineProject.Helper;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI.WebControls;
+using HealthyLineProject.Helper;
+using R;
 
 namespace HealthyLineProject.Controllers
 {
@@ -11,36 +13,42 @@ namespace HealthyLineProject.Controllers
     {
         public ActionResult ChangeCurrentCulture(int id)
         {
-            //  
-            // Change the current culture for this user.  
-            //  
+
             CultureHelper.CurrentCulture = id;
-            //  
-            // Cache the new current culture into the user HTTP session.   
-            //  
+
             Session["CurrentCulture"] = id;
-            //  
-            // Redirect to the same page from where the request was made!   
-            //  
+
             return Redirect(Request.UrlReferrer.ToString());
         }
+
         public ActionResult Index()
         {
+            ViewBag.Title = "Home page";
             return View();
+
         }
 
-        public ActionResult About()
+        private ActionResult View(Func<ActionResult> idealWeight, Func<string, ContentResult> content)
         {
-            ViewBag.Message = "Your application description page.";
+            throw new NotImplementedException();
+        }   
+        //public ActionResult IdealWeight()
+        //{
+        //    ViewBag.Title = "IdealWeight";
 
-            return View();
-        }
+        //    return View();
+        //}
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
+        //[HttpPost]
+        //public ActionResult IdealWeight(IdealWeightModel model)
+        //{
+        //    decimal ideal = model.weight / (model.height * model.height);
+        //    ViewBag.Title = "IdealWeight";
 
-            return View();
-        }
+        //    return View();
+        //}
+      
     }
+
+
 }

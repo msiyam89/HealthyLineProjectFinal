@@ -117,7 +117,278 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Asparaguspasta" xml:space="preserve">
+    <value>معكرونة الهليون للحمية</value>
+  </data>
+  <data name="Atkins" xml:space="preserve">
+    <value>يركز نظام أتكينز الغذائي بالتحديد على التحكم في مستويات الأنسولين من خلال نظام غذائي منخفض الكربوهيدرات (أو السكر). وذلك لأن استهلاك كميات كبيرة من الكربوهيدرات المكررة يؤدي إلى ارتفاع مستويات الأنسولين ثم ينخفض ​​بسرعة ، وهذا يحرض الجسم على تخزين الطاقة من الطعام الذي تم استهلاكه ، مما يستبعد إمكانية استخدام الجسم للدهون المخزنة مصدر الطاقة. لذلك ، يمكن لأولئك الذين يتبعون هذا النظام الغذائي تناول ما يريدون من البروتين والدهون ، ولكن يجب عليهم تجنب الكربوهيدرات. لكن البعض يشير إلى وجود مخاطر صحية على هذا النظام الغذائي ، مما يجعل من الأفضل استشارة الطبيب قبل البدء في ذلك.</value>
+  </data>
+  <data name="Atkinsdiet" xml:space="preserve">
+    <value>حمية اتكينز</value>
+  </data>
+  <data name="Beeffajita" xml:space="preserve">
+    <value>لحم البقر فاهيتا لنظام غذائي مع سعرات حرارية أقل</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="Breakfast" xml:space="preserve">
+    <value>الفطور</value>
+  </data>
+  <data name="Broccoli" xml:space="preserve">
+    <value>شوربة البروكلي الخفيفة للحمية</value>
+  </data>
+  <data name="Bulgurtomato" xml:space="preserve">
+    <value>سلطة الطماطم برغل للحمية</value>
+  </data>
+  <data name="CalorieGuide" xml:space="preserve">
+    <value>دليل السعرات الحرارية</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>الغاء</value>
+  </data>
+  <data name="carrot" xml:space="preserve">
+    <value>سلطة جزر مسلوقة لنظام غذائي مثالي</value>
+  </data>
+  <data name="chickenherbs" xml:space="preserve">
+    <value>دجاج مشوي مع صلصة الليمون والأعشاب للحمية</value>
+  </data>
+  <data name="Chickenhot" xml:space="preserve">
+    <value>الدجاج مع الفلفل الحار للحمية</value>
+  </data>
+  <data name="Chinesepumpkin" xml:space="preserve">
+    <value>فطائر صينية مع سعرات حرارية أقل</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>تأكيد كلمة المرور</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>اتصل بنا</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>اسم المنشيء</value>
+  </data>
+  <data name="CreatedDate" xml:space="preserve">
+    <value>تاريخ الانشاء</value>
+  </data>
+  <data name="crisppancake" xml:space="preserve">
+    <value>فطيرة مقرمشة مع الكرز منخفض السعرات الحرارية</value>
+  </data>
+  <data name="CurrentWeight" xml:space="preserve">
+    <value>الوزن الحالي</value>
+  </data>
+  <data name="DayFive" xml:space="preserve">
+    <value>اليوم الخامس</value>
+  </data>
+  <data name="DayFour" xml:space="preserve">
+    <value>اليوم الرابع</value>
+  </data>
+  <data name="DayOne" xml:space="preserve">
+    <value>اليوم الاول</value>
+  </data>
+  <data name="DaySeven" xml:space="preserve">
+    <value>اليوم السابع</value>
+  </data>
+  <data name="DaySix" xml:space="preserve">
+    <value>اليوم السادس</value>
+  </data>
+  <data name="DayThree" xml:space="preserve">
+    <value>اليوم الثالث</value>
+  </data>
+  <data name="DayTwo" xml:space="preserve">
+    <value>اليوم الثاني</value>
+  </data>
+  <data name="Dessert" xml:space="preserve">
+    <value>التحلاية</value>
+  </data>
+  <data name="Dietprogram" xml:space="preserve">
+    <value>حميات غذائية</value>
+  </data>
+  <data name="Dietprograms" xml:space="preserve">
+    <value>برامج الحمية</value>
+  </data>
+  <data name="Dinner" xml:space="preserve">
+    <value>العشاء</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>البريد الالكتروني</value>
+  </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>ممارسه الرياضه</value>
+  </data>
+  <data name="fish" xml:space="preserve">
+    <value>سمك مشوي بالليمون للحمية</value>
+  </data>
+  <data name="FullNameArabic" xml:space="preserve">
+    <value>الاسم الكامل باللغة العربي</value>
+  </data>
+  <data name="FullNameEnglish" xml:space="preserve">
+    <value>الاسم الكامل باللغة الانجليزي</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>الجنس</value>
+  </data>
+  <data name="Grilledchicken" xml:space="preserve">
+    <value>لحم مشوي مع صلصة الليمون والأعشاب للحمية</value>
+  </data>
+  <data name="Healthy" xml:space="preserve">
+    <value>تعني "الحياة الصحية" لمعظم الناس أن الصحة الجسدية والعقلية متوازنة أو تعمل بشكل جيد مع الشخص. في كثير من الحالات ، ترتبط الصحة البدنية والعقلية ارتباطًا وثيقًا ، بحيث يؤثر التغيير (الجيد أو السيئ) في أحدهما بشكل مباشر على الآخر. وبالتالي ، فإن بعض النصائح سوف تتضمن اقتراحات من أجل الحياة الصحية العاطفية والعقلية.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>الطول</value>
+  </data>
   <data name="Home" xml:space="preserve">
-    <value>الصفحه الرئيسيه</value>
+    <value>الصفحة الرئيسية</value>
+  </data>
+  <data name="Howto" xml:space="preserve">
+    <value>كيف تستعد</value>
+  </data>
+  <data name="IdealWeight" xml:space="preserve">
+    <value>الوزن المثالي</value>
+  </data>
+  <data name="Ingredient" xml:space="preserve">
+    <value>المكونات</value>
+  </data>
+  <data name="Ingredients" xml:space="preserve">
+    <value>المكونات</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>النشاط</value>
+  </data>
+  <data name="Ketogenic" xml:space="preserve">
+    <value>يهدف هذا النظام الغذائي بشكل أساسي إلى تقليل استهلاك الكربوهيدرات وزيادة استهلاك الدهون الصحية مثل الأفوكادو وجوز الهند والمكسرات البرازيلية وبذور السمك الدهنية وزيت الزيتون. قد يبدو هذا غير منطقي بالنسبة للبعض ، ولكنه يسمح للجسم بالتركيز على حرق الدهون واستخدامه كمصدر للطاقة. يتسبب هذا النظام الغذائي في تدمير الدهون المتراكمة وتحويلها إلى منتجات تسمى الكيتونات. ومع ذلك ، فإنه ينطوي على خطر الإصابة بفرط بوتاسيوم الدم لدى مرضى السكري من النوع الأول ، ولكن الدراسات لا تزال جارية.</value>
+  </data>
+  <data name="Ketogenicdiet" xml:space="preserve">
+    <value>الكيتون النظام الغذائي</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>خط الصحة</value>
+  </data>
+  <data name="Lunch" xml:space="preserve">
+    <value>الغداء</value>
+  </data>
+  <data name="Marinatedchicken" xml:space="preserve">
+    <value>ستيك دجاج متبل</value>
+  </data>
+  <data name="Medi" xml:space="preserve">
+    <value>حمية البحر الأبيض المتوسط</value>
+  </data>
+  <data name="Mediterranean" xml:space="preserve">
+    <value>وهذا يعني اتباع عادات الأكل لجنوب أوروبا مثل اليونان وكريت وجنوب إيطاليا وإسبانيا وجنوب فرنسا والبرتغال أيضًا. وينصب التركيز على تناول الأطعمة النباتية والفواكه الطازجة والمكسرات والفاصوليا والحبوب الكاملة والبذور وزيت الزيتون والجبن والحليب. يمكن تناول كميات معتدلة من الأسماك والدجاج والبيض ، وكميات صغيرة من اللحوم الحمراء. تمت دراسة هذا النظام الغذائي على نطاق واسع وأثبت فعاليته في تحسين نوعية الحياة وتقليل خطر الإصابة بالأمراض.</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>برنامج غذائي لاسبوع</value>
+  </data>
+  <data name="Messaage" xml:space="preserve">
+    <value>الرسالة</value>
+  </data>
+  <data name="MobileNumber" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="Mushroomchicken" xml:space="preserve">
+    <value>دجاج الفطر لنظام غذائي متوازن</value>
+  </data>
+  <data name="NameArabic" xml:space="preserve">
+    <value>الاسم باللغة العربية</value>
+  </data>
+  <data name="NameEnglish" xml:space="preserve">
+    <value>الاسم باللغة الانجليزية</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>او</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="Potato" xml:space="preserve">
+    <value>حساء البطاطس والباذنجان لنظام غذائي</value>
+  </data>
+  <data name="Rawfood" xml:space="preserve">
+    <value>يعني هذا النظام الغذائي أن 75٪ على الأقل من طعامك يجب أن يكون غير مطبوخ أو غير معالج أو نيء. ويشكل النباتيون نسبة كبيرة من متابعي هذا النظام الغذائي.</value>
+  </data>
+  <data name="Rawfooddiet" xml:space="preserve">
+    <value>النظام الغذائي الخام</value>
+  </data>
+  <data name="RecipesBook" xml:space="preserve">
+    <value>كتاب وصفات</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>التسجيل</value>
+  </data>
+  <data name="samosa" xml:space="preserve">
+    <value>السمبوسة الهندية</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>ارسل الان</value>
+  </data>
+  <data name="Signin" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="Signout" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="signup" xml:space="preserve">
+    <value>انشاء حساب</value>
+  </data>
+  <data name="Simple" xml:space="preserve">
+    <value>برنامج نظام غذائي بسيط</value>
+  </data>
+  <data name="simplediet" xml:space="preserve">
+    <value>نظام غذائي بسيط</value>
+  </data>
+  <data name="Snack" xml:space="preserve">
+    <value>سناك</value>
+  </data>
+  <data name="SouthBeach" xml:space="preserve">
+    <value>بدأ هذا النظام الغذائي بواسطة Agatston ، طبيب القلب وماري ألمون. يركز هذا النظام الغذائي على التحكم في مستويات الأنسولين والاستفادة من الكربوهيدرات البطيئة وغير المكررة. أنشأ دكتور أغاتستون هذا النظام الغذائي وبعد ذلك كان محبطًا من النظام الغذائي قليل الدهون والكربوهيدرات الذي دعمته جمعية القلب الأمريكية.</value>
+  </data>
+  <data name="SouthBeachdiet" xml:space="preserve">
+    <value>حمية الشاطىء الجنوبى 
+</value>
+  </data>
+  <data name="StepDetails" xml:space="preserve">
+    <value>تفاصيل الخطوات</value>
+  </data>
+  <data name="submit" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="TargetWeight" xml:space="preserve">
+    <value>الوزن المستهدف</value>
+  </data>
+  <data name="toAvoid" xml:space="preserve">
+    <value>الاطعمة التي يجب تجنبها</value>
+  </data>
+  <data name="toEat" xml:space="preserve">
+    <value>الاطعمة التي يسمح بها</value>
+  </data>
+  <data name="UserEmail" xml:space="preserve">
+    <value>البريد الالكتروني المستخدم</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="Vegan" xml:space="preserve">
+    <value>يعتبر هذا النظام الغذائي فلسفة أكثر من نظام غذائي ، لذا فإن اتباع هذا النظام الغذائي لا يأكلون أي طعام من أصل حيواني مثل الحليب أو البيض أو العسل ، ولا يأكلون اللحوم أبدًا. يحتوي هذا النظام الغذائي على أهداف ومبادئ أخلاقية وبيئية بالإضافة إلى الأهداف الغذائية. يعتقدون أن تناول الطعام النباتي فقط سيفيد الناس والصحة والبيئة ويسبب معاناة أقل للحيوانات.</value>
+  </data>
+  <data name="Vegandiet" xml:space="preserve">
+    <value>حمية نباتية</value>
+  </data>
+  <data name="Vegetarian" xml:space="preserve">
+    <value>هناك عدة أنواع من الأنظمة الغذائية النباتية مثل النظام الغذائي القائم على الحليب أو البيض أو النظام الغذائي نصف النباتي ، ولكن الأكثر شيوعًا هو النظام الغذائي النباتي مع البيض والحليب ، أي الشخص الذي يلتزم به لا تأكل اللحوم أو المنتجات الحيوانية باستثناء الحليب والبيض والعسل. تظهر الدراسات أن النباتيين كانوا أقل وزنًا وأكثر صحة وأطول عمراً مقارنةً بالحيوانات آكلة اللحوم.</value>
+  </data>
+  <data name="Vegetariandiet" xml:space="preserve">
+    <value>حمية نباتية</value>
+  </data>
+  <data name="Watchers" xml:space="preserve">
+    <value>حمية مراقبي الوزن</value>
+  </data>
+  <data name="WeightWatchers" xml:space="preserve">
+    <value>يركز هذا النظام الغذائي على فقدان الوزن من خلال نظام غذائي محدد وممارسة الرياضة وشبكة الدعم الاجتماعي. شركة Weight Watchers هي شركة عالمية لها فروع حول العالم ، بدأت في الستينات من القرن الماضي من قبل امرأة فقدت بعض الوزن وخافت من اكتسابه مرة أخرى ، لذلك شكلت شبكة من الأصدقاء تطورت لاحقًا إلى هذه الشركة. يمكنك الانضمام إلى هذه الشبكة ، إما شخصيًا ، من خلال حضور اجتماعات منتظمة أو عبر الإنترنت للحصول على الدعم والتعليم الغذائي.</value>
+  </data>
+  <data name="Zone" xml:space="preserve">
+    <value>يهدف هذا النظام الغذائي إلى تحقيق التوازن الغذائي من خلال استهلاك 40٪ من الكربوهيدرات و 30٪ من الدهون و 30٪ من البروتين في كل وجبة. الهدف الرئيسي هو التحكم في مستويات الأنسولين ، مما سيحقق نتائج أفضل في فقدان الوزن أو السيطرة عليه. يشجع هذا النظام الغذائي على استهلاك الكربوهيدرات عالية الجودة وغير المكررة بالإضافة إلى بعض الدهون مثل زيت الزيتون والأفوكادو والمكسرات.</value>
+  </data>
+  <data name="Zonediet" xml:space="preserve">
+    <value>نظام غذائي المنطقة</value>
   </data>
 </root>

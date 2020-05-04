@@ -1,0 +1,45 @@
+﻿@using R
+@model HealthyLineProject.Models.ContactUsModel
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset id="cont">
+        <legend> @Resource.Contact </legend>
+        <ul>
+            <li>
+                @Html.LabelFor(x => x.FullNameArabic)
+                @Html.TextBoxFor(x => x.FullNameArabic)
+            </li>
+
+            <li>
+                @Html.LabelFor(x => x.FullNameEnglish)
+                @Html.TextBoxFor(x => x.FullNameEnglish)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.UserEmail)
+                @Html.TextBoxFor(x => x.UserEmail)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.UserName)
+                @Html.TextAreaFor(x => x.UserName)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.Messaage)
+                @Html.TextAreaFor(x => x.Messaage)
+            </li>
+
+            <li>
+                <input type="submit" value="@Resource.Send " />
+        </ul>
+
+
+    </fieldset>
+    @*<div>
+        @Html.ActionLink("Back to List", "Contact")
+    </div>*@
+}
+@section Scripts {
+    @*Scripts.Render("~/bundles/jqueryval")*@
+}

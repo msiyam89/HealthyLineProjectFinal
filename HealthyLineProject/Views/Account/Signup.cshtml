@@ -1,0 +1,118 @@
+﻿@using R
+@model MvcApplication1.Models.UserProfileModel
+
+@if (ViewBag.Error != "")
+    {
+        <div>@ViewBag.Error</div>
+    }
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>@Resource.Register</legend>
+        <ul>
+            <li>
+                @Html.LabelFor(x => x.FullNameArabic)
+                @Html.TextBoxFor(x => x.FullNameArabic)
+                @Html.ValidationMessageFor(x => x.FullNameArabic)
+
+            </li>
+            <li>
+                @Html.LabelFor(x => x.FullNameEnglish)
+                @Html.TextBoxFor(x => x.FullNameEnglish)
+                @Html.ValidationMessageFor(x => x.FullNameEnglish)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.UserName)
+                @Html.TextBoxFor(x => x.UserName)
+                @Html.ValidationMessageFor(x => x.UserName)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.MobileNumber)
+                @Html.TextBoxFor(x => x.MobileNumber)
+                @Html.ValidationMessageFor(x => x.MobileNumber)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.TargetWeight)
+                @Html.TextBoxFor(x => x.TargetWeight)
+                @Html.ValidationMessageFor(x => x.TargetWeight)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.BirthDate)
+                @Html.TextBoxFor(x => x.BirthDate)
+                @Html.ValidationMessageFor(x => x.BirthDate)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.Height)
+                @Html.TextBoxFor(x => x.Height)
+                @Html.ValidationMessageFor(x => x.Height)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.CurrentWeight)
+                @Html.TextBoxFor(x => x.CurrentWeight)
+                @Html.ValidationMessageFor(x => x.CurrentWeight)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.IdealWeight)
+                @Html.TextBoxFor(x => x.IdealWeight)
+                @Html.ValidationMessageFor(x => x.IdealWeight)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.IsActive)
+                @Html.TextBoxFor(x => x.IsActive)
+                @Html.ValidationMessageFor(x => x.IsActive)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.CreatedDate)
+                @Html.TextBoxFor(x => x.CreatedDate)
+                @Html.ValidationMessageFor(x => x.CreatedDate)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.CreatedBy)
+                @Html.TextBoxFor(x => x.CreatedBy)
+                @Html.ValidationMessageFor(x => x.CreatedBy)
+            </li>
+
+
+            <li>
+                @Html.LabelFor(x => x.Gender)
+                @*<select name="Gender" id="Gender">*@
+                @*@foreach (DataAccess.Gender gender in Enum.GetValues(typeof(DataAccess.Gender)))
+                        {
+                            <option value="@((byte)gender)">@gender.ToString()</option>
+                        }
+                    </select>
+                    @Html.ValidationMessageFor(x => x.Gender)*@
+            </li>
+            <li>
+                @Html.LabelFor(x => x.Email)
+                @Html.TextBoxFor(x => x.Email)
+                @Html.ValidationMessageFor(x => x.Email)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.Password)
+                @Html.PasswordFor(x => x.Password)
+                @Html.ValidationMessageFor(x => x.Password)
+            </li>
+            <li>
+                @Html.LabelFor(x => x.Confirm)
+                @Html.PasswordFor(x => x.Confirm)
+                @Html.ValidationMessageFor(x => x.Confirm)
+            </li>
+            <li>
+                <input type="submit" value="@Resource.signup" /> <label>@Resource.or</label> <a href="/" class="cancel">@Resource.cancel</a>
+            </li>
+        </ul>
+    </fieldset>
+
+
+
+    @*<div>
+        @Html.ActionLink("Back to List", "Signup")
+    </div>*@
+}
+@section Scripts {
+    @*Scripts.Render("~/bundles/jqueryval")*@
+}

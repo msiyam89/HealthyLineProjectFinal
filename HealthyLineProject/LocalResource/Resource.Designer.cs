@@ -61,11 +61,822 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Asparagus pasta for diet.
+        /// </summary>
+        public static string Asparaguspasta {
+            get {
+                return ResourceManager.GetString("Asparaguspasta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Atkins diet focuses specifically on controlling insulin levels through a low-carb (or sugary) diet. This is because the consumption of large amounts of refined carbohydrates leads to high insulin levels and then drops rapidly, and this incites the body to store energy from the food that was consumed, which excludes the possibility that the body will use the stored fat as a source of energy. Therefore, those who follow this diet can eat whatever they want of protein and fats, but they should avoid carboh [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Atkins {
+            get {
+                return ResourceManager.GetString("Atkins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Atkins diet.
+        /// </summary>
+        public static string Atkinsdiet {
+            get {
+                return ResourceManager.GetString("Atkinsdiet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Beef fajita for diet with fewer calories.
+        /// </summary>
+        public static string Beeffajita {
+            get {
+                return ResourceManager.GetString("Beeffajita", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to BirthDate.
+        /// </summary>
+        public static string BirthDate {
+            get {
+                return ResourceManager.GetString("BirthDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Breakfast.
+        /// </summary>
+        public static string Breakfast {
+            get {
+                return ResourceManager.GetString("Breakfast", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Broccoli Light Soup for Diet.
+        /// </summary>
+        public static string Broccoli {
+            get {
+                return ResourceManager.GetString("Broccoli", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bulgur tomato salad for diet.
+        /// </summary>
+        public static string Bulgurtomato {
+            get {
+                return ResourceManager.GetString("Bulgurtomato", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Calorie Guide.
+        /// </summary>
+        public static string CalorieGuide {
+            get {
+                return ResourceManager.GetString("CalorieGuide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to cancel.
+        /// </summary>
+        public static string cancel {
+            get {
+                return ResourceManager.GetString("cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Boiled carrot salad for a perfect diet.
+        /// </summary>
+        public static string carrot {
+            get {
+                return ResourceManager.GetString("carrot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grilled chicken with lemon dressing and herbs for diet.
+        /// </summary>
+        public static string chickenherbs {
+            get {
+                return ResourceManager.GetString("chickenherbs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chicken with hot pepper for diet.
+        /// </summary>
+        public static string Chickenhot {
+            get {
+                return ResourceManager.GetString("Chickenhot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chinese pumpkin dumplings with lower calories.
+        /// </summary>
+        public static string Chinesepumpkin {
+            get {
+                return ResourceManager.GetString("Chinesepumpkin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirm.
+        /// </summary>
+        public static string Confirm {
+            get {
+                return ResourceManager.GetString("Confirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contact Us.
+        /// </summary>
+        public static string Contact {
+            get {
+                return ResourceManager.GetString("Contact", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Created By.
+        /// </summary>
+        public static string CreatedBy {
+            get {
+                return ResourceManager.GetString("CreatedBy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Created Date.
+        /// </summary>
+        public static string CreatedDate {
+            get {
+                return ResourceManager.GetString("CreatedDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A crisp pancake with cherry low-calorie.
+        /// </summary>
+        public static string crisppancake {
+            get {
+                return ResourceManager.GetString("crisppancake", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current Weight.
+        /// </summary>
+        public static string CurrentWeight {
+            get {
+                return ResourceManager.GetString("CurrentWeight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Day Five.
+        /// </summary>
+        public static string DayFive {
+            get {
+                return ResourceManager.GetString("DayFive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Day Four.
+        /// </summary>
+        public static string DayFour {
+            get {
+                return ResourceManager.GetString("DayFour", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Day One.
+        /// </summary>
+        public static string DayOne {
+            get {
+                return ResourceManager.GetString("DayOne", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Day Seven.
+        /// </summary>
+        public static string DaySeven {
+            get {
+                return ResourceManager.GetString("DaySeven", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Day Six.
+        /// </summary>
+        public static string DaySix {
+            get {
+                return ResourceManager.GetString("DaySix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Day Three.
+        /// </summary>
+        public static string DayThree {
+            get {
+                return ResourceManager.GetString("DayThree", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Day Two.
+        /// </summary>
+        public static string DayTwo {
+            get {
+                return ResourceManager.GetString("DayTwo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dessert.
+        /// </summary>
+        public static string Dessert {
+            get {
+                return ResourceManager.GetString("Dessert", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Diet program.
+        /// </summary>
+        public static string Dietprogram {
+            get {
+                return ResourceManager.GetString("Dietprogram", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Diet programs.
+        /// </summary>
+        public static string Dietprograms {
+            get {
+                return ResourceManager.GetString("Dietprograms", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dinner.
+        /// </summary>
+        public static string Dinner {
+            get {
+                return ResourceManager.GetString("Dinner", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email.
+        /// </summary>
+        public static string Email {
+            get {
+                return ResourceManager.GetString("Email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exercise.
+        /// </summary>
+        public static string Exercise {
+            get {
+                return ResourceManager.GetString("Exercise", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grilled fish with lemon for diet.
+        /// </summary>
+        public static string fish {
+            get {
+                return ResourceManager.GetString("fish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Full Name Arabic.
+        /// </summary>
+        public static string FullNameArabic {
+            get {
+                return ResourceManager.GetString("FullNameArabic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Full Name English.
+        /// </summary>
+        public static string FullNameEnglish {
+            get {
+                return ResourceManager.GetString("FullNameEnglish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gender.
+        /// </summary>
+        public static string Gender {
+            get {
+                return ResourceManager.GetString("Gender", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grilledchicken with lemon dressing and herbs for diet.
+        /// </summary>
+        public static string Grilledchicken {
+            get {
+                return ResourceManager.GetString("Grilledchicken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;Healthy living&quot; to most people means both physical and mental health are in balance or functioning well together in a person. In many instances, physical and mental health are closely linked, so that a change (good or bad) in one directly affects the other. Consequently, some of the tips will include suggestions for emotional and mental &quot;healthy living..
+        /// </summary>
+        public static string Healthy {
+            get {
+                return ResourceManager.GetString("Healthy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Height.
+        /// </summary>
+        public static string Height {
+            get {
+                return ResourceManager.GetString("Height", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Home.
         /// </summary>
         public static string Home {
             get {
                 return ResourceManager.GetString("Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How to prepare.
+        /// </summary>
+        public static string Howto {
+            get {
+                return ResourceManager.GetString("Howto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ideal Weight.
+        /// </summary>
+        public static string IdealWeight {
+            get {
+                return ResourceManager.GetString("IdealWeight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ingredient.
+        /// </summary>
+        public static string Ingredient {
+            get {
+                return ResourceManager.GetString("Ingredient", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ingredients.
+        /// </summary>
+        public static string Ingredients {
+            get {
+                return ResourceManager.GetString("Ingredients", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to IsActive.
+        /// </summary>
+        public static string IsActive {
+            get {
+                return ResourceManager.GetString("IsActive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This diet mainly aims to reduce carbohydrate consumption and increase the consumption of healthy fats such as avocado, coconut, brazilian nuts, fatty fish seeds and olive oil. This may sound illogical to some, but it allows the body to focus on burning fat and using it as an energy source. This diet causes the accumulated fat to be destroyed and converted into products called ketones. However, it carries a risk of developing hyperkitonemia in patients with type 1 diabetes, but studies are still ongoing..
+        /// </summary>
+        public static string Ketogenic {
+            get {
+                return ResourceManager.GetString("Ketogenic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ketogenic diet.
+        /// </summary>
+        public static string Ketogenicdiet {
+            get {
+                return ResourceManager.GetString("Ketogenicdiet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Healthy Line.
+        /// </summary>
+        public static string Line {
+            get {
+                return ResourceManager.GetString("Line", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lunch.
+        /// </summary>
+        public static string Lunch {
+            get {
+                return ResourceManager.GetString("Lunch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Marinated chicken steak.
+        /// </summary>
+        public static string Marinatedchicken {
+            get {
+                return ResourceManager.GetString("Marinatedchicken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mediterranean diet.
+        /// </summary>
+        public static string Medi {
+            get {
+                return ResourceManager.GetString("Medi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to It means following the eating habits of southern Europeans such as Greece, Crete, southern Italy, Spain, southern France and Portugal as well. The focus is on eating vegetable foods, fresh fruits, nuts, beans, whole grains, seeds, olive oil, cheese, and milk. Moderate amounts of fish, chicken, and eggs can be eaten, and small amounts of red meat. This diet has been studied extensively and has proven effective in improving the quality of life and reducing the risk of disease.
+        ///                Finally, it mus [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Mediterranean {
+            get {
+                return ResourceManager.GetString("Mediterranean", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Weekly diet program.
+        /// </summary>
+        public static string menu {
+            get {
+                return ResourceManager.GetString("menu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Messaage.
+        /// </summary>
+        public static string Messaage {
+            get {
+                return ResourceManager.GetString("Messaage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mobile Number.
+        /// </summary>
+        public static string MobileNumber {
+            get {
+                return ResourceManager.GetString("MobileNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mushroom chicken for a balanced diet.
+        /// </summary>
+        public static string Mushroomchicken {
+            get {
+                return ResourceManager.GetString("Mushroomchicken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name Arabic.
+        /// </summary>
+        public static string NameArabic {
+            get {
+                return ResourceManager.GetString("NameArabic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name English.
+        /// </summary>
+        public static string NameEnglish {
+            get {
+                return ResourceManager.GetString("NameEnglish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to or.
+        /// </summary>
+        public static string or {
+            get {
+                return ResourceManager.GetString("or", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        public static string Password {
+            get {
+                return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Potato and eggplant soup for diet.
+        /// </summary>
+        public static string Potato {
+            get {
+                return ResourceManager.GetString("Potato", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This diet means that at least 75% of your food should be uncooked, untreated, or raw. And vegans make up a large proportion of followers of this diet..
+        /// </summary>
+        public static string Rawfood {
+            get {
+                return ResourceManager.GetString("Rawfood", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Raw food diet.
+        /// </summary>
+        public static string Rawfooddiet {
+            get {
+                return ResourceManager.GetString("Rawfooddiet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recipes Book.
+        /// </summary>
+        public static string RecipesBook {
+            get {
+                return ResourceManager.GetString("RecipesBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Register.
+        /// </summary>
+        public static string Register {
+            get {
+                return ResourceManager.GetString("Register", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Indian samosa.
+        /// </summary>
+        public static string samosa {
+            get {
+                return ResourceManager.GetString("samosa", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send Now.
+        /// </summary>
+        public static string Send {
+            get {
+                return ResourceManager.GetString("Send", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign in.
+        /// </summary>
+        public static string Signin {
+            get {
+                return ResourceManager.GetString("Signin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Signout.
+        /// </summary>
+        public static string Signout {
+            get {
+                return ResourceManager.GetString("Signout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign up.
+        /// </summary>
+        public static string signup {
+            get {
+                return ResourceManager.GetString("signup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Simple diet program.
+        /// </summary>
+        public static string Simple {
+            get {
+                return ResourceManager.GetString("Simple", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to simple diet.
+        /// </summary>
+        public static string simplediet {
+            get {
+                return ResourceManager.GetString("simplediet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Snack.
+        /// </summary>
+        public static string Snack {
+            get {
+                return ResourceManager.GetString("Snack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This diet was started by Agatston, a cardiologist and Marie Almon. This diet focuses on controlling insulin levels and taking advantage of slow, unrefined carbohydrates. Dr. Agatston created this diet after which he was frustrated with the low-fat, high-carb diet that was supported by the American Heart Association..
+        /// </summary>
+        public static string SouthBeach {
+            get {
+                return ResourceManager.GetString("SouthBeach", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to South Beach diet.
+        /// </summary>
+        public static string SouthBeachdiet {
+            get {
+                return ResourceManager.GetString("SouthBeachdiet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Step Details.
+        /// </summary>
+        public static string StepDetails {
+            get {
+                return ResourceManager.GetString("StepDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to submit.
+        /// </summary>
+        public static string submit {
+            get {
+                return ResourceManager.GetString("submit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Targe tWeight.
+        /// </summary>
+        public static string TargetWeight {
+            get {
+                return ResourceManager.GetString("TargetWeight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Foods to Avoid.
+        /// </summary>
+        public static string toAvoid {
+            get {
+                return ResourceManager.GetString("toAvoid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Foods toEat.
+        /// </summary>
+        public static string toEat {
+            get {
+                return ResourceManager.GetString("toEat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User Email.
+        /// </summary>
+        public static string UserEmail {
+            get {
+                return ResourceManager.GetString("UserEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User Name.
+        /// </summary>
+        public static string UserName {
+            get {
+                return ResourceManager.GetString("UserName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This diet is considered a philosophy more than a diet, so followers of this diet do not eat any food from animal origin such as milk, eggs or honey, and they never eat meat. This diet has ethical and environmental goals and principles in addition to nutritional goals. They think that eating only vegetarian food will benefit people, health and the environment and cause less suffering to animals..
+        /// </summary>
+        public static string Vegan {
+            get {
+                return ResourceManager.GetString("Vegan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vegan diet.
+        /// </summary>
+        public static string Vegandiet {
+            get {
+                return ResourceManager.GetString("Vegandiet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There are several types of plant-based diets such as the milk-based or egg-based diet or the half-vegetarian diet, but the most common is the vegetable diet with eggs and milk, that is, the person who is committed to it does not eat meat or animal products except for milk, eggs and honey. Studies show that vegetarians were less weight, healthier, and longer-lived compared to carnivores..
+        /// </summary>
+        public static string Vegetarian {
+            get {
+                return ResourceManager.GetString("Vegetarian", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vegetarian diet.
+        /// </summary>
+        public static string Vegetariandiet {
+            get {
+                return ResourceManager.GetString("Vegetariandiet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Weight Watchers diet.
+        /// </summary>
+        public static string Watchers {
+            get {
+                return ResourceManager.GetString("Watchers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This diet focuses on losing weight through a specific diet, exercise and social support network. Weight Watchers is a global company with branches around the world, started in the sixties of the last century by a woman who lost some weight and feared to gain it again, so she formed a network of friends that later evolved into this company. You can join this network, either personally, by attending regular meetings or via the Internet for support and nutritional education..
+        /// </summary>
+        public static string WeightWatchers {
+            get {
+                return ResourceManager.GetString("WeightWatchers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This diet aims to achieve a nutritional balance by consuming 40% carbohydrates, 30% fats and 30% protein in each meal. The main goal is to control insulin levels, which will achieve better results in weight loss or control. This diet encourages consumption of high-quality and unrefined carbohydrates in addition to some fats such as olive oil, avocado and nuts..
+        /// </summary>
+        public static string Zone {
+            get {
+                return ResourceManager.GetString("Zone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zone diet.
+        /// </summary>
+        public static string Zonediet {
+            get {
+                return ResourceManager.GetString("Zonediet", resourceCulture);
             }
         }
     }

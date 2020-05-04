@@ -117,7 +117,278 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Asparaguspasta" xml:space="preserve">
+    <value>Asparagus pasta for diet</value>
+  </data>
+  <data name="Atkins" xml:space="preserve">
+    <value>The Atkins diet focuses specifically on controlling insulin levels through a low-carb (or sugary) diet. This is because the consumption of large amounts of refined carbohydrates leads to high insulin levels and then drops rapidly, and this incites the body to store energy from the food that was consumed, which excludes the possibility that the body will use the stored fat as a source of energy. Therefore, those who follow this diet can eat whatever they want of protein and fats, but they should avoid carbohydrates. But some indicate that there are health risks to this diet, which makes it better to consult a doctor before starting it.</value>
+  </data>
+  <data name="Atkinsdiet" xml:space="preserve">
+    <value>Atkins diet</value>
+  </data>
+  <data name="Beeffajita" xml:space="preserve">
+    <value>Beef fajita for diet with fewer calories</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>BirthDate</value>
+  </data>
+  <data name="Breakfast" xml:space="preserve">
+    <value>Breakfast</value>
+  </data>
+  <data name="Broccoli" xml:space="preserve">
+    <value>Broccoli Light Soup for Diet</value>
+  </data>
+  <data name="Bulgurtomato" xml:space="preserve">
+    <value>Bulgur tomato salad for diet</value>
+  </data>
+  <data name="CalorieGuide" xml:space="preserve">
+    <value>Calorie Guide</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>cancel</value>
+  </data>
+  <data name="carrot" xml:space="preserve">
+    <value>Boiled carrot salad for a perfect diet</value>
+  </data>
+  <data name="chickenherbs" xml:space="preserve">
+    <value>Grilled chicken with lemon dressing and herbs for diet</value>
+  </data>
+  <data name="Chickenhot" xml:space="preserve">
+    <value>Chicken with hot pepper for diet</value>
+  </data>
+  <data name="Chinesepumpkin" xml:space="preserve">
+    <value>Chinese pumpkin dumplings with lower calories</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="CreatedDate" xml:space="preserve">
+    <value>Created Date</value>
+  </data>
+  <data name="crisppancake" xml:space="preserve">
+    <value>A crisp pancake with cherry low-calorie</value>
+  </data>
+  <data name="CurrentWeight" xml:space="preserve">
+    <value>Current Weight</value>
+  </data>
+  <data name="DayFive" xml:space="preserve">
+    <value>Day Five</value>
+  </data>
+  <data name="DayFour" xml:space="preserve">
+    <value>Day Four</value>
+  </data>
+  <data name="DayOne" xml:space="preserve">
+    <value>Day One</value>
+  </data>
+  <data name="DaySeven" xml:space="preserve">
+    <value>Day Seven</value>
+  </data>
+  <data name="DaySix" xml:space="preserve">
+    <value>Day Six</value>
+  </data>
+  <data name="DayThree" xml:space="preserve">
+    <value>Day Three</value>
+  </data>
+  <data name="DayTwo" xml:space="preserve">
+    <value>Day Two</value>
+  </data>
+  <data name="Dessert" xml:space="preserve">
+    <value>Dessert</value>
+  </data>
+  <data name="Dietprogram" xml:space="preserve">
+    <value>Diet program</value>
+  </data>
+  <data name="Dietprograms" xml:space="preserve">
+    <value>Diet programs</value>
+  </data>
+  <data name="Dinner" xml:space="preserve">
+    <value>Dinner</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Exercise" xml:space="preserve">
+    <value>Exercise</value>
+  </data>
+  <data name="fish" xml:space="preserve">
+    <value>Grilled fish with lemon for diet</value>
+  </data>
+  <data name="FullNameArabic" xml:space="preserve">
+    <value>Full Name Arabic</value>
+  </data>
+  <data name="FullNameEnglish" xml:space="preserve">
+    <value>Full Name English</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Grilledchicken" xml:space="preserve">
+    <value>Grilledchicken with lemon dressing and herbs for diet</value>
+  </data>
+  <data name="Healthy" xml:space="preserve">
+    <value>"Healthy living" to most people means both physical and mental health are in balance or functioning well together in a person. In many instances, physical and mental health are closely linked, so that a change (good or bad) in one directly affects the other. Consequently, some of the tips will include suggestions for emotional and mental "healthy living.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
+  </data>
+  <data name="Howto" xml:space="preserve">
+    <value>How to prepare</value>
+  </data>
+  <data name="IdealWeight" xml:space="preserve">
+    <value>Ideal Weight</value>
+  </data>
+  <data name="Ingredient" xml:space="preserve">
+    <value>Ingredient</value>
+  </data>
+  <data name="Ingredients" xml:space="preserve">
+    <value>Ingredients</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>IsActive</value>
+  </data>
+  <data name="Ketogenic" xml:space="preserve">
+    <value>This diet mainly aims to reduce carbohydrate consumption and increase the consumption of healthy fats such as avocado, coconut, brazilian nuts, fatty fish seeds and olive oil. This may sound illogical to some, but it allows the body to focus on burning fat and using it as an energy source. This diet causes the accumulated fat to be destroyed and converted into products called ketones. However, it carries a risk of developing hyperkitonemia in patients with type 1 diabetes, but studies are still ongoing.</value>
+  </data>
+  <data name="Ketogenicdiet" xml:space="preserve">
+    <value>Ketogenic diet</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Healthy Line</value>
+  </data>
+  <data name="Lunch" xml:space="preserve">
+    <value>Lunch</value>
+  </data>
+  <data name="Marinatedchicken" xml:space="preserve">
+    <value>Marinated chicken steak</value>
+  </data>
+  <data name="Medi" xml:space="preserve">
+    <value>Mediterranean diet</value>
+  </data>
+  <data name="Mediterranean" xml:space="preserve">
+    <value>It means following the eating habits of southern Europeans such as Greece, Crete, southern Italy, Spain, southern France and Portugal as well. The focus is on eating vegetable foods, fresh fruits, nuts, beans, whole grains, seeds, olive oil, cheese, and milk. Moderate amounts of fish, chicken, and eggs can be eaten, and small amounts of red meat. This diet has been studied extensively and has proven effective in improving the quality of life and reducing the risk of disease.
+                Finally, it must be pointed out the seriousness of the so-called "Western diet", which is high in sugars and fried foods, as it is associated with a higher risk of disease and early death. We emphasize the need to consult a specialist doctor before committing to any diet that may conflict or exacerbate some of the pathological problems that exist in some people.</value>
+  </data>
+  <data name="menu" xml:space="preserve">
+    <value>Weekly diet program</value>
+  </data>
+  <data name="Messaage" xml:space="preserve">
+    <value>Messaage</value>
+  </data>
+  <data name="MobileNumber" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="Mushroomchicken" xml:space="preserve">
+    <value>Mushroom chicken for a balanced diet</value>
+  </data>
+  <data name="NameArabic" xml:space="preserve">
+    <value>Name Arabic</value>
+  </data>
+  <data name="NameEnglish" xml:space="preserve">
+    <value>Name English</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Potato" xml:space="preserve">
+    <value>Potato and eggplant soup for diet</value>
+  </data>
+  <data name="Rawfood" xml:space="preserve">
+    <value>This diet means that at least 75% of your food should be uncooked, untreated, or raw. And vegans make up a large proportion of followers of this diet.</value>
+  </data>
+  <data name="Rawfooddiet" xml:space="preserve">
+    <value>Raw food diet</value>
+  </data>
+  <data name="RecipesBook" xml:space="preserve">
+    <value>Recipes Book</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="samosa" xml:space="preserve">
+    <value>Indian samosa</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send Now</value>
+  </data>
+  <data name="Signin" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="Signout" xml:space="preserve">
+    <value>Signout</value>
+  </data>
+  <data name="signup" xml:space="preserve">
+    <value>Sign up</value>
+  </data>
+  <data name="Simple" xml:space="preserve">
+    <value>Simple diet program</value>
+  </data>
+  <data name="simplediet" xml:space="preserve">
+    <value>simple diet</value>
+  </data>
+  <data name="Snack" xml:space="preserve">
+    <value>Snack</value>
+  </data>
+  <data name="SouthBeach" xml:space="preserve">
+    <value>This diet was started by Agatston, a cardiologist and Marie Almon. This diet focuses on controlling insulin levels and taking advantage of slow, unrefined carbohydrates. Dr. Agatston created this diet after which he was frustrated with the low-fat, high-carb diet that was supported by the American Heart Association.</value>
+  </data>
+  <data name="SouthBeachdiet" xml:space="preserve">
+    <value>South Beach diet</value>
+  </data>
+  <data name="StepDetails" xml:space="preserve">
+    <value>Step Details</value>
+  </data>
+  <data name="submit" xml:space="preserve">
+    <value>submit</value>
+  </data>
+  <data name="TargetWeight" xml:space="preserve">
+    <value>Targe tWeight</value>
+  </data>
+  <data name="toAvoid" xml:space="preserve">
+    <value>Foods to Avoid</value>
+  </data>
+  <data name="toEat" xml:space="preserve">
+    <value>Foods toEat</value>
+  </data>
+  <data name="UserEmail" xml:space="preserve">
+    <value>User Email</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Vegan" xml:space="preserve">
+    <value>This diet is considered a philosophy more than a diet, so followers of this diet do not eat any food from animal origin such as milk, eggs or honey, and they never eat meat. This diet has ethical and environmental goals and principles in addition to nutritional goals. They think that eating only vegetarian food will benefit people, health and the environment and cause less suffering to animals.</value>
+  </data>
+  <data name="Vegandiet" xml:space="preserve">
+    <value>Vegan diet</value>
+  </data>
+  <data name="Vegetarian" xml:space="preserve">
+    <value>There are several types of plant-based diets such as the milk-based or egg-based diet or the half-vegetarian diet, but the most common is the vegetable diet with eggs and milk, that is, the person who is committed to it does not eat meat or animal products except for milk, eggs and honey. Studies show that vegetarians were less weight, healthier, and longer-lived compared to carnivores.</value>
+  </data>
+  <data name="Vegetariandiet" xml:space="preserve">
+    <value>Vegetarian diet</value>
+  </data>
+  <data name="Watchers" xml:space="preserve">
+    <value>Weight Watchers diet</value>
+  </data>
+  <data name="WeightWatchers" xml:space="preserve">
+    <value>This diet focuses on losing weight through a specific diet, exercise and social support network. Weight Watchers is a global company with branches around the world, started in the sixties of the last century by a woman who lost some weight and feared to gain it again, so she formed a network of friends that later evolved into this company. You can join this network, either personally, by attending regular meetings or via the Internet for support and nutritional education.</value>
+  </data>
+  <data name="Zone" xml:space="preserve">
+    <value>This diet aims to achieve a nutritional balance by consuming 40% carbohydrates, 30% fats and 30% protein in each meal. The main goal is to control insulin levels, which will achieve better results in weight loss or control. This diet encourages consumption of high-quality and unrefined carbohydrates in addition to some fats such as olive oil, avocado and nuts.</value>
+  </data>
+  <data name="Zonediet" xml:space="preserve">
+    <value>Zone diet</value>
   </data>
 </root>
