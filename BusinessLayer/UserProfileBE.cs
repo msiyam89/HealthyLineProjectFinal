@@ -34,7 +34,7 @@ namespace BusinessLayer
             return DataAccessLayer.UserProfileRepository.GetUserProfile(id);
         }
        
-        public Tuple<bool,string> CreateUserProfile(UserProfile userProfile)
+        public Tuple<bool,string> CreateUserProfile(string userName, UserProfile userProfile)
         {
             var result = new Tuple<bool, string>(false,"");
             userProfile.CreateDate = DateTime.Now;
@@ -51,11 +51,53 @@ namespace BusinessLayer
             }
             return result;
         }
+
+        public object Signup(DateTime birthDate, string confirm, string email, string fullNameArabic, string fullNameEnglish, bool gender, string mobileNumber, string password, string userName)
+        {
+            UserProfile userProfile = new UserProfile
+            {
+                Birthdate = birthDate,
+                Gender = gender,
+                MobileNumber = mobileNumber,
+                FullNameArabic = fullNameArabic,
+                FullNameEnglish = fullNameEnglish,
+                UserName = userName,
+                Password = password
+
+
+            };
+
+            var creatResult = CreateUserProfile(userName, userProfile);
+            bool success = creatResult.Item1;
+            string message = creatResult.Item2;
+
+
+            if (success)
+                return userProfile;
+
+            return null;
+        }
+
+        public object SignIn(DateTime birthDate, string confirm, string email, string fullNameArabic, string fullNameEnglish, byte gender, string mobileNumber, string password, string userName)
+        {
+            throw new NotImplementedException();
+        }
+
+        public object CreateUserProfile(string userName, string password)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool UpdateUserProfile(UserProfile userProfile)
         {
             userProfile.UpdateDate = DateTime.Now;
             userProfile.UpdatedBy = "";
             return DataAccessLayer.UserProfileRepository.UpdateUserProfile(userProfile);
+        }
+
+        public  UserProfile SignIn(string username, string passwword)
+        {
+            return DataAccessLayer.UserProfileRepository.SignIn(username, passwword);
         }
         #endregion
     }

@@ -1,43 +1,25 @@
 ﻿@using R
-@model MvcApplication1.Models.SigninModel
+@model HealthyLineProject.Models.SigninModel
 
 
 @using (Html.BeginForm())
 {
-    @Html.ValidationSummary(true)
-
-    <fieldset>
-        <legend>@Resource.Signin</legend>
-        <ul>
-            <li>
-                @Html.LabelFor(x => x.UserName)
-                @Html.TextBoxFor(x => x.UserName)
-                @Html.ValidationMessageFor(x => x.UserName)
-
-            </li>
-
-
-            <li>
-                @Html.LabelFor(x => x.Password)
-                @Html.PasswordFor(x => x.Password)
-                @Html.ValidationMessageFor(x => x.Password)
-            </li>
-          
-
-            @*<li>
-                <input type="submit" value="Signin" />
-            </li>*@
     
-    <li>
-        <input type="submit" value="@Resource.submit"/>
-        </li>
-</ul>
-</fieldset>
+   
+    <div class="form-group">
+        @Html.LabelFor(x => x.UserName)
+        @Html.TextBoxFor(x => x.UserName,new { @class= "form-control", placeholder = @Resource.UserName })
+        @Html.ValidationMessageFor(x=>x.UserName)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Password)
+        @Html.Password(x => x.Password, new { @class = "form-control", placeholder = @Resource.Password })
+        @Html.ValidationMessageFor(x=>x.Password)
+    </div>
 
-@*<div>
-    @Html.ActionLink("Back to Home", "Index")
-</div>*@
+    <button type="submit" class="btn btn-primary">Submit</button>
+
 }
 @section Scripts {
-    @*Scripts.Render("~/bundles/jqueryval")*@
+    @Scripts.Render("~/bundles/jqueryval")
 }

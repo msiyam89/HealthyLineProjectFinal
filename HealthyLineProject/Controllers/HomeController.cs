@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.UI.WebControls;
 using HealthyLineProject.Helper;
+using HealthyLineProject.Models;
 using R;
 
 namespace HealthyLineProject.Controllers
@@ -28,10 +29,10 @@ namespace HealthyLineProject.Controllers
 
         }
 
-        private ActionResult View(Func<ActionResult> idealWeight, Func<string, ContentResult> content)
-        {
-            throw new NotImplementedException();
-        }   
+        ////private ActionResult View(Func<ActionResult> idealWeight, Func<string, ContentResult> content)
+        ////{
+        ////    throw new NotImplementedException();
+        ////}
         //public ActionResult IdealWeight()
         //{
         //    ViewBag.Title = "IdealWeight";
@@ -39,15 +40,15 @@ namespace HealthyLineProject.Controllers
         //    return View();
         //}
 
-        //[HttpPost]
-        //public ActionResult IdealWeight(IdealWeightModel model)
-        //{
-        //    decimal ideal = model.weight / (model.height * model.height);
-        //    ViewBag.Title = "IdealWeight";
+        ////[HttpPost]
+        ////public ActionResult IdealWeight(IdealWeightModel model)
+        ////{
+        ////    decimal IdealWeight = model.weight  / (model.Height * model.Height);
+        ////    ViewBag.Title = "IdealWeight";
 
-        //    return View();
-        //}
-      
+        ////    return View();
+        ////}
+
     }
 
 

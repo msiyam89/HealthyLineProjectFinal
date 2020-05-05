@@ -8,7 +8,7 @@ using System.Web.Mvc;
 
 namespace HealthyLineProject.Models
 {
-    public class SigninModel : Controller
+    public class SigninModel 
     {
         [Required]
         [Display(Name = "UserName", ResourceType = typeof(Resource))]

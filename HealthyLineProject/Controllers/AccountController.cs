@@ -5,58 +5,76 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 using System.Data.SqlClient;
-
+using HealthyLineProject.Models;
 
 namespace HealthyLineProject.Controllers
 {
     public class AccountController : BaseController
     {
-       
+
 
         //
         // GET: /Account/
+        [HttpGet]
         public ActionResult Signin()
         {
             return View();
         }
 
-        //[HttpPost]
-             //public ActionResult Signin(Models.SigninModel model)
-             //{
+        [HttpPost]
+        public ActionResult Signin(Models.SigninModel model)
+        {
 
-             //    //if (ModelState.IsValid)
-             //    //{
-                  
+            if (ModelState.IsValid)
+            {
+                var result = BusinessLayer.UserProfileBE.Instance.SignIn(model.UserName, model.Password);
+                if (result != null)
+                {
+                    FormsAuthentication.SetAuthCookie(model.UserName, true);
 
-             //    //    User user = null;
-             //    //    using (DAContext ctx = new DAContext())
-             //    //    {
-             //    //        user = ctx.Users.SingleOrDefault(x => x.Email == model.Username && x.Password == model.Password);
-             //    //    }
+                    return RedirectToAction("IdealWeight");
+                }
+                else
+                {
+                    return View();
+                }
 
-             //    //    if (user != null)
-             //    //    {
-             //    //         FormsAuthentication.SetAuthCookie(user.Email, true);
-                         
-             //    //        return Redirect("~");
-             //    //   }
-             //    //    else
-             //    //    {
-             //    //        return View();
-             //    //    }
-             //    //}
-             //    //else
-             //    //{
-             //    //    return View();
-             //    //}
-
-             //}
+            }
+            else
+            {
+                return View();
+            }
+            
+        }
 
         public ActionResult Signup()
         {
             return View();
         }
+        [HttpPost]
+        public ActionResult Signup(Models.UserProfileModel model)
+        {
 
+            if (ModelState.IsValid)
+            {
+               
+                var result = BusinessLayer.UserProfileBE.Instance.Signup(model.BirthDate,model.Confirm,model.Email,model.FullNameArabic,model.FullNameEnglish,model.Gender,model.MobileNumber,model.Password,model.UserName);
+                if (result != null)
+                {
+                   return Redirect("~/");
+                }
+                else
+                {
+                    return View();
+                }
+
+            }
+            else
+            {
+                return View();
+            }
+
+        }
         //[HttpPost]
         //public ActionResult Signup(Models.SignupModel model)
         //{
@@ -97,14 +115,35 @@ namespace HealthyLineProject.Controllers
 
         //    return View();
         //}
-        public ActionResult Signout() {
+        public ActionResult Signout()
+        {
             FormsAuthentication.SignOut();
             return Redirect("~");
-         
+
         }
-        
-            
-       
+
+        //private ActionResult View(Func<ActionResult> idealWeight, Func<string, ContentResult> content)
+        //{
+        //    throw new NotImplementedException();
+        //}
+        public ActionResult IdealWeight()
+        {
+            ViewBag.Title = "IdealWeight";
+
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult IdealWeight(IdealWeightModel model)
+        {
+            float IdealWeight = model.weight / (model.Height * model.Height);
+            ViewBag.Title = "IdealWeight";
+            model.IdealWeight = IdealWeight;
+
+            return View(model);
+        }
+
+
 
 
     }

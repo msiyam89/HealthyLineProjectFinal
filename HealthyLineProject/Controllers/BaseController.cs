@@ -14,7 +14,6 @@ namespace HealthyLineProject.Controllers
             int culture = 0;
             if (this.Session == null || this.Session["CurrentCulture"] == null)
             {
-
                 int.TryParse(System.Configuration.ConfigurationManager.AppSettings["Culture"], out culture);
                 this.Session["CurrentCulture"] = culture;
             }

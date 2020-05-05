@@ -1,5 +1,5 @@
 ﻿@using R
-@model MvcApplication1.Models.UserProfileModel
+@model HealthyLineProject.Models.UserProfileModel
 
 @if (ViewBag.Error != "")
     {
@@ -34,32 +34,14 @@
                 @Html.TextBoxFor(x => x.MobileNumber)
                 @Html.ValidationMessageFor(x => x.MobileNumber)
             </li>
-            <li>
-                @Html.LabelFor(x => x.TargetWeight)
-                @Html.TextBoxFor(x => x.TargetWeight)
-                @Html.ValidationMessageFor(x => x.TargetWeight)
-            </li>
+           
             <li>
                 @Html.LabelFor(x => x.BirthDate)
                 @Html.TextBoxFor(x => x.BirthDate)
                 @Html.ValidationMessageFor(x => x.BirthDate)
             </li>
-            <li>
-                @Html.LabelFor(x => x.Height)
-                @Html.TextBoxFor(x => x.Height)
-                @Html.ValidationMessageFor(x => x.Height)
-            </li>
-            <li>
-                @Html.LabelFor(x => x.CurrentWeight)
-                @Html.TextBoxFor(x => x.CurrentWeight)
-                @Html.ValidationMessageFor(x => x.CurrentWeight)
-            </li>
-            <li>
-                @Html.LabelFor(x => x.IdealWeight)
-                @Html.TextBoxFor(x => x.IdealWeight)
-                @Html.ValidationMessageFor(x => x.IdealWeight)
-            </li>
-            <li>
+          
+            @*<li>
                 @Html.LabelFor(x => x.IsActive)
                 @Html.TextBoxFor(x => x.IsActive)
                 @Html.ValidationMessageFor(x => x.IsActive)
@@ -73,18 +55,39 @@
                 @Html.LabelFor(x => x.CreatedBy)
                 @Html.TextBoxFor(x => x.CreatedBy)
                 @Html.ValidationMessageFor(x => x.CreatedBy)
-            </li>
+            </li>*@
+                           
 
 
             <li>
                 @Html.LabelFor(x => x.Gender)
-                @*<select name="Gender" id="Gender">*@
-                @*@foreach (DataAccess.Gender gender in Enum.GetValues(typeof(DataAccess.Gender)))
-                        {
-                            <option value="@((byte)gender)">@gender.ToString()</option>
-                        }
-                    </select>
-                    @Html.ValidationMessageFor(x => x.Gender)*@
+                <div class="form-group">
+
+                    <div class="radio-inline">
+
+                        @Html.RadioButton("gender", "false", true,
+
+                            new { id = "IsMale" }) Male
+
+                    </div>
+
+                    <div class="radio-inline">
+
+                        @Html.RadioButton("gender", "true",false,
+
+                             new { id = "IsFemale" }) Female
+
+                    </div>
+                    @Html.ValidationMessageFor(x=>x.Gender)
+                </div>
+                @*<select name="Gender" id="Gender">
+        @foreach (DataAccessLayer.gender
+            gender in Enum.GetValues(typeof(DataAccessLayer.Gender)))
+                {
+                    <option value="@((byte)gender)">@gender.ToString()</option>
+                }
+            </select>
+            @Html.ValidationMessageFor(x => x.Gender)*@
             </li>
             <li>
                 @Html.LabelFor(x => x.Email)
@@ -114,5 +117,5 @@
     </div>*@
 }
 @section Scripts {
-    @*Scripts.Render("~/bundles/jqueryval")*@
+    @Scripts.Render("~/bundles/jqueryval")
 }

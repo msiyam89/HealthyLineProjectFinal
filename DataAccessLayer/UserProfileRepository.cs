@@ -79,7 +79,35 @@ namespace DataAccessLayer
             return result; 
         }
 
-       
+        public static UserProfile SignIn(string username, string passwword)
+        {
+            UserProfile userProfile = null;
+            using (var context = new HealtyLineContext())
+            {
+                var result = context.UserProfiles.Where(x => x.UserName == username || x.Password == passwword).FirstOrDefault();
+                if (result != null)
+                {
+                    userProfile = result;
+                }
+               
+                return userProfile;
+            }
+        }
+        public static UserProfile Signup(string username, string passwword ,string fullnameenglish ,string fullnamearabic, string email,byte gender,string MobileNumber,DateTime Birthdate)
+        {
+            UserProfile userProfile = null;
+            using (var context = new HealtyLineContext())
+            {
+                var result = context.UserProfiles.Where(x => x.UserName == username || x.Password == passwword || x.MobileNumber == MobileNumber || x.Email == email|| x.Birthdate == Birthdate || x.FullNameArabic == fullnamearabic || x.FullNameEnglish == fullnameenglish /*|| x.Gender == gender*/).FirstOrDefault();
+                if (result != null)
+                {
+                    userProfile = result;
+                }
+
+                return userProfile;
+            }
+        }
+
         #endregion
     }
 }

@@ -391,4 +391,151 @@
   <data name="Zonediet" xml:space="preserve">
     <value>Zone diet</value>
   </data>
+  <data name="BoxingExercise" xml:space="preserve">
+    <value>Boxing Exercise</value>
+  </data>
+  <data name="BoxingExercises" xml:space="preserve">
+    <value>Boxing Exercises</value>
+  </data>
+  <data name="ButtockandLegandHandsExercises" xml:space="preserve">
+    <value>Buttock and Legand Hands Exercises</value>
+  </data>
+  <data name="ButtocksandUpperLegsPainExercises" xml:space="preserve">
+    <value>Buttocks and Upper Legs Pain Exercises</value>
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="CalculateIdealWeight" xml:space="preserve">
+    <value>Calculate Ideal Weight</value>
+  </data>
+  <data name="CardioandLegsExercises" xml:space="preserve">
+    <value>Cardio and Legs Exercises</value>
+  </data>
+  <data name="HandsandFeetExercise" xml:space="preserve">
+    <value>Hands and Feet Exercise</value>
+  </data>
+  <data name="HandsandFeetExercises" xml:space="preserve">
+    <value>Hands and Feet Exercises</value>
+  </data>
+  <data name="HandsandWaistExercises" xml:space="preserve">
+    <value>Hands and Waist Exercises</value>
+  </data>
+  <data name="LowerBodyExercises" xml:space="preserve">
+    <value>LowerBodyExercises</value>
+  </data>
+  <data name="PilatesExercise" xml:space="preserve">
+    <value>PilatesExercise</value>
+  </data>
+  <data name="StomachandAbdominalExercises" xml:space="preserve">
+    <value>Stomach and Abdominal Exercises</value>
+  </data>
+  <data name="TheCalorieCalculator" xml:space="preserve">
+    <value>"The Calorie Calculator can be used to estimate the number of calories a person needs to consume each day. This calculator can also provide some simple guidelines for gaining or losing weigh</value>
+  </data>
+  <data name="TotalBodyExercise" xml:space="preserve">
+    <value>Total Body Exercise</value>
+  </data>
+  <data name="Bacon1" xml:space="preserve">
+    <value>: Bacon and eggs.</value>
+  </data>
+  <data name="Bunless1" xml:space="preserve">
+    <value>: Bunless cheeseburger, with vegetables and butter.</value>
+  </data>
+  <data name="Dietandlowfat1" xml:space="preserve">
+    <value>"Diet" and "low-fat" foods: These are usually very high in sugar.</value>
+  </data>
+  <data name="Eggs1" xml:space="preserve">
+    <value>Eggs: The healthiest eggs are omega-3 enriched or pastured.</value>
+  </data>
+  <data name="Eggs2" xml:space="preserve">
+    <value>Eggs: Pastured, organic whole eggs make the best choice.</value>
+  </data>
+  <data name="Fattyfish1" xml:space="preserve">
+    <value>Fatty fish and seafood: Salmon, trout, sardines, etc.</value>
+  </data>
+  <data name="Fattyfish2" xml:space="preserve">
+    <value>Fatty fish:Wild-caught salmon, herring and mackerel</value>
+  </data>
+  <data name="Fullfatcheese2" xml:space="preserve">
+    <value>Fullfatcheese : Cheddar, mozzarella, brie, goat cheese and cream cheese.</value>
+  </data>
+  <data name="Fullfatdairy1" xml:space="preserve">
+    <value>Full-fat dairy: Butter, cheese, cream, full-fat yogurt.</value>
+  </data>
+  <data name="Fullfatdairy2" xml:space="preserve">
+    <value>Full-fat dairy: Yogurt, butter and cream</value>
+  </data>
+  <data name="Grains1" xml:space="preserve">
+    <value>Grains: Wheat, spelt, rye, barley, rice.</value>
+  </data>
+  <data name="Healthyfats1" xml:space="preserve">
+    <value>Healthy fats: Extra virgin olive oil, coconut oil, avocados and avocado oil.</value>
+  </data>
+  <data name="Highcarbfruits1" xml:space="preserve">
+    <value>High-carb fruits: Bananas, apples, oranges, pears, grapes (induction only).</value>
+  </data>
+  <data name="Highcarbvegetables" xml:space="preserve">
+    <value>High-carb vegetables : Carrots, turnips, etc (induction only).</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Kale1" xml:space="preserve">
+    <value>Low-carb vegetables: Kale, spinach, broccoli, asparagus and others.</value>
+  </data>
+  <data name="Leftoverchicken1" xml:space="preserve">
+    <value>: Leftover chicken and veggies from the night before.</value>
+  </data>
+  <data name="Legumes1" xml:space="preserve">
+    <value>Legumes: Lentils, beans, chickpeas, etc.</value>
+  </data>
+  <data name="Meat2" xml:space="preserve">
+    <value>Meat:Grass-fed beef, venison, organ meats and bison</value>
+  </data>
+  <data name="Meats1" xml:space="preserve">
+    <value>Meats: Beef,  lamb, chicken, and others.</value>
+  </data>
+  <data name="Nutsandseeds1" xml:space="preserve">
+    <value>Nuts and seeds: Almonds, macadamia nuts, walnuts, sunflower seeds, etc.</value>
+  </data>
+  <data name="Nutsandseeds2" xml:space="preserve">
+    <value>Nuts and seeds: Macadamia nuts, almonds, walnuts, pumpkin seeds, peanuts and flaxseeds.</value>
+  </data>
+  <data name="Poultry2" xml:space="preserve">
+    <value>Poultry:Chicken and turkey</value>
+  </data>
+  <data name="Starches1" xml:space="preserve">
+    <value>Starches: Potatoes, sweet potatoes (induction only).</value>
+  </data>
+  <data name="Sugar1" xml:space="preserve">
+    <value>Sugar: Soft drinks, fruit juices, cakes, candy, ice cream, etc.</value>
+  </data>
+  <data name="Transfats1" xml:space="preserve">
+    <value>Trans fats: Usually found in processed foods with the word "hydrogenated" on the ingredients list.</value>
+  </data>
+  <data name="Vegetableoils" xml:space="preserve">
+    <value>Vegetable oils: Soybean oil, corn oil, cottonseed oil, canola oil and a few others.</value>
+  </data>
+  <data name="weight" xml:space="preserve">
+    <value>weight</value>
+  </data>
+  <data name="Avocados2" xml:space="preserve">
+    <value>Avocados: Whole avocados can be added to almost any meal or snack.</value>
+  </data>
+  <data name="Bread2" xml:space="preserve">
+    <value>Bread and baked goods: White bread, whole-wheat bread, crackers, cookies, doughnuts and rolls.</value>
+  </data>
+  <data name="Condiments2" xml:space="preserve">
+    <value>Condiments: Salt, pepper, vinegar, lemon juice, fresh herbs and spices.</value>
+  </data>
+  <data name="Healthyfats2" xml:space="preserve">
+    <value>Healthy fats: Coconut oil, olive oil, avocado oil, coconut butter and sesame oil.</value>
+  </data>
+  <data name="Nutbutter2" xml:space="preserve">
+    <value>Nut butter: Natural peanut, almond and cashew butters.</value>
+  </data>
+  <data name="vegetables2" xml:space="preserve">
+    <value>Non-starchy vegetables: Greens, broccoli, tomatoes, mushrooms and peppers.</value>
+  </data>
 </root>

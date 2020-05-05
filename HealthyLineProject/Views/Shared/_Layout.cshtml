@@ -27,41 +27,51 @@
                 <ul class="nav navbar-nav">
 
                     <li>
+                        <a href="/" class="badge badge-primary"> @Resource.Home</a>
+                        @*<a href="/"> @Resource.Home </a>*@
+                    </li>
+                    <li>
+                        <a href="@Url.Content("~/Account/IdealWeight")" class="badge badge-secondary">@Resource.IdealWeight</a>
 
-                        <a href="/"> @Resource.Home </a>
+                        @*<a href="@Url.Content("~/Account/IdealWeight")">Ideal Weight</a>*@
                     </li>
                     <li>
-                        <a href="@Url.Content("~/home/IdealWeight")">Ideal Weight</a>
+                        <a href="@Url.Content("~/DitePrograms/Dietprogram")" class="badge badge-success">@Resource.Dietprograms</a>
+
+                        @*<a href="@Url.Content("~/DitePrograms/Dietprogram")">@Resource.Dietprograms</a>*@
                     </li>
                     <li>
-                        <a href="@Url.Content("~/DitePrograms/Dietprogram")">@Resource.Dietprograms</a>
+                        <a href="@Url.Content("~/RrcipesBook/RecipesBook")" class="badge badge-danger">@Resource.RecipesBook</a>
+
+                        @*<a href="@Url.Content("~/RrcipesBook/RecipesBook")">@Resource.RecipesBook</a>*@
                     </li>
                     <li>
-                        <a href="@Url.Content("~/RrcipesBook/RecipesBook")">@Resource.RecipesBook</a>
+                        <a href="@Url.Content("~/CalorieGuide/CalorieGuide")" class="badge badge-warning">@Resource.CalorieGuide</a>
+
+                        @*<a href="@Url.Content("~/CalorieGuide/CalorieGuide")">@Resource.CalorieGuide</a>*@
                     </li>
                     <li>
-                        <a href="@Url.Content("~/CalorieGuide/CalorieGuide")">@Resource.CalorieGuide</a>
-                    </li>
-                    <li>
-                        <a href="@Url.Content("~/Exercise/Exercise")">@Resource.Exercise</a>
+
+                        <a href="@Url.Content("~/Exercise/Exercise")" class="badge badge-info">@Resource.Exercise</a>
                     </li>
                     <li>
                     </li>
 
                     <li>
-                        <a href="@Url.Content("~/Contact/contact")">@Resource.Contact</a>
+
+                        <a href="@Url.Content("~/Contact/contact")" class="badge badge-light">@Resource.Contact</a>
                     </li>
                 </ul>
+                <ul class="nav navbar-nav">
+                    @{
+                        CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 
+                        <li><a href="/Home/ChangeCurrentCulture/0">English</a></li>
+                        <li><a href="/Home/ChangeCurrentCulture/1">عربي</a></li>
+                    }
+                </ul>
             </div>
-            <ul style="margin-top:10px;">
-                @{
-                    CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 
-                    <li><a href="/Home/ChangeCurrentCulture/0">English</a></li>
-                    <li><a href="/Home/ChangeCurrentCulture/1">عربي</a></li>
-                }
-            </ul>
         </div>
     </div>
     <div class="container body-content">
