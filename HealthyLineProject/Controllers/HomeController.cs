@@ -8,6 +8,9 @@ using HealthyLineProject.Helper;
 using HealthyLineProject.Models;
 using R;
 
+using System.Net;
+using System.Net.Mail;
+
 namespace HealthyLineProject.Controllers
 {
     public class HomeController : BaseController
@@ -50,6 +53,6 @@ namespace HealthyLineProject.Controllers
         ////}
 
     }
-
+   
 
 }

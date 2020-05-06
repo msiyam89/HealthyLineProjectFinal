@@ -126,6 +126,7 @@ namespace HealthyLineProject.Controllers
         //{
         //    throw new NotImplementedException();
         //}
+        [Authorize]
         public ActionResult IdealWeight()
         {
             ViewBag.Title = "IdealWeight";
@@ -133,12 +134,22 @@ namespace HealthyLineProject.Controllers
             return View();
         }
 
+        [Authorize]
         [HttpPost]
         public ActionResult IdealWeight(IdealWeightModel model)
         {
+
             float IdealWeight = model.weight / (model.Height * model.Height);
             ViewBag.Title = "IdealWeight";
             model.IdealWeight = IdealWeight;
+            DataAccessLayer.UserProfile userProfile = new DataAccessLayer.UserProfile
+            {
+                UserName = User.Identity.Name,
+
+                CurrentWeight =  model.weight,
+                Height = model.Height,
+                IdealWeight = model.IdealWeight
+            };
 
             return View(model);
         }

@@ -61,6 +61,87 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to A bunless grass-fed burger topped with cheese, mushrooms and avocado atop a bed of greens.
+        /// </summary>
+        public static string Abunlessgrass2 {
+            get {
+                return ResourceManager.GetString("Abunlessgrass2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add broccoli, potatoes and chicken broth, leave the mixture until it boils, then reduce heat and leave for 15 minutes until the ingredients are tender..
+        /// </summary>
+        public static string Addbroccoli4 {
+            get {
+                return ResourceManager.GetString("Addbroccoli4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Addchicken and my heart for two minutes, pour it and garnish with sesame and coriander and serve hot alongside rice.
+        /// </summary>
+        public static string Addchicken6 {
+            get {
+                return ResourceManager.GetString("Addchicken6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add garlic and asparagus and stir for 3 minutes, then add salt, basil, black pepper and broth and leave the mixture until boiling for 10 minutes..
+        /// </summary>
+        public static string Addgarlic1 {
+            get {
+                return ResourceManager.GetString("Addgarlic1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Addsalt, cumin, lemon juice, olive oil and mix well..
+        /// </summary>
+        public static string Addsalt3 {
+            get {
+                return ResourceManager.GetString("Addsalt3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add the cream, filtered pasta, and stir until the ingredients mix, and simmer for 5 minutes..
+        /// </summary>
+        public static string Addthe1 {
+            get {
+                return ResourceManager.GetString("Addthe1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add to the same skillet onions, red pepper, yellow pepper, cumin, ground chili pepper, and stir over medium to high heat for 5 minutes.
+        /// </summary>
+        public static string Addtothe2 {
+            get {
+                return ResourceManager.GetString("Addtothe2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Arugula salad with hard-boiled eggs, turkey, avocado and blue cheese..
+        /// </summary>
+        public static string Arugulasalad2 {
+            get {
+                return ResourceManager.GetString("Arugulasalad2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Asparagus: 2 cups (fresh or sorted / boiled and drained).
+        /// </summary>
+        public static string Asparagus1 {
+            get {
+                return ResourceManager.GetString("Asparagus1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Asparagus pasta for diet.
         /// </summary>
         public static string Asparaguspasta {
@@ -88,6 +169,15 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Avocado: 1 piece (peeled and sliced).
+        /// </summary>
+        public static string Avocadopiece2 {
+            get {
+                return ResourceManager.GetString("Avocadopiece2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Avocados: Whole avocados can be added to almost any meal or snack..
         /// </summary>
         public static string Avocados2 {
@@ -106,6 +196,15 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Beans and legumes: Black beans, chickpeas, lentils and kidney beans..
+        /// </summary>
+        public static string Beans2 {
+            get {
+                return ResourceManager.GetString("Beans2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Beef fajita for diet with fewer calories.
         /// </summary>
         public static string Beeffajita {
@@ -115,11 +214,56 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bell pepper stuffed with cheese and eggs.
+        /// </summary>
+        public static string Bellpepper2 {
+            get {
+                return ResourceManager.GetString("Bellpepper2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to BirthDate.
         /// </summary>
         public static string BirthDate {
             get {
                 return ResourceManager.GetString("BirthDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bison steak with cheesy broccoli.
+        /// </summary>
+        public static string Bisonsteak {
+            get {
+                return ResourceManager.GetString("Bisonsteak", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Black Pepper: 1/4 teaspoon.
+        /// </summary>
+        public static string BlackPepper1 {
+            get {
+                return ResourceManager.GetString("BlackPepper1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Beans and legumes: Black beans, chickpeas, lentils and kidney beans..
+        /// </summary>
+        public static string Boil1 {
+            get {
+                return ResourceManager.GetString("Boil1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Boilcarrots, peas and celery in boiling water for 10 minutes, then filter and wash with cold water and put them in a dish..
+        /// </summary>
+        public static string Boilcarrots3 {
+            get {
+                return ResourceManager.GetString("Boilcarrots3", resourceCulture);
             }
         }
         
@@ -169,6 +313,33 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Broccoli: 3 cups (small or fresh cut flowers).
+        /// </summary>
+        public static string Broccoli4 {
+            get {
+                return ResourceManager.GetString("Broccoli4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bulgur: 3 cups (soft, half an hour in water).
+        /// </summary>
+        public static string Bulgur7 {
+            get {
+                return ResourceManager.GetString("Bulgur7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bulgur is scrubbed with two hands, and squeezed, until filtered from water, then added to the onion mixture. The components are hit in the machine..
+        /// </summary>
+        public static string Bulguris7 {
+            get {
+                return ResourceManager.GetString("Bulguris7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Bulgur tomato salad for diet.
         /// </summary>
         public static string Bulgurtomato {
@@ -201,6 +372,15 @@ namespace R {
         public static string ButtocksandUpperLegsPainExercises {
             get {
                 return ResourceManager.GetString("ButtocksandUpperLegsPainExercises", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Certain alcoholic beverages: Beer and sugary mixed drinks.
+        /// </summary>
+        public static string c {
+            get {
+                return ResourceManager.GetString("c", resourceCulture);
             }
         }
         
@@ -259,6 +439,51 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Carrots: 2 tablets (peeled and chopped slices).
+        /// </summary>
+        public static string Carrots3 {
+            get {
+                return ResourceManager.GetString("Carrots3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Celery: half a cup (minced).
+        /// </summary>
+        public static string Celery3 {
+            get {
+                return ResourceManager.GetString("Celery3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Certain alcoholic beverages: Beer and sugary mixed drinks.
+        /// </summary>
+        public static string Certain2 {
+            get {
+                return ResourceManager.GetString("Certain2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chicken breast: 500 grams (cut into small cubes).
+        /// </summary>
+        public static string Chickenbreast6 {
+            get {
+                return ResourceManager.GetString("Chickenbreast6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chickenbroth: 4 cups.
+        /// </summary>
+        public static string Chickenbroth4 {
+            get {
+                return ResourceManager.GetString("Chickenbroth4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Grilled chicken with lemon dressing and herbs for diet.
         /// </summary>
         public static string chickenherbs {
@@ -282,6 +507,15 @@ namespace R {
         public static string Chinesepumpkin {
             get {
                 return ResourceManager.GetString("Chinesepumpkin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cinnamon: 1 tablespoon (soft).
+        /// </summary>
+        public static string Cinnamon7 {
+            get {
+                return ResourceManager.GetString("Cinnamon7", resourceCulture);
             }
         }
         
@@ -313,6 +547,15 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cooking Cream: (Light) Cup.
+        /// </summary>
+        public static string CookingCream1 {
+            get {
+                return ResourceManager.GetString("CookingCream1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Created By.
         /// </summary>
         public static string CreatedBy {
@@ -336,6 +579,24 @@ namespace R {
         public static string crisppancake {
             get {
                 return ResourceManager.GetString("crisppancake", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cumin: half a teaspoon (ground).
+        /// </summary>
+        public static string Cumin2 {
+            get {
+                return ResourceManager.GetString("Cumin2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cumin: 4 tablespoon (ground).
+        /// </summary>
+        public static string Cumin7 {
+            get {
+                return ResourceManager.GetString("Cumin7", resourceCulture);
             }
         }
         
@@ -457,6 +718,42 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dough for kibbeh.
+        /// </summary>
+        public static string Dough7 {
+            get {
+                return ResourceManager.GetString("Dough7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dough for kibbeh.
+        /// </summary>
+        public static string Dough71 {
+            get {
+                return ResourceManager.GetString("Dough71", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The dough is divided into two halves: the first half is well thinner, then extend in the bottom of the tray until it is covered, and the filling is added. Divide the second half of the dough into sections, separate the latter, and place on top of the boil next to each other, until the filling is completely covered. With wet fingers, the surface is smoothed, until smooth..
+        /// </summary>
+        public static string doughis7 {
+            get {
+                return ResourceManager.GetString("doughis7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dry basil: half a teaspoon (ground).
+        /// </summary>
+        public static string Drybasil1 {
+            get {
+                return ResourceManager.GetString("Drybasil1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Eggs: The healthiest eggs are omega-3 enriched or pastured..
         /// </summary>
         public static string Eggs1 {
@@ -511,11 +808,65 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Filling.
+        /// </summary>
+        public static string Filling {
+            get {
+                return ResourceManager.GetString("Filling", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fine white bulgur: a cup.
+        /// </summary>
+        public static string Finewhite5 {
+            get {
+                return ResourceManager.GetString("Finewhite5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Grilled fish with lemon for diet.
         /// </summary>
         public static string fish {
             get {
                 return ResourceManager.GetString("fish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Flour: 4 tablespoons.
+        /// </summary>
+        public static string Flour7 {
+            get {
+                return ResourceManager.GetString("Flour7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For stuffing: add onions, with spices, to the meat&apos;s electric machine..
+        /// </summary>
+        public static string Forstuffing7 {
+            get {
+                return ResourceManager.GetString("Forstuffing7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fruit: Citrus, grapes, bananas and pineapple.
+        /// </summary>
+        public static string Fruits2 {
+            get {
+                return ResourceManager.GetString("Fruits2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to : Full-fat yogurt topped with Keto granola.
+        /// </summary>
+        public static string Fullfat {
+            get {
+                return ResourceManager.GetString("Fullfat", resourceCulture);
             }
         }
         
@@ -565,6 +916,24 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Garlic: 2 cloves (crushed).
+        /// </summary>
+        public static string Garlic1 {
+            get {
+                return ResourceManager.GetString("Garlic1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Garlic: 3 cloves (minced).
+        /// </summary>
+        public static string Garliccloves4 {
+            get {
+                return ResourceManager.GetString("Garliccloves4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Gender.
         /// </summary>
         public static string Gender {
@@ -583,11 +952,56 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to and grain products: Wheat, rice, oats, breakfast cereals and tortillas.
+        /// </summary>
+        public static string Grains2 {
+            get {
+                return ResourceManager.GetString("Grains2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Green chard: 10 leaves (medium size / finely chopped).
+        /// </summary>
+        public static string Greenchard7 {
+            get {
+                return ResourceManager.GetString("Greenchard7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Green Coriander: 2 teaspoon (fresh and chopped).
+        /// </summary>
+        public static string GreenCoriander2 {
+            get {
+                return ResourceManager.GetString("GreenCoriander2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Green Coriander: 2 tbsp (minced).
+        /// </summary>
+        public static string GreenCoriander6 {
+            get {
+                return ResourceManager.GetString("GreenCoriander6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Grilledchicken with lemon dressing and herbs for diet.
         /// </summary>
         public static string Grilledchicken {
             get {
                 return ResourceManager.GetString("Grilledchicken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Grilled salmon with spinach sauteed in coconut oil.
+        /// </summary>
+        public static string Grilledsalmon {
+            get {
+                return ResourceManager.GetString("Grilledsalmon", resourceCulture);
             }
         }
         
@@ -646,11 +1060,47 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Heat a thick, wide skillet over medium heat, then add oil and meat and stir the meat for 3 minutes until it becomes brown..
+        /// </summary>
+        public static string Heatathick2 {
+            get {
+                return ResourceManager.GetString("Heatathick2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Heat the oil in a large skillet over medium heat, add onions and stir for 5 minutes until wilted..
+        /// </summary>
+        public static string Heatthe1 {
+            get {
+                return ResourceManager.GetString("Heatthe1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Heat the oil in a large skillet over medium heat, season the chicken with salt and pepper, and stir the chicken with the oil for 5 minutes, until browned and done, then set aside..
+        /// </summary>
+        public static string Heatthe6 {
+            get {
+                return ResourceManager.GetString("Heatthe6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Height.
         /// </summary>
         public static string Height {
             get {
                 return ResourceManager.GetString("Height", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to High-carbsauces: Barbecue sauce, sugary salad dressings and dipping sauces.
+        /// </summary>
+        public static string Highcarb2 {
+            get {
+                return ResourceManager.GetString("Highcarb2", resourceCulture);
             }
         }
         
@@ -682,6 +1132,24 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Honey: half a cup.
+        /// </summary>
+        public static string Honeyhalf6 {
+            get {
+                return ResourceManager.GetString("Honeyhalf6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hot pepper: 1 grain (chopped).
+        /// </summary>
+        public static string Hotpepper6 {
+            get {
+                return ResourceManager.GetString("Hotpepper6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to How to prepare.
         /// </summary>
         public static string Howto {
@@ -705,6 +1173,15 @@ namespace R {
         public static string IdealWeight {
             get {
                 return ResourceManager.GetString("IdealWeight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In a small bowl, mix the starch and 1 tablespoon of water and set aside..
+        /// </summary>
+        public static string Inasmall6 {
+            get {
+                return ResourceManager.GetString("Inasmall6", resourceCulture);
             }
         }
         
@@ -781,6 +1258,33 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Lemon juice: 1 tablespoon.
+        /// </summary>
+        public static string Lemonjuice3 {
+            get {
+                return ResourceManager.GetString("Lemonjuice3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lemon juice: a quarter cup.
+        /// </summary>
+        public static string Lemonjuice5 {
+            get {
+                return ResourceManager.GetString("Lemonjuice5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lemon juice: 1 pill.
+        /// </summary>
+        public static string Lemonjuice6 {
+            get {
+                return ResourceManager.GetString("Lemonjuice6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Healthy Line.
         /// </summary>
         public static string Line {
@@ -826,6 +1330,15 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Meat Fillet: 500 grams (longitudinal sliced section).
+        /// </summary>
+        public static string MeatFillet1 {
+            get {
+                return ResourceManager.GetString("MeatFillet1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Meats: Beef,  lamb, chicken, and others..
         /// </summary>
         public static string Meats1 {
@@ -854,6 +1367,15 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to In a medium heat pot, mix honey, garlic, lemon, soy sauce, apple cider vinegar, sesame oil and chopped pepper, and stir until boiling.
+        /// </summary>
+        public static string mediumheat6 {
+            get {
+                return ResourceManager.GetString("mediumheat6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Weekly diet program.
         /// </summary>
         public static string menu {
@@ -872,6 +1394,33 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Mix the scourer with the electric mixer until it becomes a smooth mixture, return it to a saucepan and heat it..
+        /// </summary>
+        public static string Mixthe4 {
+            get {
+                return ResourceManager.GetString("Mixthe4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mix the water with the remaining amount of oil well, pour it on the surface of the tray of kibbeh, and distribute it over it. The tray is covered with aluminum foil, and cooked in a preheated oven, at a temperature of 200 degrees Celsius, for forty minutes. After the mentioned time has passed, the aluminum foil is removed from the tray. The oven is heated from above. Bake the tray for five minutes..
+        /// </summary>
+        public static string Mixthe7 {
+            get {
+                return ResourceManager.GetString("Mixthe7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mix tomatoes, cucumbers, parsley in a dish, add bulgur and my heart..
+        /// </summary>
+        public static string Mixtomatoes5 {
+            get {
+                return ResourceManager.GetString("Mixtomatoes5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mobile Number.
         /// </summary>
         public static string MobileNumber {
@@ -886,6 +1435,24 @@ namespace R {
         public static string Mushroomchicken {
             get {
                 return ResourceManager.GetString("Mushroomchicken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mushroomomelet.
+        /// </summary>
+        public static string Mushroomomelet {
+            get {
+                return ResourceManager.GetString("Mushroomomelet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to My Profile.
+        /// </summary>
+        public static string Myprofile {
+            get {
+                return ResourceManager.GetString("Myprofile", resourceCulture);
             }
         }
         
@@ -917,6 +1484,15 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Nutmeg: a quarter of a teaspoon.
+        /// </summary>
+        public static string Nutmeg4 {
+            get {
+                return ResourceManager.GetString("Nutmeg4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Nuts and seeds: Almonds, macadamia nuts, walnuts, sunflower seeds, etc..
         /// </summary>
         public static string Nutsandseeds1 {
@@ -935,11 +1511,110 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Heat oil in a frying pan, add onions, and stir until it becomes light-colored. Then, add the chard with salt and sweet pepper, stirring constantly for five minutes, noting that the chard has wilted. Add walnuts and pomegranate molasses, mixing well. Place the filling mixture aside..
+        /// </summary>
+        public static string oilin7 {
+            get {
+                return ResourceManager.GetString("oilin7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Olive oil: 1 tablespoon.
+        /// </summary>
+        public static string Oliveoil1 {
+            get {
+                return ResourceManager.GetString("Oliveoil1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Heat oliveoil in a saucepan over medium heat, then add onions and garlic and stir until soft..
+        /// </summary>
+        public static string oliveoil4 {
+            get {
+                return ResourceManager.GetString("oliveoil4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Olive oil: 1 tablespoon.
+        /// </summary>
+        public static string Oliveoil5 {
+            get {
+                return ResourceManager.GetString("Oliveoil5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Onions: 1 grain (finely chopped).
+        /// </summary>
+        public static string Onions1 {
+            get {
+                return ResourceManager.GetString("Onions1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Onions: 1 grain (chopped slices).
+        /// </summary>
+        public static string Onions2 {
+            get {
+                return ResourceManager.GetString("Onions2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Onions: 2 tablets (medium size / peeled and cut into large pieces).
+        /// </summary>
+        public static string Onions7 {
+            get {
+                return ResourceManager.GetString("Onions7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Onions: 1 grain (chopped).
+        /// </summary>
+        public static string Onionsgrain4 {
+            get {
+                return ResourceManager.GetString("Onionsgrain4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Onions: 2 grains (medium size / finely chopped).
+        /// </summary>
+        public static string Onionsgrains7 {
+            get {
+                return ResourceManager.GetString("Onionsgrains7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Option: 1 piece (finely chopped).
+        /// </summary>
+        public static string Option5 {
+            get {
+                return ResourceManager.GetString("Option5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to or.
         /// </summary>
         public static string or {
             get {
                 return ResourceManager.GetString("or", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Parsley: 2 teaspoon.
+        /// </summary>
+        public static string Parsley5 {
+            get {
+                return ResourceManager.GetString("Parsley5", resourceCulture);
             }
         }
         
@@ -953,11 +1628,56 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pasta: Bottle (preferred shape).
+        /// </summary>
+        public static string Pasta1 {
+            get {
+                return ResourceManager.GetString("Pasta1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Spaghetti and noodles.
+        /// </summary>
+        public static string pasta2 {
+            get {
+                return ResourceManager.GetString("pasta2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Peas: a cup (frozen).
+        /// </summary>
+        public static string Peas3 {
+            get {
+                return ResourceManager.GetString("Peas3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to PilatesExercise.
         /// </summary>
         public static string PilatesExercise {
             get {
                 return ResourceManager.GetString("PilatesExercise", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pomegranate molasses: 4 tablespoons.
+        /// </summary>
+        public static string Pomegranate7 {
+            get {
+                return ResourceManager.GetString("Pomegranate7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pork chops with green beans sauteed in coconut oil.
+        /// </summary>
+        public static string Porkchops2 {
+            get {
+                return ResourceManager.GetString("Porkchops2", resourceCulture);
             }
         }
         
@@ -971,11 +1691,56 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Potatoes: 1 grain (small and chopped).
+        /// </summary>
+        public static string Potatoesgrain4 {
+            get {
+                return ResourceManager.GetString("Potatoesgrain4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Poultry:Chicken and turkey.
         /// </summary>
         public static string Poultry2 {
             get {
                 return ResourceManager.GetString("Poultry2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pour the pasta into dishes and serve hot..
+        /// </summary>
+        public static string Pourthe1 {
+            get {
+                return ResourceManager.GetString("Pourthe1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Processed foods: Fast food, packaged foods and processed meats such as hot dogs and lunch meats.
+        /// </summary>
+        public static string Processedfoods2 {
+            get {
+                return ResourceManager.GetString("Processedfoods2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pumpkin: 5 kg (fresh).
+        /// </summary>
+        public static string Pumpkin7 {
+            get {
+                return ResourceManager.GetString("Pumpkin7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pumpkin is peeled off with a knife, then cut into large cubes, noting that after processing it, the pumpkin will produce about 3 and a half kilograms. Boil the pumpkin cubes for twenty minutes, noting the full ripeness. Then, drain the cubes well, and set aside..
+        /// </summary>
+        public static string Pumpkinis7 {
+            get {
+                return ResourceManager.GetString("Pumpkinis7", resourceCulture);
             }
         }
         
@@ -1007,11 +1772,65 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Red hot pepper: half a teaspoon (ground).
+        /// </summary>
+        public static string Redhotpepper2 {
+            get {
+                return ResourceManager.GetString("Redhotpepper2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to red pepper: 1 tablet (chopped slices).
+        /// </summary>
+        public static string redpepper2 {
+            get {
+                return ResourceManager.GetString("redpepper2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reduce the heat, then add the starch mixture, stirring, and stir for two minutes until the mixture thickens..
+        /// </summary>
+        public static string Reducethe6 {
+            get {
+                return ResourceManager.GetString("Reducethe6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Register.
         /// </summary>
         public static string Register {
             get {
                 return ResourceManager.GetString("Register", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Roast chicken with cream sauce and sauteed broccoli.
+        /// </summary>
+        public static string Roastchicken2 {
+            get {
+                return ResourceManager.GetString("Roastchicken2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Salt: 2 tablespoon.
+        /// </summary>
+        public static string Salt7 {
+            get {
+                return ResourceManager.GetString("Salt7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Salt: half a teaspoon.
+        /// </summary>
+        public static string Salthalf1 {
+            get {
+                return ResourceManager.GetString("Salthalf1", resourceCulture);
             }
         }
         
@@ -1025,11 +1844,74 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Season the meat with salt and pepper, and stir for another minute, then lift the meat from the pan and set it aside..
+        /// </summary>
+        public static string Seasonthe2 {
+            get {
+                return ResourceManager.GetString("Seasonthe2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Season with salt, pepper and nutmeg and serve hot..
+        /// </summary>
+        public static string Seasonwith4 {
+            get {
+                return ResourceManager.GetString("Seasonwith4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Seasonwith salt, pepper and olive oil, and serve..
+        /// </summary>
+        public static string Seasonwith5 {
+            get {
+                return ResourceManager.GetString("Seasonwith5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Send Now.
         /// </summary>
         public static string Send {
             get {
                 return ResourceManager.GetString("Send", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Serve warm or cold to taste, along with grilled meat or chicken..
+        /// </summary>
+        public static string Servewarm3 {
+            get {
+                return ResourceManager.GetString("Servewarm3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sesame: half a teaspoon.
+        /// </summary>
+        public static string Sesame6 {
+            get {
+                return ResourceManager.GetString("Sesame6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sesame oil: a teaspoon.
+        /// </summary>
+        public static string Sesameoil6 {
+            get {
+                return ResourceManager.GetString("Sesameoil6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Settings.
+        /// </summary>
+        public static string Settings {
+            get {
+                return ResourceManager.GetString("Settings", resourceCulture);
             }
         }
         
@@ -1088,6 +1970,15 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Soak the bulgur with lemon juice and leave it for half an hour until the mixture is absorbed and then stir with a fork..
+        /// </summary>
+        public static string Soakthe5 {
+            get {
+                return ResourceManager.GetString("Soakthe5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This diet was started by Agatston, a cardiologist and Marie Almon. This diet focuses on controlling insulin levels and taking advantage of slow, unrefined carbohydrates. Dr. Agatston created this diet after which he was frustrated with the low-fat, high-carb diet that was supported by the American Heart Association..
         /// </summary>
         public static string SouthBeach {
@@ -1106,11 +1997,56 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Soy sauce: 1 tablespoon.
+        /// </summary>
+        public static string Soysauce6 {
+            get {
+                return ResourceManager.GetString("Soysauce6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Squeeze the pumpkin, and add it with flour, to the onion and bulgur mixture in the machine. Ingredients beat until obtaining a cohesive dough. Put the dough aside. An indication that more flour can be added if needed..
+        /// </summary>
+        public static string Squeeze7 {
+            get {
+                return ResourceManager.GetString("Squeeze7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Starch: 1 tablespoon.
+        /// </summary>
+        public static string Starch6 {
+            get {
+                return ResourceManager.GetString("Starch6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Starches: Potatoes, sweet potatoes (induction only)..
         /// </summary>
         public static string Starches1 {
             get {
                 return ResourceManager.GetString("Starches1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Starchy vegetables: Potatoes, sweet potatoes, butternut squash, corn, peas and pumpkin.
+        /// </summary>
+        public static string Starchy2 {
+            get {
+                return ResourceManager.GetString("Starchy2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to : Steak bowl with cauliflower rice, cheese, herbs, avocado and salsa..
+        /// </summary>
+        public static string Steakbowl {
+            get {
+                return ResourceManager.GetString("Steakbowl", resourceCulture);
             }
         }
         
@@ -1151,6 +2087,33 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sweet pepper: a teaspoon.
+        /// </summary>
+        public static string Sweet7 {
+            get {
+                return ResourceManager.GetString("Sweet7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Soda, juice, sweetened teas and sports drinks..
+        /// </summary>
+        public static string SweetenedBeverages2 {
+            get {
+                return ResourceManager.GetString("SweetenedBeverages2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sweet pepper: 4 tablespoon.
+        /// </summary>
+        public static string Sweetpepper7 {
+            get {
+                return ResourceManager.GetString("Sweetpepper7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Targe tWeight.
         /// </summary>
         public static string TargetWeight {
@@ -1165,6 +2128,15 @@ namespace R {
         public static string TheCalorieCalculator {
             get {
                 return ResourceManager.GetString("TheCalorieCalculator", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The tray content, with a sharp knife, is divided into small lozenges..
+        /// </summary>
+        public static string Thetray7 {
+            get {
+                return ResourceManager.GetString("Thetray7", resourceCulture);
             }
         }
         
@@ -1187,6 +2159,15 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Tomato: 1 grain (chopped slices).
+        /// </summary>
+        public static string Tomato5 {
+            get {
+                return ResourceManager.GetString("Tomato5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Total Body Exercise.
         /// </summary>
         public static string TotalBodyExercise {
@@ -1201,6 +2182,33 @@ namespace R {
         public static string Transfats1 {
             get {
                 return ResourceManager.GetString("Transfats1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The tray is divided into 8 equal portions. Serve hot..
+        /// </summary>
+        public static string trayis7 {
+            get {
+                return ResourceManager.GetString("trayis7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tuna salad with celery and tomato atop a bed of greens.
+        /// </summary>
+        public static string Tuna2 {
+            get {
+                return ResourceManager.GetString("Tuna2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Two eggs fried in pastured butter served with sauteed greens.
+        /// </summary>
+        public static string Twoeggs2 {
+            get {
+                return ResourceManager.GetString("Twoeggs2", resourceCulture);
             }
         }
         
@@ -1241,6 +2249,24 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Vegetable broth: a quarter cup.
+        /// </summary>
+        public static string Vegetablebroth1 {
+            get {
+                return ResourceManager.GetString("Vegetablebroth1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vegetable oil: 1 tablespoon.
+        /// </summary>
+        public static string Vegetableoil2 {
+            get {
+                return ResourceManager.GetString("Vegetableoil2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Vegetable oils: Soybean oil, corn oil, cottonseed oil, canola oil and a few others..
         /// </summary>
         public static string Vegetableoils {
@@ -1277,11 +2303,29 @@ namespace R {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Walnut: a cup (roughly chopped).
+        /// </summary>
+        public static string Walnut7 {
+            get {
+                return ResourceManager.GetString("Walnut7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Weight Watchers diet.
         /// </summary>
         public static string Watchers {
             get {
                 return ResourceManager.GetString("Watchers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Water: 2 tablespoons.
+        /// </summary>
+        public static string Water7 {
+            get {
+                return ResourceManager.GetString("Water7", resourceCulture);
             }
         }
         
@@ -1300,6 +2344,24 @@ namespace R {
         public static string WeightWatchers {
             get {
                 return ResourceManager.GetString("WeightWatchers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wipe a Chinese bottom (30 x 40 centimeters) with a tablespoon of oil..
+        /// </summary>
+        public static string Wipe7 {
+            get {
+                return ResourceManager.GetString("Wipe7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yellow pepper: 1 tablet (sliced minced).
+        /// </summary>
+        public static string Yellowpepper2 {
+            get {
+                return ResourceManager.GetString("Yellowpepper2", resourceCulture);
             }
         }
         

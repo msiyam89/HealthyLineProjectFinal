@@ -538,4 +538,358 @@
   <data name="vegetables2" xml:space="preserve">
     <value>Non-starchy vegetables: Greens, broccoli, tomatoes, mushrooms and peppers.</value>
   </data>
+  <data name="Addgarlic1" xml:space="preserve">
+    <value>Add garlic and asparagus and stir for 3 minutes, then add salt, basil, black pepper and broth and leave the mixture until boiling for 10 minutes.</value>
+  </data>
+  <data name="Addthe1" xml:space="preserve">
+    <value>Add the cream, filtered pasta, and stir until the ingredients mix, and simmer for 5 minutes.</value>
+  </data>
+  <data name="Addtothe2" xml:space="preserve">
+    <value>Add to the same skillet onions, red pepper, yellow pepper, cumin, ground chili pepper, and stir over medium to high heat for 5 minutes</value>
+  </data>
+  <data name="Asparagus1" xml:space="preserve">
+    <value>Asparagus: 2 cups (fresh or sorted / boiled and drained)</value>
+  </data>
+  <data name="Avocadopiece2" xml:space="preserve">
+    <value>Avocado: 1 piece (peeled and sliced)</value>
+  </data>
+  <data name="Beans2" xml:space="preserve">
+    <value>Beans and legumes: Black beans, chickpeas, lentils and kidney beans.</value>
+  </data>
+  <data name="BlackPepper1" xml:space="preserve">
+    <value>Black Pepper: 1/4 teaspoon</value>
+  </data>
+  <data name="Boil1" xml:space="preserve">
+    <value>Beans and legumes: Black beans, chickpeas, lentils and kidney beans.</value>
+  </data>
+  <data name="Certain2" xml:space="preserve">
+    <value>Certain alcoholic beverages: Beer and sugary mixed drinks</value>
+  </data>
+  <data name="CookingCream1" xml:space="preserve">
+    <value>Cooking Cream: (Light) Cup</value>
+  </data>
+  <data name="Cumin2" xml:space="preserve">
+    <value>Cumin: half a teaspoon (ground)</value>
+  </data>
+  <data name="Drybasil1" xml:space="preserve">
+    <value>Dry basil: half a teaspoon (ground)</value>
+  </data>
+  <data name="Fruits2" xml:space="preserve">
+    <value>Fruit: Citrus, grapes, bananas and pineapple</value>
+  </data>
+  <data name="Garlic1" xml:space="preserve">
+    <value>Garlic: 2 cloves (crushed)</value>
+  </data>
+  <data name="Grains2" xml:space="preserve">
+    <value>and grain products: Wheat, rice, oats, breakfast cereals and tortillas</value>
+  </data>
+  <data name="GreenCoriander2" xml:space="preserve">
+    <value>Green Coriander: 2 teaspoon (fresh and chopped)</value>
+  </data>
+  <data name="Heatathick2" xml:space="preserve">
+    <value>Heat a thick, wide skillet over medium heat, then add oil and meat and stir the meat for 3 minutes until it becomes brown.</value>
+  </data>
+  <data name="Heatthe1" xml:space="preserve">
+    <value>Heat the oil in a large skillet over medium heat, add onions and stir for 5 minutes until wilted.</value>
+  </data>
+  <data name="Highcarb2" xml:space="preserve">
+    <value>High-carbsauces: Barbecue sauce, sugary salad dressings and dipping sauces</value>
+  </data>
+  <data name="MeatFillet1" xml:space="preserve">
+    <value>Meat Fillet: 500 grams (longitudinal sliced section)</value>
+  </data>
+  <data name="Oliveoil1" xml:space="preserve">
+    <value>Olive oil: 1 tablespoon</value>
+  </data>
+  <data name="Onions1" xml:space="preserve">
+    <value>Onions: 1 grain (finely chopped)</value>
+  </data>
+  <data name="Onions2" xml:space="preserve">
+    <value>Onions: 1 grain (chopped slices)</value>
+  </data>
+  <data name="Pasta1" xml:space="preserve">
+    <value>Pasta: Bottle (preferred shape)</value>
+  </data>
+  <data name="pasta2" xml:space="preserve">
+    <value>Spaghetti and noodles</value>
+  </data>
+  <data name="Pourthe1" xml:space="preserve">
+    <value>Pour the pasta into dishes and serve hot.</value>
+  </data>
+  <data name="Redhotpepper2" xml:space="preserve">
+    <value>Red hot pepper: half a teaspoon (ground)</value>
+  </data>
+  <data name="redpepper2" xml:space="preserve">
+    <value>red pepper: 1 tablet (chopped slices)</value>
+  </data>
+  <data name="Salthalf1" xml:space="preserve">
+    <value>Salt: half a teaspoon</value>
+  </data>
+  <data name="Seasonthe2" xml:space="preserve">
+    <value>Season the meat with salt and pepper, and stir for another minute, then lift the meat from the pan and set it aside.</value>
+  </data>
+  <data name="Starchy2" xml:space="preserve">
+    <value>Starchy vegetables: Potatoes, sweet potatoes, butternut squash, corn, peas and pumpkin</value>
+  </data>
+  <data name="SweetenedBeverages2" xml:space="preserve">
+    <value>Soda, juice, sweetened teas and sports drinks.</value>
+  </data>
+  <data name="Vegetablebroth1" xml:space="preserve">
+    <value>Vegetable broth: a quarter cup</value>
+  </data>
+  <data name="Vegetableoil2" xml:space="preserve">
+    <value>Vegetable oil: 1 tablespoon</value>
+  </data>
+  <data name="Yellowpepper2" xml:space="preserve">
+    <value>Yellow pepper: 1 tablet (sliced minced)</value>
+  </data>
+  <data name="Abunlessgrass2" xml:space="preserve">
+    <value>A bunless grass-fed burger topped with cheese, mushrooms and avocado atop a bed of greens</value>
+  </data>
+  <data name="Addbroccoli4" xml:space="preserve">
+    <value>Add broccoli, potatoes and chicken broth, leave the mixture until it boils, then reduce heat and leave for 15 minutes until the ingredients are tender.</value>
+  </data>
+  <data name="Addchicken6" xml:space="preserve">
+    <value>Addchicken and my heart for two minutes, pour it and garnish with sesame and coriander and serve hot alongside rice</value>
+  </data>
+  <data name="Addsalt3" xml:space="preserve">
+    <value>Addsalt, cumin, lemon juice, olive oil and mix well.</value>
+  </data>
+  <data name="Arugulasalad2" xml:space="preserve">
+    <value>Arugula salad with hard-boiled eggs, turkey, avocado and blue cheese.</value>
+  </data>
+  <data name="Bellpepper2" xml:space="preserve">
+    <value>Bell pepper stuffed with cheese and eggs</value>
+  </data>
+  <data name="Bisonsteak" xml:space="preserve">
+    <value>Bison steak with cheesy broccoli</value>
+  </data>
+  <data name="Boilcarrots3" xml:space="preserve">
+    <value>Boilcarrots, peas and celery in boiling water for 10 minutes, then filter and wash with cold water and put them in a dish.</value>
+  </data>
+  <data name="Broccoli4" xml:space="preserve">
+    <value>Broccoli: 3 cups (small or fresh cut flowers)</value>
+  </data>
+  <data name="Bulgur7" xml:space="preserve">
+    <value>Bulgur: 3 cups (soft, half an hour in water)</value>
+  </data>
+  <data name="Bulguris7" xml:space="preserve">
+    <value>Bulgur is scrubbed with two hands, and squeezed, until filtered from water, then added to the onion mixture. The components are hit in the machine.</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>Certain alcoholic beverages: Beer and sugary mixed drinks</value>
+  </data>
+  <data name="Carrots3" xml:space="preserve">
+    <value>Carrots: 2 tablets (peeled and chopped slices)</value>
+  </data>
+  <data name="Celery3" xml:space="preserve">
+    <value>Celery: half a cup (minced)</value>
+  </data>
+  <data name="Chickenbreast6" xml:space="preserve">
+    <value>Chicken breast: 500 grams (cut into small cubes)</value>
+  </data>
+  <data name="Chickenbroth4" xml:space="preserve">
+    <value>Chickenbroth: 4 cups</value>
+  </data>
+  <data name="Cinnamon7" xml:space="preserve">
+    <value>Cinnamon: 1 tablespoon (soft)</value>
+  </data>
+  <data name="Cumin7" xml:space="preserve">
+    <value>Cumin: 4 tablespoon (ground)</value>
+  </data>
+  <data name="Dough7" xml:space="preserve">
+    <value>Dough for kibbeh</value>
+  </data>
+  <data name="Dough71" xml:space="preserve">
+    <value>Dough for kibbeh</value>
+  </data>
+  <data name="doughis7" xml:space="preserve">
+    <value>The dough is divided into two halves: the first half is well thinner, then extend in the bottom of the tray until it is covered, and the filling is added. Divide the second half of the dough into sections, separate the latter, and place on top of the boil next to each other, until the filling is completely covered. With wet fingers, the surface is smoothed, until smooth.</value>
+  </data>
+  <data name="Filling" xml:space="preserve">
+    <value>Filling</value>
+  </data>
+  <data name="Finewhite5" xml:space="preserve">
+    <value>Fine white bulgur: a cup</value>
+  </data>
+  <data name="Flour7" xml:space="preserve">
+    <value>Flour: 4 tablespoons</value>
+  </data>
+  <data name="Forstuffing7" xml:space="preserve">
+    <value>For stuffing: add onions, with spices, to the meat's electric machine.</value>
+  </data>
+  <data name="Fullfat" xml:space="preserve">
+    <value>: Full-fat yogurt topped with Keto granola</value>
+  </data>
+  <data name="Garliccloves4" xml:space="preserve">
+    <value>Garlic: 3 cloves (minced)</value>
+  </data>
+  <data name="Greenchard7" xml:space="preserve">
+    <value>Green chard: 10 leaves (medium size / finely chopped)</value>
+  </data>
+  <data name="GreenCoriander6" xml:space="preserve">
+    <value>Green Coriander: 2 tbsp (minced)</value>
+  </data>
+  <data name="Grilledsalmon" xml:space="preserve">
+    <value>Grilled salmon with spinach sauteed in coconut oil</value>
+  </data>
+  <data name="Heatthe6" xml:space="preserve">
+    <value>Heat the oil in a large skillet over medium heat, season the chicken with salt and pepper, and stir the chicken with the oil for 5 minutes, until browned and done, then set aside.</value>
+  </data>
+  <data name="Honeyhalf6" xml:space="preserve">
+    <value>Honey: half a cup</value>
+  </data>
+  <data name="Hotpepper6" xml:space="preserve">
+    <value>Hot pepper: 1 grain (chopped)</value>
+  </data>
+  <data name="Inasmall6" xml:space="preserve">
+    <value>In a small bowl, mix the starch and 1 tablespoon of water and set aside.</value>
+  </data>
+  <data name="Lemonjuice3" xml:space="preserve">
+    <value>Lemon juice: 1 tablespoon</value>
+  </data>
+  <data name="Lemonjuice5" xml:space="preserve">
+    <value>Lemon juice: a quarter cup</value>
+  </data>
+  <data name="Lemonjuice6" xml:space="preserve">
+    <value>Lemon juice: 1 pill</value>
+  </data>
+  <data name="mediumheat6" xml:space="preserve">
+    <value>In a medium heat pot, mix honey, garlic, lemon, soy sauce, apple cider vinegar, sesame oil and chopped pepper, and stir until boiling</value>
+  </data>
+  <data name="Mixthe4" xml:space="preserve">
+    <value>Mix the scourer with the electric mixer until it becomes a smooth mixture, return it to a saucepan and heat it.</value>
+  </data>
+  <data name="Mixthe7" xml:space="preserve">
+    <value>Mix the water with the remaining amount of oil well, pour it on the surface of the tray of kibbeh, and distribute it over it. The tray is covered with aluminum foil, and cooked in a preheated oven, at a temperature of 200 degrees Celsius, for forty minutes. After the mentioned time has passed, the aluminum foil is removed from the tray. The oven is heated from above. Bake the tray for five minutes.</value>
+  </data>
+  <data name="Mixtomatoes5" xml:space="preserve">
+    <value>Mix tomatoes, cucumbers, parsley in a dish, add bulgur and my heart.</value>
+  </data>
+  <data name="Mushroomomelet" xml:space="preserve">
+    <value>Mushroomomelet</value>
+  </data>
+  <data name="Myprofile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="Nutmeg4" xml:space="preserve">
+    <value>Nutmeg: a quarter of a teaspoon</value>
+  </data>
+  <data name="oilin7" xml:space="preserve">
+    <value>Heat oil in a frying pan, add onions, and stir until it becomes light-colored. Then, add the chard with salt and sweet pepper, stirring constantly for five minutes, noting that the chard has wilted. Add walnuts and pomegranate molasses, mixing well. Place the filling mixture aside.</value>
+  </data>
+  <data name="oliveoil4" xml:space="preserve">
+    <value>Heat oliveoil in a saucepan over medium heat, then add onions and garlic and stir until soft.</value>
+  </data>
+  <data name="Oliveoil5" xml:space="preserve">
+    <value>Olive oil: 1 tablespoon</value>
+  </data>
+  <data name="Onions7" xml:space="preserve">
+    <value>Onions: 2 tablets (medium size / peeled and cut into large pieces)</value>
+  </data>
+  <data name="Onionsgrain4" xml:space="preserve">
+    <value>Onions: 1 grain (chopped)</value>
+  </data>
+  <data name="Onionsgrains7" xml:space="preserve">
+    <value>Onions: 2 grains (medium size / finely chopped)</value>
+  </data>
+  <data name="Option5" xml:space="preserve">
+    <value>Option: 1 piece (finely chopped)</value>
+  </data>
+  <data name="Parsley5" xml:space="preserve">
+    <value>Parsley: 2 teaspoon</value>
+  </data>
+  <data name="Peas3" xml:space="preserve">
+    <value>Peas: a cup (frozen)</value>
+  </data>
+  <data name="Pomegranate7" xml:space="preserve">
+    <value>Pomegranate molasses: 4 tablespoons</value>
+  </data>
+  <data name="Porkchops2" xml:space="preserve">
+    <value>Pork chops with green beans sauteed in coconut oil</value>
+  </data>
+  <data name="Potatoesgrain4" xml:space="preserve">
+    <value>Potatoes: 1 grain (small and chopped)</value>
+  </data>
+  <data name="Processedfoods2" xml:space="preserve">
+    <value>Processed foods: Fast food, packaged foods and processed meats such as hot dogs and lunch meats</value>
+  </data>
+  <data name="Pumpkin7" xml:space="preserve">
+    <value>Pumpkin: 5 kg (fresh)</value>
+  </data>
+  <data name="Pumpkinis7" xml:space="preserve">
+    <value>Pumpkin is peeled off with a knife, then cut into large cubes, noting that after processing it, the pumpkin will produce about 3 and a half kilograms. Boil the pumpkin cubes for twenty minutes, noting the full ripeness. Then, drain the cubes well, and set aside.</value>
+  </data>
+  <data name="Reducethe6" xml:space="preserve">
+    <value>Reduce the heat, then add the starch mixture, stirring, and stir for two minutes until the mixture thickens.</value>
+  </data>
+  <data name="Roastchicken2" xml:space="preserve">
+    <value>Roast chicken with cream sauce and sauteed broccoli</value>
+  </data>
+  <data name="Salt7" xml:space="preserve">
+    <value>Salt: 2 tablespoon</value>
+  </data>
+  <data name="Seasonwith4" xml:space="preserve">
+    <value>Season with salt, pepper and nutmeg and serve hot.</value>
+  </data>
+  <data name="Seasonwith5" xml:space="preserve">
+    <value>Seasonwith salt, pepper and olive oil, and serve.</value>
+  </data>
+  <data name="Servewarm3" xml:space="preserve">
+    <value>Serve warm or cold to taste, along with grilled meat or chicken.</value>
+  </data>
+  <data name="Sesame6" xml:space="preserve">
+    <value>Sesame: half a teaspoon</value>
+  </data>
+  <data name="Sesameoil6" xml:space="preserve">
+    <value>Sesame oil: a teaspoon</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Soakthe5" xml:space="preserve">
+    <value>Soak the bulgur with lemon juice and leave it for half an hour until the mixture is absorbed and then stir with a fork.</value>
+  </data>
+  <data name="Soysauce6" xml:space="preserve">
+    <value>Soy sauce: 1 tablespoon</value>
+  </data>
+  <data name="Squeeze7" xml:space="preserve">
+    <value>Squeeze the pumpkin, and add it with flour, to the onion and bulgur mixture in the machine. Ingredients beat until obtaining a cohesive dough. Put the dough aside. An indication that more flour can be added if needed.</value>
+  </data>
+  <data name="Starch6" xml:space="preserve">
+    <value>Starch: 1 tablespoon</value>
+  </data>
+  <data name="Steakbowl" xml:space="preserve">
+    <value>: Steak bowl with cauliflower rice, cheese, herbs, avocado and salsa.</value>
+  </data>
+  <data name="Sweet7" xml:space="preserve">
+    <value>Sweet pepper: a teaspoon</value>
+  </data>
+  <data name="Sweetpepper7" xml:space="preserve">
+    <value>Sweet pepper: 4 tablespoon</value>
+  </data>
+  <data name="Thetray7" xml:space="preserve">
+    <value>The tray content, with a sharp knife, is divided into small lozenges.</value>
+  </data>
+  <data name="Tomato5" xml:space="preserve">
+    <value>Tomato: 1 grain (chopped slices)</value>
+  </data>
+  <data name="trayis7" xml:space="preserve">
+    <value>The tray is divided into 8 equal portions. Serve hot.</value>
+  </data>
+  <data name="Tuna2" xml:space="preserve">
+    <value>Tuna salad with celery and tomato atop a bed of greens</value>
+  </data>
+  <data name="Twoeggs2" xml:space="preserve">
+    <value>Two eggs fried in pastured butter served with sauteed greens</value>
+  </data>
+  <data name="Walnut7" xml:space="preserve">
+    <value>Walnut: a cup (roughly chopped)</value>
+  </data>
+  <data name="Water7" xml:space="preserve">
+    <value>Water: 2 tablespoons</value>
+  </data>
+  <data name="Wipe7" xml:space="preserve">
+    <value>Wipe a Chinese bottom (30 x 40 centimeters) with a tablespoon of oil.</value>
+  </data>
 </root>

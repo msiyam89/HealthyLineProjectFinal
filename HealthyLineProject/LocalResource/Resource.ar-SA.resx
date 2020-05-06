@@ -539,4 +539,355 @@
   <data name="weight" xml:space="preserve">
     <value>الوزن</value>
   </data>
+  <data name="Addgarlic1" xml:space="preserve">
+    <value>يضاف الثوم والهليون ويقلب لمدة 3 دقائق ، ثم يضاف الملح والريحان والفلفل الأسود والمرق ويترك الخليط حتى يغلي لمدة 10 دقائق.</value>
+  </data>
+  <data name="Addthe1" xml:space="preserve">
+    <value>أضيفي الكريما ، المعكرونة المفلترة ، وقلبي حتى تمتزج المكونات ، واتركيها على نار هادئة لمدة 5 دقائق.</value>
+  </data>
+  <data name="Addtothe2" xml:space="preserve">
+    <value>أضيفي نفس البصل المقلي والفلفل الأحمر والفلفل الأصفر والكمون والفلفل الحار المطحون وقلب على نار متوسطة إلى عالية لمدة 5 دقائق</value>
+  </data>
+  <data name="Asparagus1" xml:space="preserve">
+    <value>الهليون: 2 كوب (طازج أو مفروز / مسلوق ومصفى)</value>
+  </data>
+  <data name="Avocadopiece2" xml:space="preserve">
+    <value>الأفوكادو: قطعة واحدة (مقشرة ومقطعة إلى شرائح)</value>
+  </data>
+  <data name="Beans2" xml:space="preserve">
+    <value>الفاصوليا والبقوليات: الفاصوليا السوداء والحمص والعدس والفاصوليا</value>
+  </data>
+  <data name="BlackPepper1" xml:space="preserve">
+    <value>فلفل أسود: 1/4 ملعقة صغيرة</value>
+  </data>
+  <data name="Boil1" xml:space="preserve">
+    <value>قم بغلي الباستا حسب التعليمات الموجودة على العبوة ، ثم لفها ، اغسلها بالماء البارد وضعها جانباً.</value>
+  </data>
+  <data name="Certain2" xml:space="preserve">
+    <value>بعض المشروبات الكحولية: البيرة والمشروبات السكرية المختلطة</value>
+  </data>
+  <data name="CookingCream1" xml:space="preserve">
+    <value>كريمة الطبخ: كوب (خفيف)</value>
+  </data>
+  <data name="Cumin2" xml:space="preserve">
+    <value>الكمون: نصف ملعقة صغيرة (مطحون).</value>
+  </data>
+  <data name="Drybasil1" xml:space="preserve">
+    <value>الريحان الجاف: نصف ملعقة صغيرة (مطحون)</value>
+  </data>
+  <data name="Fruits2" xml:space="preserve">
+    <value>الفاكهة: الحمضيات والعنب والموز والأناناس</value>
+  </data>
+  <data name="Garlic1" xml:space="preserve">
+    <value>الثوم: 2 فصوص (مهروسة)</value>
+  </data>
+  <data name="Grains" xml:space="preserve">
+    <value>الريحان الجاف: نصف ملعقة صغيرة (مطحون)</value>
+  </data>
+  <data name="GreenCoriander2" xml:space="preserve">
+    <value>الكزبرة الخضراء: 2 ملعقة صغيرة (طازجة ومفرومة)</value>
+  </data>
+  <data name="Heatathick2" xml:space="preserve">
+    <value>سخني مقلاة سميكة عريضة على نار متوسطة ، ثم أضيفي الزيت واللحم وقلب اللحم لمدة 3 دقائق حتى يصبح لونه بني.</value>
+  </data>
+  <data name="Heatthe1" xml:space="preserve">
+    <value>سخني الزيت في مقلاة كبيرة على نار متوسطة ، أضيفي البصل وقلبي لمدة 5 دقائق حتى يذبل.</value>
+  </data>
+  <data name="Highcarb2" xml:space="preserve">
+    <value>الصلصات: صلصة الباربكيو ، صلصة السلطة السكرية وصلصات الغمس</value>
+  </data>
+  <data name="MeatFillet1" xml:space="preserve">
+    <value>شرائح لحم: 500 جرام (مقطع شرائح طولي)</value>
+  </data>
+  <data name="Oliveoil1" xml:space="preserve">
+    <value>زيت الزيتون: 1 ملعقة كبيرة</value>
+  </data>
+  <data name="Onions1" xml:space="preserve">
+    <value>البصل: حبة واحدة (مفرومة ناعماً)</value>
+  </data>
+  <data name="Onions2" xml:space="preserve">
+    <value>البصل: حبة واحدة (شرائح مفرومة)</value>
+  </data>
+  <data name="Pasta1" xml:space="preserve">
+    <value>المعكرونة: زجاجة (الشكل المفضل)</value>
+  </data>
+  <data name="Pasta2" xml:space="preserve">
+    <value>المعكرونة </value>
+  </data>
+  <data name="Pourthe1" xml:space="preserve">
+    <value>نصب المعكرونة في أطباق ونقدمها ساخنة.</value>
+  </data>
+  <data name="Redhotpepper2" xml:space="preserve">
+    <value>الفلفل الأحمر الحار: نصف ملعقة صغيرة (مطحون)</value>
+  </data>
+  <data name="redpepper2" xml:space="preserve">
+    <value>الفلفل الأحمر: 1 قرص (شرائح مفرومة)</value>
+  </data>
+  <data name="Salthalf1" xml:space="preserve">
+    <value>ملح: نصف ملعقة صغيرة</value>
+  </data>
+  <data name="Seasonthe2" xml:space="preserve">
+    <value>يتبل اللحم بالملح والفلفل ويقلب لمدة دقيقة أخرى ، ثم يرفع اللحم من القدر ويوضع جانباً.</value>
+  </data>
+  <data name="Starchy2" xml:space="preserve">
+    <value>الخضروات النشوية: البطاطس ، البطاطا الحلوة ، القرع ، الذرة ، البازلاء واليقطين</value>
+  </data>
+  <data name="SweetenedBeverages2" xml:space="preserve">
+    <value>الصودا والعصير والشاي المحلى والمشروبات الرياضية</value>
+  </data>
+  <data name="Vegetablebroth1" xml:space="preserve">
+    <value>مرق الخضار: ربع كوب</value>
+  </data>
+  <data name="Vegetableoil2" xml:space="preserve">
+    <value>زيت نباتي: 1 ملعقة كبيرة</value>
+  </data>
+  <data name="Yellowpepper2" xml:space="preserve">
+    <value>فلفل أصفر: حبة واحدة (شرائح مفرومة)</value>
+  </data>
+  <data name="Abunlessgrass2" xml:space="preserve">
+    <value>برجر بدون خبز مغطى بالعشب مغطى بالجبن والفطر والأفوكادو فوق طبقة من الخضار</value>
+  </data>
+  <data name="Addbroccoli4" xml:space="preserve">
+    <value>أضيفي البروكلي والبطاطس ومرق الدجاج واتركي المزيج حتى يغلي ثم خففي الحرارة واتركييه لمدة 15 دقيقة حتى تصبح المكونات طرية.</value>
+  </data>
+  <data name="Addchicken6" xml:space="preserve">
+    <value>يُدخن وقلبي لمدة دقيقتين ويُسكب ويزين بالسمسم والكزبرة ويقدم ساخناً مع الأرز</value>
+  </data>
+  <data name="Addsalt3" xml:space="preserve">
+    <value>يضاف الملح والكمون وعصير الليمون وزيت الزيتون ويخلط جيدا.</value>
+  </data>
+  <data name="Arugulasalad2" xml:space="preserve">
+    <value>سلطة الجرجير مع البيض المسلوق والديك الرومي والأفوكادو والجبن الأزرق.</value>
+  </data>
+  <data name="Bellpepper2" xml:space="preserve">
+    <value>الفلفل المحشو بالجبن والبيض</value>
+  </data>
+  <data name="Bisonsteak" xml:space="preserve">
+    <value>شريحة لحم البيسون مع البروكلي بالجبن</value>
+  </data>
+  <data name="Boilcarrots3" xml:space="preserve">
+    <value>يغلي الجزر والبازلاء والكرفس في الماء المغلي لمدة 10 دقائق ، ثم يصفى ويغسل بالماء البارد ويوضع في طبق.</value>
+  </data>
+  <data name="Broccoli4" xml:space="preserve">
+    <value>البروكلي: 3 أكواب (زهور صغيرة أو طازجة)</value>
+  </data>
+  <data name="Bulgur7" xml:space="preserve">
+    <value>البرغل: 3 أكواب (ناعمة ، نصف ساعة في الماء)</value>
+  </data>
+  <data name="Bulguris7" xml:space="preserve">
+    <value>يُفرك البرغل باليدين ويضغط حتى تصفيته من الماء ثم يُضاف إلى خليط البصل. يتم ضرب المكونات في الجهاز.</value>
+  </data>
+  <data name="Carrots3" xml:space="preserve">
+    <value>الجزر: حبتين (شرائح مقشرة ومفرومة)</value>
+  </data>
+  <data name="Celery3" xml:space="preserve">
+    <value>الكرفس: نصف كوب (مفروم)</value>
+  </data>
+  <data name="Certain22" xml:space="preserve">
+    <value>بعض المشروبات الكحولية: البيرة والمشروبات السكرية المختلطة</value>
+  </data>
+  <data name="Chickenbreast6" xml:space="preserve">
+    <value>صدر الدجاج: 500 جرام (مقطعة إلى مكعبات صغيرة)</value>
+  </data>
+  <data name="Chickenbroth4" xml:space="preserve">
+    <value>فراخ الدجاج: 4 أكواب</value>
+  </data>
+  <data name="Cinnamon7" xml:space="preserve">
+    <value>القرفة: 1 ملعقة كبيرة (ناعم)</value>
+  </data>
+  <data name="Cumin7" xml:space="preserve">
+    <value>الكمون: 4 ملاعق كبيرة (مطحون)</value>
+  </data>
+  <data name="Dough7" xml:space="preserve">
+    <value>عجينة الكبة</value>
+  </data>
+  <data name="doughis7" xml:space="preserve">
+    <value>ينقسم العجين إلى نصفين: النصف الأول أنحف ، ثم يمتد في قاع الصينية حتى يتم تغطيته ، ويضاف الحشوة. قسمي النصف الثاني من العجين إلى أقسام وافركي الأخير وضعه فوق الغليان بجوار بعضهما البعض ، حتى يتم تغطية الحشوة بالكامل. بأصابع مبللة ، يتم تنعيم السطح ، حتى يصبح ناعماً.</value>
+  </data>
+  <data name="Filling" xml:space="preserve">
+    <value>حشوة</value>
+  </data>
+  <data name="Finewhite5" xml:space="preserve">
+    <value>برغل أبيض ناعم: كوب</value>
+  </data>
+  <data name="Flour7" xml:space="preserve">
+    <value>طحين: 4 ملاعق طعام</value>
+  </data>
+  <data name="Forstuffing7" xml:space="preserve">
+    <value>للحشوة: أضيفي البصل مع التوابل إلى آلة اللحم الكهربائية.</value>
+  </data>
+  <data name="Fullfat" xml:space="preserve">
+    <value>لبن كامل الدسم يعلوه جرانولا كيتو</value>
+  </data>
+  <data name="Garliccloves4" xml:space="preserve">
+    <value>ثوم: 3 فصوص (مفروم)</value>
+  </data>
+  <data name="Greenchard7" xml:space="preserve">
+    <value>السلق الأخضر: 10 أوراق (متوسطة الحجم / مفرومة ناعماً)</value>
+  </data>
+  <data name="GreenCoriander6" xml:space="preserve">
+    <value>كزبرة خضراء: 2 ملعقة كبيرة (مفروم)</value>
+  </data>
+  <data name="Grilledsalmon" xml:space="preserve">
+    <value>سمك السلمون المشوي مع السبانخ في زيت جوز الهند</value>
+  </data>
+  <data name="Heatthe6" xml:space="preserve">
+    <value>يُسخن الزيت في مقلاة كبيرة على نار متوسطة ، ويتبل الدجاج بالملح والفلفل ويقلب الدجاج بالزيت لمدة 5 دقائق ، حتى يصبح لونه بنيًا ، ثم يترك جانباً.</value>
+  </data>
+  <data name="Honeyhalf6" xml:space="preserve">
+    <value>عسل: نصف كوب</value>
+  </data>
+  <data name="Hotpepper6" xml:space="preserve">
+    <value>الفلفل الحار: حبة واحدة (مفرومة)</value>
+  </data>
+  <data name="Inasmall6" xml:space="preserve">
+    <value>نمزج النشا وملعقة كبيرة من الماء في وعاء صغير ونضعه جانباً.</value>
+  </data>
+  <data name="Lemonjuice3" xml:space="preserve">
+    <value>عصير ليمون: 1 ملعقة كبيرة</value>
+  </data>
+  <data name="Lemonjuice5" xml:space="preserve">
+    <value>عصير ليمون: ربع كوب</value>
+  </data>
+  <data name="Lemonjuice6" xml:space="preserve">
+    <value>عصير الليمون: حبة واحدة</value>
+  </data>
+  <data name="mediumheat6" xml:space="preserve">
+    <value>في وعاء متوسط ​​الحرارة ، اخلطي العسل والثوم والليمون وصلصة الصويا وخل التفاح وزيت السمسم والفلفل المفروم وقلب حتى يغلي</value>
+  </data>
+  <data name="Mixthe4" xml:space="preserve">
+    <value>امزج الفلير مع الخلاط الكهربائي حتى يصبح خليطًا ناعمًا ، وأعده إلى قدر وقم بتسخينه.</value>
+  </data>
+  <data name="Mixthe7" xml:space="preserve">
+    <value>امزج الماء مع الكمية المتبقية من بئر الزيت ، اسكبه على سطح صينية الكبة ، ووزعه فوقه. تُغطى الصينية بورق الألمنيوم ، وتُطهى في فرن محمى على درجة حرارة 200 درجة مئوية لمدة أربعين دقيقة. بعد مرور الوقت المذكور ، تتم إزالة ورق الألمنيوم من الدرج. يسخن الفرن من الأعلى. اخبز الصينية لمدة خمس دقائق.</value>
+  </data>
+  <data name="Mixtomatoes5" xml:space="preserve">
+    <value>اخلطي الطماطم والخيار والبقدونس في طبق وأضيفي البرغل وقلبي.</value>
+  </data>
+  <data name="Mushroomomelet2" xml:space="preserve">
+    <value>أومليت الفطر</value>
+  </data>
+  <data name="Myprofile" xml:space="preserve">
+    <value>ملفي الشخصي</value>
+  </data>
+  <data name="Nutmeg4" xml:space="preserve">
+    <value>جوزة الطيب: ربع ملعقة صغيرة</value>
+  </data>
+  <data name="oilin7" xml:space="preserve">
+    <value>يُحمّى الزيت في مقلاة ويُضاف البصل ويُحرّك حتى يصبح فاتح اللون. ثم نضيف السلق بالملح والفلفل الحلو مع التحريك المستمر لمدة خمس دقائق ، مع ملاحظة أن السلق قد ذبل. يضاف الجوز ودبس الرمان ويخلط جيدا. ضع خليط الحشوة جانباً.</value>
+  </data>
+  <data name="oliveoil4" xml:space="preserve">
+    <value>يُحمّى زيت الزيتون في قدر على نار متوسطة ، ثم يُضاف البصل والثوم ويقلب حتى يصبح طرياً.</value>
+  </data>
+  <data name="Oliveoil5" xml:space="preserve">
+    <value>زيت الزيتون: 1 ملعقة كبيرة</value>
+  </data>
+  <data name="Onions7" xml:space="preserve">
+    <value>البصل: 2 حبة (متوسطة الحجم / مقشرة ومقطعة إلى قطع كبيرة)</value>
+  </data>
+  <data name="Onionsgrain4" xml:space="preserve">
+    <value>البصل: حبة واحدة (مفرومة)</value>
+  </data>
+  <data name="Onionsgrains7" xml:space="preserve">
+    <value>البصل: 2 حبة (متوسطة الحجم / مفرومة ناعماً)</value>
+  </data>
+  <data name="Option5" xml:space="preserve">
+    <value>الخيار: قطعة واحدة (مفرومة ناعماً)</value>
+  </data>
+  <data name="Parsley5" xml:space="preserve">
+    <value>البقدونس: 2 ملعقة صغيرة</value>
+  </data>
+  <data name="Peas3" xml:space="preserve">
+    <value>البازلاء: كوب (مجمد)</value>
+  </data>
+  <data name="Pomegranate7" xml:space="preserve">
+    <value>دبس الرمان: 4 ملاعق كبيرة</value>
+  </data>
+  <data name="Porkchops2" xml:space="preserve">
+    <value>شرائح لحم الخنزير مع الفاصوليا الخضراء في زيت جوز الهند</value>
+  </data>
+  <data name="Potatoesgrain4" xml:space="preserve">
+    <value>البطاطس: حبة واحدة (صغيرة ومفرومة)</value>
+  </data>
+  <data name="Processedfoods2" xml:space="preserve">
+    <value>الأطعمة المصنعة: الوجبات السريعة والأغذية المعلبة واللحوم المصنعة مثل النقانق واللحوم</value>
+  </data>
+  <data name="Pumpkin7" xml:space="preserve">
+    <value>اليقطين: 5 كجم (طازج)</value>
+  </data>
+  <data name="Pumpkinis7" xml:space="preserve">
+    <value>يتم تقشير اليقطين بسكين ، ثم يتم تقطيعه إلى مكعبات كبيرة ، مع ملاحظة أنه بعد معالجته ، سوف ينتج اليقطين حوالي 3 كيلوغرامات ونصف. يُسلق مكعبات اليقطين لمدة عشرين دقيقة ، مع ملاحظة النضج الكامل. ثم صفي المكعبات جيداً واتركيها جانباً.</value>
+  </data>
+  <data name="Reducethe6" xml:space="preserve">
+    <value>خففي الحرارة ، ثم أضيفي خليط النشا مع التقليب والتحريك لمدة دقيقتين حتى يتماسك الخليط.</value>
+  </data>
+  <data name="Roastchicken2" xml:space="preserve">
+    <value>الدجاج المشوي مع صلصة الكريمة والبروكلي سوتيه</value>
+  </data>
+  <data name="Salt7" xml:space="preserve">
+    <value>ملح: 2 ملعقة كبيرة</value>
+  </data>
+  <data name="Seasonwith4" xml:space="preserve">
+    <value>يتبل بالملح والفلفل وجوزة الطيب ويقدم ساخنة.</value>
+  </data>
+  <data name="Seasonwith5" xml:space="preserve">
+    <value>تقدم مع الملح والفلفل وزيت الزيتون ، وتقدم.</value>
+  </data>
+  <data name="Servewarm3" xml:space="preserve">
+    <value>قدميها دافئة أو باردة حسب الذوق مع اللحم أو الدجاج المشوي.</value>
+  </data>
+  <data name="Sesame6" xml:space="preserve">
+    <value>السمسم: نصف ملعقة شاي</value>
+  </data>
+  <data name="Sesameoil6" xml:space="preserve">
+    <value>زيت السمسم: ملعقة صغيرة</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>الاعدادات</value>
+  </data>
+  <data name="Soakthe5" xml:space="preserve">
+    <value>انقع البرغل بعصير الليمون واتركه لمدة نصف ساعة حتى يمتص الخليط ثم يحرك بالشوكة.</value>
+  </data>
+  <data name="Soysauce6" xml:space="preserve">
+    <value>صلصة الصويا: 1 ملعقة كبيرة</value>
+  </data>
+  <data name="Squeeze7" xml:space="preserve">
+    <value>اعصر اليقطين وأضفه بالدقيق إلى خليط البصل والبرغل في الماكينة. تضرب المكونات حتى تحصل على عجينة متماسكة. ضع العجين جانبا. إشارة إلى أنه يمكن إضافة المزيد من الدقيق إذا لزم الأمر.</value>
+  </data>
+  <data name="Starch6" xml:space="preserve">
+    <value>النشا: 1 ملعقة كبيرة</value>
+  </data>
+  <data name="Steakbowl" xml:space="preserve">
+    <value>وعاء ستيك مع أرز القرنبيط والجبن والأعشاب والأفوكادو والصلصة</value>
+  </data>
+  <data name="Sweet7" xml:space="preserve">
+    <value>فلفل حلو: ملعقة صغيرة</value>
+  </data>
+  <data name="Sweetpepper7" xml:space="preserve">
+    <value>فلفل حلو: 4 ملاعق كبيرة</value>
+  </data>
+  <data name="Thetray7" xml:space="preserve">
+    <value>ينقسم محتوى الصينية ، بسكين حاد ، إلى معينات صغيرة.</value>
+  </data>
+  <data name="Tomato5" xml:space="preserve">
+    <value>طماطم: حبة واحدة (شرائح مفرومة)</value>
+  </data>
+  <data name="trayis7" xml:space="preserve">
+    <value>الدرج مقسم إلى 8 أجزاء متساوية. يقدم ساخنا.</value>
+  </data>
+  <data name="Tuna2" xml:space="preserve">
+    <value>سلطة تونا مع الكرفس والطماطم فوق سرير من الخضر</value>
+  </data>
+  <data name="Twoeggs2" xml:space="preserve">
+    <value>بيضتان مقليتان في زبدة مرطبة تقدم مع خضار سوتيه</value>
+  </data>
+  <data name="Walnut7" xml:space="preserve">
+    <value>الجوز: كوب (مفروم تقريبًا)</value>
+  </data>
+  <data name="Water7" xml:space="preserve">
+    <value>الماء: ملعقتان كبيرتان</value>
+  </data>
+  <data name="Wipe7" xml:space="preserve">
+    <value>امسح القاع الصيني (30 × 40 سم) بملعقة كبيرة من الزيت.</value>
+  </data>
 </root>
