@@ -180,6 +180,7 @@
     <Content Include="Content\Images\7.png" />
     <Content Include="Content\Images\8.png" />
     <Content Include="Content\Images\9.png" />
+    <Content Include="Content\Images\bmi1.jpg" />
     <Content Include="Content\Images\dit1.jpg" />
     <Content Include="Content\Images\dit2.jpg" />
     <Content Include="Content\Images\dit3.jpg" />
@@ -204,6 +205,8 @@
     <Content Include="Content\Images\imag8.jpg" />
     <Content Include="Content\Images\imag9.jpg" />
     <Content Include="Content\Images\image2.jpg" />
+    <Content Include="Content\Images\imagee1.jpg" />
+    <Content Include="Content\Images\imagee4.jpg" />
     <Content Include="Content\Images\nutrition.jpg" />
     <Content Include="Content\Images\sport7.jpg" />
     <Content Include="favicon.ico" />

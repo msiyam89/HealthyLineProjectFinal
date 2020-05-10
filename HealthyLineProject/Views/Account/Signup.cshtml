@@ -11,35 +11,35 @@
     @Html.ValidationSummary(true)
 
     <fieldset>
-        <legend>@Resource.Register</legend>
-        <ul>
-            <li>
+        <h1>@Resource.Register</h1>
+        
+            <div>
                 @Html.LabelFor(x => x.FullNameArabic)
-                @Html.TextBoxFor(x => x.FullNameArabic)
+                @Html.TextBoxFor(x => x.FullNameArabic, new { @class = "form-control", placeholder = @Resource.FullNameArabic })
                 @Html.ValidationMessageFor(x => x.FullNameArabic)
 
-            </li>
-            <li>
+            </div>
+            <div>
                 @Html.LabelFor(x => x.FullNameEnglish)
-                @Html.TextBoxFor(x => x.FullNameEnglish)
+                @Html.TextBoxFor(x => x.FullNameEnglish, new { @class = "form-control", placeholder = @Resource.FullNameEnglish })
                 @Html.ValidationMessageFor(x => x.FullNameEnglish)
-            </li>
-            <li>
+            </div>
+            <div>
                 @Html.LabelFor(x => x.UserName)
-                @Html.TextBoxFor(x => x.UserName)
+                @Html.TextBoxFor(x => x.UserName, new { @class = "form-control", placeholder = @Resource.UserName })
                 @Html.ValidationMessageFor(x => x.UserName)
-            </li>
-            <li>
+            </div>
+            <div>
                 @Html.LabelFor(x => x.MobileNumber)
-                @Html.TextBoxFor(x => x.MobileNumber)
+                @Html.TextBoxFor(x => x.MobileNumber, new { @class = "form-control", placeholder = @Resource.MobileNumber })
                 @Html.ValidationMessageFor(x => x.MobileNumber)
-            </li>
+            </div>
            
-            <li>
+            <div>
                 @Html.LabelFor(x => x.BirthDate)
-                @Html.TextBoxFor(x => x.BirthDate)
+                @Html.TextBoxFor(x => x.BirthDate, new { @class = "form-control", placeholder = @Resource.BirthDate })
                 @Html.ValidationMessageFor(x => x.BirthDate)
-            </li>
+            </div>
           
             @*<li>
                 @Html.LabelFor(x => x.IsActive)
@@ -59,7 +59,7 @@
                            
 
 
-            <li>
+            <div>
                 @Html.LabelFor(x => x.Gender)
                 <div class="form-group">
 
@@ -67,7 +67,7 @@
 
                         @Html.RadioButton("gender", "false", true,
 
-                            new { id = "IsMale" }) Male
+                            new { id = "IsMale" })Male
 
                     </div>
 
@@ -75,46 +75,40 @@
 
                         @Html.RadioButton("gender", "true",false,
 
-                             new { id = "IsFemale" }) Female
+                             new { id = "IsFemale" })Female
 
                     </div>
                     @Html.ValidationMessageFor(x=>x.Gender)
                 </div>
-                @*<select name="Gender" id="Gender">
-        @foreach (DataAccessLayer.gender
-            gender in Enum.GetValues(typeof(DataAccessLayer.Gender)))
-                {
-                    <option value="@((byte)gender)">@gender.ToString()</option>
-                }
-            </select>
-            @Html.ValidationMessageFor(x => x.Gender)*@
-            </li>
-            <li>
+               
+            </div>
+            <div>
                 @Html.LabelFor(x => x.Email)
-                @Html.TextBoxFor(x => x.Email)
+                @Html.TextBoxFor(x => x.Email, new { @class = "form-control", placeholder = @Resource.Email })
                 @Html.ValidationMessageFor(x => x.Email)
-            </li>
-            <li>
+            </div>
+            <div>
                 @Html.LabelFor(x => x.Password)
-                @Html.PasswordFor(x => x.Password)
+                @Html.PasswordFor(x => x.Password, new { @class = "form-control", placeholder = @Resource.Password })
                 @Html.ValidationMessageFor(x => x.Password)
-            </li>
-            <li>
+            </div>
+            <div>
                 @Html.LabelFor(x => x.Confirm)
-                @Html.PasswordFor(x => x.Confirm)
+                @Html.PasswordFor(x => x.Confirm, new { @class = "form-control", placeholder = @Resource.Confirm })
                 @Html.ValidationMessageFor(x => x.Confirm)
-            </li>
-            <li>
-                <input type="submit" value="@Resource.signup" /> <label>@Resource.or</label> <a href="/" class="cancel">@Resource.cancel</a>
-            </li>
-        </ul>
+            </div>
+        <br /> <br />
+
+            <div>
+                <input type="submit" value="@Resource.signup" class="btn btn-primary btn-lg" /> <label>@Resource.or</label> <a href="/" @*class="cancel"*@ class="btn btn-primary btn-lg active" role="button" aria-pressed="true">@Resource.cancel</a>
+            </div>
     </fieldset>
 
 
 
-    @*<div>
+    <div>
         @Html.ActionLink("Back to List", "Signup")
-    </div>*@
+    </div>
 }
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")

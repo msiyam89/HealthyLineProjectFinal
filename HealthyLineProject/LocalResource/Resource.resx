@@ -353,7 +353,7 @@
     <value>submit</value>
   </data>
   <data name="TargetWeight" xml:space="preserve">
-    <value>Targe tWeight</value>
+    <value>Target Weight</value>
   </data>
   <data name="toAvoid" xml:space="preserve">
     <value>Foods to Avoid</value>
@@ -524,7 +524,7 @@
     <value>Avocados: Whole avocados can be added to almost any meal or snack.</value>
   </data>
   <data name="Bread2" xml:space="preserve">
-    <value>Bread and baked goods: White bread, whole-wheat bread, crackers, cookies, doughnuts and rolls.</value>
+    <value>Bread and baked goods</value>
   </data>
   <data name="Condiments2" xml:space="preserve">
     <value>Condiments: Salt, pepper, vinegar, lemon juice, fresh herbs and spices.</value>
@@ -533,7 +533,7 @@
     <value>Healthy fats: Coconut oil, olive oil, avocado oil, coconut butter and sesame oil.</value>
   </data>
   <data name="Nutbutter2" xml:space="preserve">
-    <value>Nut butter: Natural peanut, almond and cashew butters.</value>
+    <value>Nut butter</value>
   </data>
   <data name="vegetables2" xml:space="preserve">
     <value>Non-starchy vegetables: Greens, broccoli, tomatoes, mushrooms and peppers.</value>
@@ -891,5 +891,1551 @@
   </data>
   <data name="Wipe7" xml:space="preserve">
     <value>Wipe a Chinese bottom (30 x 40 centimeters) with a tablespoon of oil.</value>
+  </data>
+  <data name="Addedsugar3" xml:space="preserve">
+    <value>Added sugar: Soda, candies, ice cream, table sugar and many others.</value>
+  </data>
+  <data name="Addflour8" xml:space="preserve">
+    <value>Add flour, sugar, salt, cinnamon and mix until the ingredients are mixed</value>
+  </data>
+  <data name="Addto9" xml:space="preserve">
+    <value>Add to the same skillet onions, red pepper, yellow pepper, cumin, ground chili pepper, and stir over medium to high heat for 5 minutes</value>
+  </data>
+  <data name="amedium10" xml:space="preserve">
+    <value>In a medium bowl, mix paprika, garlic powder, salt, onion powder, dried herbs, hot pepper, and black pepper until the ingredients are mixed.</value>
+  </data>
+  <data name="athick9" xml:space="preserve">
+    <value>Heat a thick, wide skillet over medium heat, then add oil and meat and stir the meat for 3 minutes until it becomes brown.</value>
+  </data>
+  <data name="Bakedavocado2" xml:space="preserve">
+    <value>Bake avocado egg boats</value>
+  </data>
+  <data name="Bakedavocado9" xml:space="preserve">
+    <value>Green Coriander: 2 teaspoon (fresh and chopped)</value>
+  </data>
+  <data name="Baking12" xml:space="preserve">
+    <value>Baking powder: half a teaspoon</value>
+  </data>
+  <data name="beef2" xml:space="preserve">
+    <value>beef with vegetables</value>
+  </data>
+  <data name="Bunlesssalmon2" xml:space="preserve">
+    <value>Bunless salmon burgers topped with pesto</value>
+  </data>
+  <data name="Butter8" xml:space="preserve">
+    <value>Butter: 2 teaspoon</value>
+  </data>
+  <data name="Caesarsalad2" xml:space="preserve">
+    <value>Caesar salad with chicken.</value>
+  </data>
+  <data name="Cauliflower2" xml:space="preserve">
+    <value>Cauliflower toast topped with cheese and avocado.</value>
+  </data>
+  <data name="Cherry8" xml:space="preserve">
+    <value>Cherry: 2 cups (dried)</value>
+  </data>
+  <data name="Chickenbreast10" xml:space="preserve">
+    <value>Chicken breast: 4 breasts (crushed fillet)</value>
+  </data>
+  <data name="chili10" xml:space="preserve">
+    <value>chili: teaspoon (ground)</value>
+  </data>
+  <data name="Cinnamon8" xml:space="preserve">
+    <value>Cinnamon: 1/4 teaspoon (ground)</value>
+  </data>
+  <data name="Cobbsalad2" xml:space="preserve">
+    <value>Cobb salad made with greens, hard-boiled eggs, avocado, cheese and turkey</value>
+  </data>
+  <data name="Coconutchicken2" xml:space="preserve">
+    <value>Coconut chicken curry</value>
+  </data>
+  <data name="Coconutmilk2" xml:space="preserve">
+    <value>Coconut milk chia pudding topped with coconut and walnuts</value>
+  </data>
+  <data name="Cover11" xml:space="preserve">
+    <value>Cover the tray with aluminum foil and put it in the oven for 25 minutes.</value>
+  </data>
+  <data name="Cover9" xml:space="preserve">
+    <value>Cover the tray with aluminum foil and put it in the oven for 25 minutes.</value>
+  </data>
+  <data name="Cumin9" xml:space="preserve">
+    <value>Cumin: half a teaspoon (ground)</value>
+  </data>
+  <data name="DriedHerbs10" xml:space="preserve">
+    <value>Dried Herbs: 1 tablespoon</value>
+  </data>
+  <data name="DryCoriander12" xml:space="preserve">
+    <value>Dry Coriander: 1 teaspoon</value>
+  </data>
+  <data name="Eggs8" xml:space="preserve">
+    <value>Eggs: 3 pieces</value>
+  </data>
+  <data name="Fish11" xml:space="preserve">
+    <value>Fish: 2 pieces (full fish / your favorite type / kilo weight / cleaner)</value>
+  </data>
+  <data name="Fishseasoning11" xml:space="preserve">
+    <value>Fish seasoning: half a teaspoon</value>
+  </data>
+  <data name="Flour12" xml:space="preserve">
+    <value>Flour: two and a half cups</value>
+  </data>
+  <data name="Flour8" xml:space="preserve">
+    <value>Flour: Half a cup (brown)</value>
+  </data>
+  <data name="Fruits3" xml:space="preserve">
+    <value>Fruits: Apples, bananas, oranges, pears, strawberries, grapes, dates, figs, melons, peaches, etc.</value>
+  </data>
+  <data name="Fry12" xml:space="preserve">
+    <value>Fry triangles of dough in a saucepan containing hot copious oil, until golden in color.</value>
+  </data>
+  <data name="Garlic10" xml:space="preserve">
+    <value>Garlic powder: 2 tablespoons</value>
+  </data>
+  <data name="Garlic12" xml:space="preserve">
+    <value>Garlic: 2 cloves (finely chopped)</value>
+  </data>
+  <data name="Ginger12" xml:space="preserve">
+    <value>Ginger: Half a teaspoon (fresh and grated)</value>
+  </data>
+  <data name="Grease10" xml:space="preserve">
+    <value>Grease the grill with oil with a brush, put the spiced chicken and stir from both sides until it comes down and softens</value>
+  </data>
+  <data name="Greasethe11" xml:space="preserve">
+    <value>Grease the fish mixture well on all sides and pour the rest of the mixture over the fish in the tray.</value>
+  </data>
+  <data name="Green12" xml:space="preserve">
+    <value>Green Hot Pepper: 1 pc (cut into small cubes)</value>
+  </data>
+  <data name="Heatthe10" xml:space="preserve">
+    <value>Heat the grill over medium heat and grease the chicken pieces with a mixture of spices from all sides</value>
+  </data>
+  <data name="Highlyprocessedfoods3" xml:space="preserve">
+    <value>Highly processed foods: Anything labeled "low-fat" or "diet" or which looks like it was made in a factory</value>
+  </data>
+  <data name="Lemon11" xml:space="preserve">
+    <value>Lemon: 1 grain (sliced)</value>
+  </data>
+  <data name="Makecracks11" xml:space="preserve">
+    <value>Make cracks with a sharp knife in the fish and place them in the oven tray.</value>
+  </data>
+  <data name="Meatballs2" xml:space="preserve">
+    <value>Meatballs served with zucchini noodles and parmesan cheese</value>
+  </data>
+  <data name="MeatFillet9" xml:space="preserve">
+    <value>Meat Fillet: 500 grams (longitudinal sliced section)</value>
+  </data>
+  <data name="Melt8" xml:space="preserve">
+    <value>Melt the other spoon of butter, put it in a bowl, then add the bowl of milk, eggs and vanilla and mix.</value>
+  </data>
+  <data name="Milk8" xml:space="preserve">
+    <value>Milk: half a cup (low fat)</value>
+  </data>
+  <data name="Mix12" xml:space="preserve">
+    <value>Dough: Mix the dry ingredients (flour and baking powder) together in a large bowl, pour oil and water, stirring, until a firm dough is obtained. Cover the dough, and set aside until free from filling preparation</value>
+  </data>
+  <data name="Mixthe11" xml:space="preserve">
+    <value>Mix the olive oil, lemon juice, garlic, salt, pepper, cumin and fish spices in a good dish.</value>
+  </data>
+  <data name="oil12" xml:space="preserve">
+    <value>oil: copious (for frying)</value>
+  </data>
+  <data name="Onionpowder10" xml:space="preserve">
+    <value>Onion powder: 1 tablespoon</value>
+  </data>
+  <data name="Onions12" xml:space="preserve">
+    <value>Onions: 1 grain (small size / chopped finely chopped)</value>
+  </data>
+  <data name="Onions9" xml:space="preserve">
+    <value>Onions: 1 grain (chopped slices)</value>
+  </data>
+  <data name="Paprika10" xml:space="preserve">
+    <value>Paprika: two and a half tablespoons (ground)</value>
+  </data>
+  <data name="Peas12" xml:space="preserve">
+    <value>Peas: half a cup (frozen)</value>
+  </data>
+  <data name="Peasand12" xml:space="preserve">
+    <value>Peas and potatoes are added to the skillet, which cools them. The filling mixture is cooked over low heat for ten minutes, before it is removed from the heat and allowed to cool.</value>
+  </data>
+  <data name="Place12" xml:space="preserve">
+    <value>Place a tablespoon of filling in the first half of the dough, and close it in a triangle shape. Repeat the process until quantity runs out.</value>
+  </data>
+  <data name="Potatoes12" xml:space="preserve">
+    <value>Potatoes: 1 grain (large / peeled, boiled, mashed)</value>
+  </data>
+  <data name="Preheat11" xml:space="preserve">
+    <value>Preheat the oven to 200 degrees.</value>
+  </data>
+  <data name="Preheat8" xml:space="preserve">
+    <value>Preheat the oven to 450 degrees</value>
+  </data>
+  <data name="Preheat9" xml:space="preserve">
+    <value>Preheat the oven to 200 degrees.</value>
+  </data>
+  <data name="Processedmeat3" xml:space="preserve">
+    <value>Processed meat: Processed sausages, hot dogs, etc.</value>
+  </data>
+  <data name="Reddish11" xml:space="preserve">
+    <value>Reddish the face and feet hot along with salads or grilled vegetables, as desired.</value>
+  </data>
+  <data name="Reddish9" xml:space="preserve">
+    <value>Reddish the face and feet hot along with salads or grilled vegetables, as desired.</value>
+  </data>
+  <data name="Redhotpepper9" xml:space="preserve">
+    <value>Red hot pepper: half a teaspoon (ground)</value>
+  </data>
+  <data name="redpepper9" xml:space="preserve">
+    <value>red pepper: 1 tablet (chopped slices)</value>
+  </data>
+  <data name="Reduceheat11" xml:space="preserve">
+    <value>Reduce heat, remove aluminum foil and leave it for an additional 10 minutes until the fish is completely tender.</value>
+  </data>
+  <data name="Reduceheat9" xml:space="preserve">
+    <value>Reduce heat, remove aluminum foil and leave it for an additional 10 minutes until the fish is completely tender.</value>
+  </data>
+  <data name="Refinedgrains3" xml:space="preserve">
+    <value>Refined grains: White bread, pasta made with refined wheat, etc.</value>
+  </data>
+  <data name="Refinedoils3" xml:space="preserve">
+    <value>Refined oils: Soybean oil, canola oil, cottonseed oil and others.</value>
+  </data>
+  <data name="Rosemary11" xml:space="preserve">
+    <value>Rosemary: 2 sticks (fresh)</value>
+  </data>
+  <data name="rosemary9" xml:space="preserve">
+    <value>rosemary9</value>
+  </data>
+  <data name="Salt8" xml:space="preserve">
+    <value>Salt: 1/4 teaspoon</value>
+  </data>
+  <data name="Seasonthe9" xml:space="preserve">
+    <value>Season the meat with salt and pepper, and stir for another minute, then lift the meat from the pan and set it aside.</value>
+  </data>
+  <data name="Spread11" xml:space="preserve">
+    <value>Spread lemon slices and rosemary in the tray.</value>
+  </data>
+  <data name="Spread8" xml:space="preserve">
+    <value>Spread a tablespoon of butter in a small non-stick tray and put it in the oven until the butter spoon melts.</value>
+  </data>
+  <data name="Spreadlemon9" xml:space="preserve">
+    <value>Spread lemon slices and rosemary in the tray.</value>
+  </data>
+  <data name="stuffing12" xml:space="preserve">
+    <value>For stuffing: Heat the oil in a large skillet over the fire, then add the chopped onions, garlic, ginger and hot pepper, while stirring constantly. Add the dried cumin and coriander, while continuing to stir.</value>
+  </data>
+  <data name="Sugar8" xml:space="preserve">
+    <value>Sugar: 1 tablespoon</value>
+  </data>
+  <data name="Thedough12" xml:space="preserve">
+    <value>The dough is divided into equal size sections; each section is spread on a table top, formed in a circle, by a cup of coffee cup, then the circle is divided into two halves, by a sharp knife.</value>
+  </data>
+  <data name="thepreviously8" xml:space="preserve">
+    <value>In the previously prepared tray, distribute the cherry kernels, then add the pancake mixture</value>
+  </data>
+  <data name="Transfats3" xml:space="preserve">
+    <value>Trans fats: Found in margarine and various processed foods.</value>
+  </data>
+  <data name="Vanilla8" xml:space="preserve">
+    <value>Vanilla: 1 teaspoon</value>
+  </data>
+  <data name="Vegetable12" xml:space="preserve">
+    <value>Vegetable oil: 2 teaspoon</value>
+  </data>
+  <data name="Vegetables3" xml:space="preserve">
+    <value>Vegetables: Tomatoes, broccoli, kale, spinach, onions, cauliflower, carrots, Brussels sprouts, cucumbers, etc.</value>
+  </data>
+  <data name="Water12" xml:space="preserve">
+    <value>Water: a cup</value>
+  </data>
+  <data name="Yellowpepper9" xml:space="preserve">
+    <value>Yellow pepper: 1 tablet (sliced minced)</value>
+  </data>
+  <data name="Addsoy13" xml:space="preserve">
+    <value>Add soy sauce, salt, pepper and my heart.</value>
+  </data>
+  <data name="Alcohol4" xml:space="preserve">
+    <value>Alcohol</value>
+  </data>
+  <data name="Alcohol6" xml:space="preserve">
+    <value>Alcohol</value>
+  </data>
+  <data name="Almond8" xml:space="preserve">
+    <value>Almond chicken with vegetables or barbecue tempeh and vegetables for those who follow a vegetarian or plant-based diet</value>
+  </data>
+  <data name="Apple4" xml:space="preserve">
+    <value> Apple and walnut salad</value>
+  </data>
+  <data name="Applee4" xml:space="preserve">
+    <value>Apple and berries</value>
+  </data>
+  <data name="Applewalnut6" xml:space="preserve">
+    <value>Apple-walnut chicken salad</value>
+  </data>
+  <data name="apply14" xml:space="preserve">
+    <value>How to apply: Soup is divided into six equal portions. Serve hot, with the tomato mixture distributed over the face.</value>
+  </data>
+  <data name="artificial6" xml:space="preserve">
+    <value>Sugar substitutes, including Stevia, artificial sweeteners and sugar alcohols like xylitol and erythritol</value>
+  </data>
+  <data name="asberries8" xml:space="preserve">
+    <value>Fruit such as berries, apples, oranges, plums and more</value>
+  </data>
+  <data name="avocado4" xml:space="preserve">
+    <value>Salad with avocado and fruit</value>
+  </data>
+  <data name="Avocado6" xml:space="preserve">
+    <value>Avocado</value>
+  </data>
+  <data name="Avocados8" xml:space="preserve">
+    <value>Avocados</value>
+  </data>
+  <data name="bagels8" xml:space="preserve">
+    <value>Processed grains and carbs, including bread, bagels and cereal.</value>
+  </data>
+  <data name="Baked4" xml:space="preserve">
+    <value>Baked items</value>
+  </data>
+  <data name="Baked9" xml:space="preserve">
+    <value>Baked apples with vanilla drizzle</value>
+  </data>
+  <data name="Baking121" xml:space="preserve">
+    <value>Baking powder: half a teaspoon</value>
+  </data>
+  <data name="Banana4" xml:space="preserve">
+    <value>Banana and raw nut butter</value>
+  </data>
+  <data name="Barley9" xml:space="preserve">
+    <value>Barley and mushroom soup</value>
+  </data>
+  <data name="beans5" xml:space="preserve">
+    <value>Beans</value>
+  </data>
+  <data name="beans6" xml:space="preserve">
+    <value>Black beans, kidney beans, pinto beans, navy beans, garbanzo beans and other bean varieties</value>
+  </data>
+  <data name="Beef" xml:space="preserve">
+    <value>beef with vegetables</value>
+  </data>
+  <data name="Black9" xml:space="preserve">
+    <value>Black bean dip  </value>
+  </data>
+  <data name="bokchoy5" xml:space="preserve">
+    <value>Tempeh stir-fry with bok choy and broccoli.</value>
+  </data>
+  <data name="bolognese5" xml:space="preserve">
+    <value>Pasta with a lentil bolognese sauce and a side salad.</value>
+  </data>
+  <data name="Broccolii4" xml:space="preserve">
+    <value>Broccoli and raw hummus</value>
+  </data>
+  <data name="Burrito7" xml:space="preserve">
+    <value> Burrito bowl with brown rice, beans, avocado, salsa and veggies</value>
+  </data>
+  <data name="Buttermilk6" xml:space="preserve">
+    <value>Buttermilk, low-fat milk, plain or Greek yogurt, kefir and soy milk, limited to 2 cups (473 ml) daily</value>
+  </data>
+  <data name="Cakes9" xml:space="preserve">
+    <value>Cakes and cookies</value>
+  </data>
+  <data name="candies6" xml:space="preserve">
+    <value>Sugar-free candies, popsicles or gum</value>
+  </data>
+  <data name="Candy9" xml:space="preserve">
+    <value>Candy</value>
+  </data>
+  <data name="canolaoil8" xml:space="preserve">
+    <value>Oils such as canola oil, sesame oil, peanut oil and olive oil</value>
+  </data>
+  <data name="cappuccino5" xml:space="preserve">
+    <value>Vegan chickpea and onion omelet and a cappuccino made with fortified plant milk.</value>
+  </data>
+  <data name="Carrot13" xml:space="preserve">
+    <value>Carrot: 2 tablets (chopped slices)</value>
+  </data>
+  <data name="Carrots4" xml:space="preserve">
+    <value>Carrots and raw hummus</value>
+  </data>
+  <data name="Celerysticks6" xml:space="preserve">
+    <value>Celery sticks with 2 tsp peanut butter</value>
+  </data>
+  <data name="cheese6" xml:space="preserve">
+    <value>Low-fat hard cheese, ricotta cheese and cottage cheese</value>
+  </data>
+  <data name="cheeses8" xml:space="preserve">
+    <value>Low-fat cheeses</value>
+  </data>
+  <data name="Chia4" xml:space="preserve">
+    <value>Chia seed pudding with fruit</value>
+  </data>
+  <data name="Chicken13" xml:space="preserve">
+    <value>Chicken breast: 2 breasts (boiled, thinly sliced)</value>
+  </data>
+  <data name="chicken5" xml:space="preserve">
+    <value>chicken</value>
+  </data>
+  <data name="Chickenbreast13" xml:space="preserve">
+    <value>Chicken breast: 2 breasts (crushed fillet)</value>
+  </data>
+  <data name="Chickenbroth14" xml:space="preserve">
+    <value>Chicken broth: 6 cups</value>
+  </data>
+  <data name="Chickpea7" xml:space="preserve">
+    <value>Chickpea curry with basmati rice</value>
+  </data>
+  <data name="Chips4" xml:space="preserve">
+    <value>Chips</value>
+  </data>
+  <data name="Chocolate9" xml:space="preserve">
+    <value>Chocolate-dipped macaroons</value>
+  </data>
+  <data name="cocoa8" xml:space="preserve">
+    <value>Breakfast hash made with meat and vegetables, or cocoa berry butter smoothie for vegetarians</value>
+  </data>
+  <data name="coconutoil6" xml:space="preserve">
+    <value>Butter and coconut oil</value>
+  </data>
+  <data name="Coffee4" xml:space="preserve">
+    <value>Coffee and tea</value>
+  </data>
+  <data name="Coffee6" xml:space="preserve">
+    <value>Coffee, regular or decaffeinated</value>
+  </data>
+  <data name="Coldpressed4" xml:space="preserve">
+    <value>Cold-pressed olive and coconut oils</value>
+  </data>
+  <data name="Cookedfruits4" xml:space="preserve">
+    <value>Cooked fruits, vegetables, meats and grains</value>
+  </data>
+  <data name="Cottagecheese6" xml:space="preserve">
+    <value>Cottage cheese with cherry tomatoes</value>
+  </data>
+  <data name="Cranberry9" xml:space="preserve">
+    <value>Cranberry-walnut oatmeal</value>
+  </data>
+  <data name="Cream6" xml:space="preserve">
+    <value>Cream, whole milk or half and half, limited to 1 tbsp</value>
+  </data>
+  <data name="crushed13" xml:space="preserve">
+    <value>Add the crushed chicken steak, mix it well and seasoning, then put it in the refrigerator for an entire night.</value>
+  </data>
+  <data name="cucumbers8" xml:space="preserve">
+    <value>Vegetables such as cucumbers, peppers, spinach, tomatoes, mushrooms, yellow squash, chickpeas and more</value>
+  </data>
+  <data name="cucumberslices6" xml:space="preserve">
+    <value>1 cup cucumber slices with 1/4 cup hummus</value>
+  </data>
+  <data name="Dairy3" xml:space="preserve">
+    <value>Dairy: Cheese, yogurt, Greek yogurt, etc</value>
+  </data>
+  <data name="dairy5" xml:space="preserve">
+    <value>Dairy</value>
+  </data>
+  <data name="Dairyproducts7" xml:space="preserve">
+    <value>Dairy products: This restriction on milk, yogurt and cheese applies to vegans and ovo-vegetarians</value>
+  </data>
+  <data name="decaffeinated6" xml:space="preserve">
+    <value>Tea, regular, decaffeinated or herbal</value>
+  </data>
+  <data name="deep14" xml:space="preserve">
+    <value>The oil is heated in a deep saucepan, add the onions, and stir until it becomes light-colored. Then, add the garlic, stirring for a minute. Pour the broth, and put the spices (salt, sweet pepper, white pepper and hot pepper), mix the diced potato and eggplant.</value>
+  </data>
+  <data name="Driedfruits4" xml:space="preserve">
+    <value>Dried fruits and meats</value>
+  </data>
+  <data name="drinkmixes6" xml:space="preserve">
+    <value>Sugar-free drink mixes</value>
+  </data>
+  <data name="DryCoriander121" xml:space="preserve">
+    <value>Dry Coriander: 1 teaspoon</value>
+  </data>
+  <data name="Edamame6" xml:space="preserve">
+    <value>Edamame and soybeans</value>
+  </data>
+  <data name="Egg9" xml:space="preserve">
+    <value>Egg, veggie and avocado salad with tarragon</value>
+  </data>
+  <data name="eggplant14" xml:space="preserve">
+    <value>eggplant</value>
+  </data>
+  <data name="Eggplant7" xml:space="preserve">
+    <value>Eggplant parmesan with a side salad</value>
+  </data>
+  <data name="Eggs3" xml:space="preserve">
+    <value>Eggs: Chicken, quail and duck eggs</value>
+  </data>
+  <data name="eggs5" xml:space="preserve">
+    <value>Eggs</value>
+  </data>
+  <data name="Eggs6" xml:space="preserve">
+    <value>Eggs and egg whites</value>
+  </data>
+  <data name="Eggs7" xml:space="preserve">
+    <value>Eggs: This restriction applies to vegans and lacto-vegetarians</value>
+  </data>
+  <data name="eggsand6" xml:space="preserve">
+    <value>3 eggs and 1 cup kale cooked with 1 tsp olive oil</value>
+  </data>
+  <data name="Eggsandvegetables3" xml:space="preserve">
+    <value>Eggs and vegetables, fried in olive oil</value>
+  </data>
+  <data name="Eggwhites8" xml:space="preserve">
+    <value>Egg whites</value>
+  </data>
+  <data name="Eggyolks8" xml:space="preserve">
+    <value>Egg yolks.</value>
+  </data>
+  <data name="fajitaswith6" xml:space="preserve">
+    <value>Beef fajitas with 1/3 cup guacamole</value>
+  </data>
+  <data name="Farro7" xml:space="preserve">
+    <value>Farro salad with tomatoes, cucumber and feta with spiced lentil soup</value>
+  </data>
+  <data name="fatmilk8" xml:space="preserve">
+    <value>Low-fatmilk and yogurt</value>
+  </data>
+  <data name="fats9" xml:space="preserve">
+    <value>Healthy fats like avocado, olive oil and nuts.</value>
+  </data>
+  <data name="Fatty6" xml:space="preserve">
+    <value>Fatty meat and poultry</value>
+  </data>
+  <data name="Fermented4" xml:space="preserve">
+    <value>Fermented foods like kimchi and sauerkraut</value>
+  </data>
+  <data name="figs4" xml:space="preserve">
+    <value>Salad with figs and nuts</value>
+  </data>
+  <data name="fish5" xml:space="preserve">
+    <value>Fish</value>
+  </data>
+  <data name="Fishand8" xml:space="preserve">
+    <value>Fish and shellfish</value>
+  </data>
+  <data name="Fishandseafood3" xml:space="preserve">
+    <value>Fish and seafood: Salmon, sardines, trout, tuna, mackerel, shrimp, oysters, clams, crab, mussels, etc</value>
+  </data>
+  <data name="Fishandshellfish7" xml:space="preserve">
+    <value>Fish and shellfish: This restriction does not apply</value>
+  </data>
+  <data name="Flatbread7" xml:space="preserve">
+    <value>Flatbread with grilled garden vegetables and pesto</value>
+  </data>
+  <data name="Flour121" xml:space="preserve">
+    <value>Flour: two and a half cups</value>
+  </data>
+  <data name="Fresh9" xml:space="preserve">
+    <value>Fresh, frozen and unsweetened canned fruit.</value>
+  </data>
+  <data name="freshfruits4" xml:space="preserve">
+    <value>All fresh fruits</value>
+  </data>
+  <data name="Freshly4" xml:space="preserve">
+    <value>Freshly squeezed juice and nuts</value>
+  </data>
+  <data name="Fruitbowl4" xml:space="preserve">
+    <value>Fruit bowl</value>
+  </data>
+  <data name="fruitjuice6" xml:space="preserve">
+    <value>All fruits and fruit juice</value>
+  </data>
+  <data name="Fruits" xml:space="preserve">
+    <value>Fruits: Apples, bananas, oranges, pears, strawberries, grapes, dates, figs, melons, peaches, etc.</value>
+  </data>
+  <data name="Fruits7" xml:space="preserve">
+    <value>Fruits: Apples, bananas, berries, oranges, melons, pears, peaches</value>
+  </data>
+  <data name="Fry121" xml:space="preserve">
+    <value>Fry triangles of dough in a saucepan containing hot copious oil, until golden in color.</value>
+  </data>
+  <data name="Garlic121" xml:space="preserve">
+    <value>Garlic: 2 cloves (finely chopped)</value>
+  </data>
+  <data name="Garlic13" xml:space="preserve">
+    <value>Garlic: clove (crushed fine)</value>
+  </data>
+  <data name="garlic14" xml:space="preserve">
+    <value>Garlic</value>
+  </data>
+  <data name="garnishing14" xml:space="preserve">
+    <value>For garnishing: heat oil in another saucepan; add garlic, stir for a minute, add tomatoes, and pour vinegar. Cover the pot, which is left on fire for three minutes. Sprinkle the oregano, stirring.</value>
+  </data>
+  <data name="Ginger121" xml:space="preserve">
+    <value>Ginger: Half a teaspoon (fresh and grated)</value>
+  </data>
+  <data name="Ginger9" xml:space="preserve">
+    <value>Ginger and scallion stir-fried brown rice with ginger shrimp</value>
+  </data>
+  <data name="Goatcheese9" xml:space="preserve">
+    <value>Goat cheese, spinach and tomato omelet</value>
+  </data>
+  <data name="Grain" xml:space="preserve">
+    <value>grain products: Wheat, rice, oats, breakfast cereals and tortillas</value>
+  </data>
+  <data name="Grains6" xml:space="preserve">
+    <value>Grains</value>
+  </data>
+  <data name="Grains7" xml:space="preserve">
+    <value>Grains: Quinoa, barley, buckwheat, rice, oats</value>
+  </data>
+  <data name="grainsandwich3" xml:space="preserve">
+    <value>Whole-grain sandwich with vegetables</value>
+  </data>
+  <data name="Greekyogurt3" xml:space="preserve">
+    <value>Greek yogurt with strawberries and oats</value>
+  </data>
+  <data name="Greekyogurt7" xml:space="preserve">
+    <value>Greek yogurt with chia seeds and berries</value>
+  </data>
+  <data name="Greekyogurti3" xml:space="preserve">
+    <value>Greek yogurt with strawberries, oats and nuts</value>
+  </data>
+  <data name="Green121" xml:space="preserve">
+    <value>Green Hot Pepper: 1 pc (cut into small cubes)</value>
+  </data>
+  <data name="Green13" xml:space="preserve">
+    <value>Green Pepper: 1 piece (sliced)</value>
+  </data>
+  <data name="Green4" xml:space="preserve">
+    <value>Green smoothie</value>
+  </data>
+  <data name="Greenn13" xml:space="preserve">
+    <value>Green onions: 2 sticks (minced)</value>
+  </data>
+  <data name="Grilledchicken3" xml:space="preserve">
+    <value>Grilled chicken, with vegetables and a potato. Fruit for dessert</value>
+  </data>
+  <data name="Grilledlamb3" xml:space="preserve">
+    <value>Grilled lamb, with salad and baked potato</value>
+  </data>
+  <data name="Grilledveggie7" xml:space="preserve">
+    <value>Grilled veggie and hummus wrap with sweet potato fries</value>
+  </data>
+  <data name="guacamole5" xml:space="preserve">
+    <value>Chickpea pancakes, guacamole and salsa and a glass of fortified orange juice.</value>
+  </data>
+  <data name="Guacamole9" xml:space="preserve">
+    <value>Guacamole with carrot crackers</value>
+  </data>
+  <data name="hazelnut5" xml:space="preserve">
+    <value>Whole-grain toast with hazelnut butter, banana and a fortified plant yogurt.</value>
+  </data>
+  <data name="Healthy9" xml:space="preserve">
+    <value>Healthy carbohydrates such as sweet potatoes, brown rice, oatmeal, beans and whole-grain products.</value>
+  </data>
+  <data name="HealthyFats3" xml:space="preserve">
+    <value>Healthy Fats: Extra virgin olive oil, olives, avocados and avocado oil</value>
+  </data>
+  <data name="Healthyfats7" xml:space="preserve">
+    <value>Healthy fats: Coconut oil, olive oil, avocados</value>
+  </data>
+  <data name="Heat13" xml:space="preserve">
+    <value>Heat the grill and roast the marinated chicken for 20 minutes on both sides, until browned and cooked.</value>
+  </data>
+  <data name="Heatthe13" xml:space="preserve">
+    <value>Heat the oil in a saucepan over the heat, and stir the mushrooms, slices of garlic, colored pepper and carrots over a high heat.</value>
+  </data>
+  <data name="Herbsandspices3" xml:space="preserve">
+    <value>Herbs and spices: Garlic, basil, mint, rosemary, sage, nutmeg, cinnamon, pepper, etc</value>
+  </data>
+  <data name="honey5" xml:space="preserve">
+    <value>Honey</value>
+  </data>
+  <data name="horseradish6" xml:space="preserve">
+    <value>Herbs, spices, horseradish, mustard, lemon juice or salsa</value>
+  </data>
+  <data name="Hot14" xml:space="preserve">
+    <value>Hot pepper: a quarter of a teaspoon</value>
+  </data>
+  <data name="Hummus6" xml:space="preserve">
+    <value>Hummus, limited to 1/4 cup</value>
+  </data>
+  <data name="Jacketsweet5" xml:space="preserve">
+    <value>Jacket sweet potatoes with lettuce, corn, beans, cashews and guacamole.</value>
+  </data>
+  <data name="jellies6" xml:space="preserve">
+    <value>Sugar-free gelatin, jams and jellies</value>
+  </data>
+  <data name="Kale4" xml:space="preserve">
+    <value>Kale and mushroom salad</value>
+  </data>
+  <data name="Lean6" xml:space="preserve">
+    <value>Lean beef, lamb, veal and game</value>
+  </data>
+  <data name="Leanbeef8" xml:space="preserve">
+    <value>Lean beef lamb, veal </value>
+  </data>
+  <data name="leave13" xml:space="preserve">
+    <value>Add the oregano and green onions, leave an extra 5 minutes on the heat, then pour with the remaining broth and serve hot</value>
+  </data>
+  <data name="Leftover3" xml:space="preserve">
+    <value>Leftover lasagne from the night before</value>
+  </data>
+  <data name="Leftoverpizza3" xml:space="preserve">
+    <value>Leftover pizza from the night before</value>
+  </data>
+  <data name="Leftovertuna3" xml:space="preserve">
+    <value>Leftover tuna salad from the night before</value>
+  </data>
+  <data name="Legumes3" xml:space="preserve">
+    <value>Legumes: Beans, peas, lentils, pulses, peanuts, chickpeas, etc</value>
+  </data>
+  <data name="Legumes7" xml:space="preserve">
+    <value>Legumes: Lentils, beans, peas, chickpeas</value>
+  </data>
+  <data name="Lemonzest13" xml:space="preserve">
+    <value>Lemon zest: Half a teaspoon</value>
+  </data>
+  <data name="lentils5" xml:space="preserve">
+    <value>lentils</value>
+  </data>
+  <data name="Lentils6" xml:space="preserve">
+    <value>Lentils</value>
+  </data>
+  <data name="Lightcoconut6" xml:space="preserve">
+    <value>Light coconut milk, limited 1/4 cup (59 ml)</value>
+  </data>
+  <data name="limited6" xml:space="preserve">
+    <value>All vinegars, with balsamic limited to 1 tbsp</value>
+  </data>
+  <data name="Liver8" xml:space="preserve">
+    <value>Liver and other organ meats.</value>
+  </data>
+  <data name="mangopineapple5" xml:space="preserve">
+    <value>Vegan tacos with mango-pineapple salsa.</value>
+  </data>
+  <data name="Marinated7" xml:space="preserve">
+    <value> Marinated tofu pita pocket with Greek salad</value>
+  </data>
+  <data name="Mashed9" xml:space="preserve">
+    <value>Mashed avocado tortilla with tomato</value>
+  </data>
+  <data name="mayonnaise6" xml:space="preserve">
+    <value>Low-fat mayonnaise</value>
+  </data>
+  <data name="meal8" xml:space="preserve">
+    <value>While small amounts of healthy fats are added to each meal, avoid fatty red meat.</value>
+  </data>
+  <data name="meat5" xml:space="preserve">
+    <value>Meat</value>
+  </data>
+  <data name="Meat7" xml:space="preserve">
+    <value>Meat: Beef, veal and pork</value>
+  </data>
+  <data name="Meatbasedingredients7" xml:space="preserve">
+    <value>Meat-based ingredients: Gelatin, lard, carmine,, oleic acid and suet</value>
+  </data>
+  <data name="Mediterranean3" xml:space="preserve">
+    <value>Mediterranean lasagne</value>
+  </data>
+  <data name="Mini9" xml:space="preserve">
+    <value>Mini-brownie cupcake</value>
+  </data>
+  <data name="miso6" xml:space="preserve">
+    <value>Soy sauce, steak sauce or miso, limited to 1 1/2 tsp (7 ml)</value>
+  </data>
+  <data name="Mix121" xml:space="preserve">
+    <value>Dough: Mix the dry ingredients (flour and baking powder) together in a large bowl, pour oil and water, stirring, until a firm dough is obtained. Cover the dough, and set aside until free from filling preparation</value>
+  </data>
+  <data name="Mix13" xml:space="preserve">
+    <value>Mix the yogurt with garlic, olive oil and sprinkle the lemon in a dish.</value>
+  </data>
+  <data name="Mushroom13" xml:space="preserve">
+    <value>Mushroom: 2 cups (sliced)</value>
+  </data>
+  <data name="nectar6" xml:space="preserve">
+    <value>Honey, maple syrup and agave nectar</value>
+  </data>
+  <data name="Nonoodle9" xml:space="preserve">
+    <value>No-noodle vegetable lasagna</value>
+  </data>
+  <data name="Nonstarchy9" xml:space="preserve">
+    <value>Non-starchy vegetables like broccoli, asparagus, greens, cauliflower and peppers.</value>
+  </data>
+  <data name="noodlesoup5" xml:space="preserve">
+    <value>Tofu noodle soup with vegetables.</value>
+  </data>
+  <data name="Nut4" xml:space="preserve">
+    <value>Nut milks</value>
+  </data>
+  <data name="nuts4" xml:space="preserve">
+    <value>Raw nuts and seeds</value>
+  </data>
+  <data name="nuts5" xml:space="preserve">
+    <value>Nuts</value>
+  </data>
+  <data name="Nuts7" xml:space="preserve">
+    <value>Nuts: Almonds, walnuts, cashews, chestnuts</value>
+  </data>
+  <data name="Nutsandseeds3" xml:space="preserve">
+    <value>Nuts and seeds: Almonds, walnuts, macadamia nuts, hazelnuts, cashews, sunflower seeds, pumpkin seeds, etc.</value>
+  </data>
+  <data name="Oatmeal3" xml:space="preserve">
+    <value>Oatmeal with raisins</value>
+  </data>
+  <data name="Oatmeal7" xml:space="preserve">
+    <value>Oatmeal with fruit and flaxseeds</value>
+  </data>
+  <data name="oatmeal8" xml:space="preserve">
+    <value>Grains, such as oatmeal and barley</value>
+  </data>
+  <data name="Oatmeali3" xml:space="preserve">
+    <value>Oatmeal with raisins, nuts and an apple.</value>
+  </data>
+  <data name="oil121" xml:space="preserve">
+    <value>oil: copious (for frying)</value>
+  </data>
+  <data name="oils4" xml:space="preserve">
+    <value>Refined oils</value>
+  </data>
+  <data name="Olive13" xml:space="preserve">
+    <value>Olive oil: two tablespoons</value>
+  </data>
+  <data name="Olives6" xml:space="preserve">
+    <value>Olives</value>
+  </data>
+  <data name="Omelet3" xml:space="preserve">
+    <value>Omelet with veggies, tomatoes and onions. A piece of fruit</value>
+  </data>
+  <data name="Onions121" xml:space="preserve">
+    <value>Onions: 1 grain (small size / chopped finely chopped)</value>
+  </data>
+  <data name="Oregano13" xml:space="preserve">
+    <value>Oregano:half pill</value>
+  </data>
+  <data name="Otheranimalproducts7" xml:space="preserve">
+    <value>Other animal products: Vegans may choose to avoid honey, beeswax and pollen.</value>
+  </data>
+  <data name="Overnight4" xml:space="preserve">
+    <value>Overnight oatmeal with chopped fruit and nuts</value>
+  </data>
+  <data name="Overnight5" xml:space="preserve">
+    <value>Overnight oats made with fruit, fortified plant milk, chia seeds and nuts.</value>
+  </data>
+  <data name="pancakes4" xml:space="preserve">
+    <value>Raw banana pancakes and fruit</value>
+  </data>
+  <data name="Pasta10" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="Pasta4" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="pasta8" xml:space="preserve">
+    <value>Stay away from pasta.</value>
+  </data>
+  <data name="PastaRX8" xml:space="preserve">
+    <value>Zone PastaRX Orzo (a low-carb orzo) with chicken and green beans or curried spinach with tofu for a vegetarian option</value>
+  </data>
+  <data name="Pasteurized4" xml:space="preserve">
+    <value>Pasteurized juices and dairy</value>
+  </data>
+  <data name="Pastries10" xml:space="preserve">
+    <value>Pastries</value>
+  </data>
+  <data name="Pastries4" xml:space="preserve">
+    <value>Pastries</value>
+  </data>
+  <data name="Peanutbutter8" xml:space="preserve">
+    <value>PeanutButter</value>
+  </data>
+  <data name="Peas121" xml:space="preserve">
+    <value>Peas: half a cup (frozen)</value>
+  </data>
+  <data name="peas6" xml:space="preserve">
+    <value>Split peas and black-eyed peas</value>
+  </data>
+  <data name="Peasand121" xml:space="preserve">
+    <value>Peas and potatoes are added to the skillet, which cools them. The filling mixture is cooked over low heat for ten minutes, before it is removed from the heat and allowed to cool.</value>
+  </data>
+  <data name="Peel14" xml:space="preserve">
+    <value>Peel both potatoes and eggplant, and cut into cubes. The cubes are distributed in a "microwave" bowl, and a little water is poured over them. The pot enters the microwave for ten minutes. The mixture is then filtered and set aside.</value>
+  </data>
+  <data name="pepper14" xml:space="preserve">
+    <value>Sweet pepper: a sprinkle</value>
+  </data>
+  <data name="pizza3" xml:space="preserve">
+    <value>Mediterranean pizza made with whole wheat, topped with cheese, vegetables and olives</value>
+  </data>
+  <data name="Place121" xml:space="preserve">
+    <value>Place a tablespoon of filling in the first half of the dough, and close it in a triangle shape. Repeat the process until quantity runs out.</value>
+  </data>
+  <data name="Potato9" xml:space="preserve">
+    <value>Potato chips</value>
+  </data>
+  <data name="Potatoes121" xml:space="preserve">
+    <value>Potatoes: 1 grain (large / peeled, boiled, mashed)</value>
+  </data>
+  <data name="Potatoes8" xml:space="preserve">
+    <value>Potatoes.</value>
+  </data>
+  <data name="Poultry3" xml:space="preserve">
+    <value>Poultry: Chicken, duck, turkey, etc</value>
+  </data>
+  <data name="Poultry7" xml:space="preserve">
+    <value>Poultry: Chicken and turkey</value>
+  </data>
+  <data name="Processed9" xml:space="preserve">
+    <value>Processed meats</value>
+  </data>
+  <data name="Proteins7" xml:space="preserve">
+    <value>Proteins: Tempeh, tofu, seitan, natto, nutritional yeast, spirulina, eggs, dairy products</value>
+  </data>
+  <data name="proteins9" xml:space="preserve">
+    <value>Lean proteins like skinless chicken, eggs, tofu, fish, shellfish and non-fat yogurt.</value>
+  </data>
+  <data name="Quickand6" xml:space="preserve">
+    <value>Quick and easy peanut butter oatmeal</value>
+  </data>
+  <data name="Quinoablack7" xml:space="preserve">
+    <value> Quinoa-black-bean meatballs with zucchini noodles</value>
+  </data>
+  <data name="Raw4" xml:space="preserve">
+    <value>Raw zucchini noodle pasta with tomato sauce and basil</value>
+  </data>
+  <data name="Raw6" xml:space="preserve">
+    <value>Raw lasagna</value>
+  </data>
+  <data name="Raweggs4" xml:space="preserve">
+    <value>Raw eggs or dairy, if desired</value>
+  </data>
+  <data name="Rawgrains4" xml:space="preserve">
+    <value>Raw grains and legumes, sprouted or soaked</value>
+  </data>
+  <data name="Rawmeat4" xml:space="preserve">
+    <value>Raw meat or fish, if desired</value>
+  </data>
+  <data name="Rawnut4" xml:space="preserve">
+    <value>Raw nut butters</value>
+  </data>
+  <data name="Rawvegetable4" xml:space="preserve">
+    <value>Raw vegetable pizza</value>
+  </data>
+  <data name="Red7" xml:space="preserve">
+    <value> Red lentil veggie burger with avocado salad</value>
+  </data>
+  <data name="Redlentil5" xml:space="preserve">
+    <value>Red lentil and spinach dal over wild rice.</value>
+  </data>
+  <data name="redpepper13" xml:space="preserve">
+    <value>red pepper: 1 piece (sliced)</value>
+  </data>
+  <data name="refinedsugar6" xml:space="preserve">
+    <value>Foods made with refined sugar</value>
+  </data>
+  <data name="Remove14" xml:space="preserve">
+    <value>Remove the pan from the heat; the electric mixer strip is used to mash the mixture until smooth. The pot is put on the fire again, until the soup starts to boil, stirring constantly, until the consistency of the soup thickens.</value>
+  </data>
+  <data name="Roasted4" xml:space="preserve">
+    <value>Roasted nuts and seeds</value>
+  </data>
+  <data name="Roastedsalmon6" xml:space="preserve">
+    <value>Roasted salmon and asparagus salad with mustard vinaigrette</value>
+  </data>
+  <data name="Salad3" xml:space="preserve">
+    <value>Salad with tomatoes, olives and feta cheese</value>
+  </data>
+  <data name="Salad6" xml:space="preserve">
+    <value>Salad dressing with less than 3 grams sugar</value>
+  </data>
+  <data name="salmon3" xml:space="preserve">
+    <value>Broiled salmon, served with brown rice and vegetables</value>
+  </data>
+  <data name="salt4" xml:space="preserve">
+    <value>Table salt</value>
+  </data>
+  <data name="sandwich3" xml:space="preserve">
+    <value>Whole-grain sandwich, with cheese and fresh vegetables</value>
+  </data>
+  <data name="sandwich5" xml:space="preserve">
+    <value>Seitan sauerkraut sandwich.</value>
+  </data>
+  <data name="sandwichwith5" xml:space="preserve">
+    <value>Baked tofu sandwich with a side of tomato salad.</value>
+  </data>
+  <data name="saturated8" xml:space="preserve">
+    <value>Processed foods – all high in saturated .</value>
+  </data>
+  <data name="sautéed5" xml:space="preserve">
+    <value>Tofu vegan quiche with a side of sautéed mustard greens.</value>
+  </data>
+  <data name="Scrambled7" xml:space="preserve">
+    <value>Scrambled eggs with tomatoes, garlic and mushrooms</value>
+  </data>
+  <data name="scrambledtofu5" xml:space="preserve">
+    <value>Spinach and scrambledtofu wrap and a glass of fortified plant milk.</value>
+  </data>
+  <data name="Seaweed4" xml:space="preserve">
+    <value>Seaweed</value>
+  </data>
+  <data name="seeds5" xml:space="preserve">
+    <value>Seeds</value>
+  </data>
+  <data name="Seeds7" xml:space="preserve">
+    <value>Seeds: Flaxseeds, chia and hemp seeds</value>
+  </data>
+  <data name="seitan5" xml:space="preserve">
+    <value>Seitan</value>
+  </data>
+  <data name="Serve13" xml:space="preserve">
+    <value>Serve hot with sauteed vegetables or salad as desired.</value>
+  </data>
+  <data name="shellfish5" xml:space="preserve">
+    <value>Shellfish</value>
+  </data>
+  <data name="shellfish6" xml:space="preserve">
+    <value>Fish and shellfish</value>
+  </data>
+  <data name="shrimp8" xml:space="preserve">
+    <value>Blackberry shrimp salad or asparagus artichoke salad for a vegan option</value>
+  </data>
+  <data name="Skinless6" xml:space="preserve">
+    <value>Skinless chicken and turkey breast</value>
+  </data>
+  <data name="Skinlesschicken8" xml:space="preserve">
+    <value>Skinless chicken and turkey breast</value>
+  </data>
+  <data name="Sliced4" xml:space="preserve">
+    <value>Sliced bell pepper and sunflower seeds</value>
+  </data>
+  <data name="slices4" xml:space="preserve">
+    <value>Orange slices and nuts </value>
+  </data>
+  <data name="smoothie4" xml:space="preserve">
+    <value>Green smoothie</value>
+  </data>
+  <data name="smoothie5" xml:space="preserve">
+    <value>Mango and spinach smoothie made with fortified plant milk and a banana-flaxseed-walnut muffin.</value>
+  </data>
+  <data name="Smoothie7" xml:space="preserve">
+    <value> Smoothie of kale, berries, bananas, nut butter and almond milk</value>
+  </data>
+  <data name="Soaked4" xml:space="preserve">
+    <value>Soaked oats with berries</value>
+  </data>
+  <data name="Soda8" xml:space="preserve">
+    <value>Soda (regular or diet)</value>
+  </data>
+  <data name="sodas6" xml:space="preserve">
+    <value>Sugar-free sodas</value>
+  </data>
+  <data name="Soy13" xml:space="preserve">
+    <value>Soy sauce: 1 tablespoon</value>
+  </data>
+  <data name="Spaghetti" xml:space="preserve">
+    <value>Spaghetti and noodles</value>
+  </data>
+  <data name="spice13" xml:space="preserve">
+    <value>Add the chicken, salt, spice, lemon juice and water, cover the pot and leave it on the heat for 10 - 15 minutes without drying the water.</value>
+  </data>
+  <data name="Spiralized5" xml:space="preserve">
+    <value>Spiralized zucchini and quinoa salad with peanut dressing.</value>
+  </data>
+  <data name="springrolls5" xml:space="preserve">
+    <value>Vegan spring rolls.</value>
+  </data>
+  <data name="Sprouted4" xml:space="preserve">
+    <value>Sprouted quinoa Buddha bowl</value>
+  </data>
+  <data name="Sprouts4" xml:space="preserve">
+    <value>sprouts</value>
+  </data>
+  <data name="squash4" xml:space="preserve">
+    <value>Raw squash noodle pasta with pesto</value>
+  </data>
+  <data name="squashi4" xml:space="preserve">
+    <value>Raw squash soup</value>
+  </data>
+  <data name="Strawberries4" xml:space="preserve">
+    <value>Strawberries and almonds</value>
+  </data>
+  <data name="stringcheese6" xml:space="preserve">
+    <value>1 oz (28 grams) string cheese with bell pepper slices</value>
+  </data>
+  <data name="Stuffed4" xml:space="preserve">
+    <value>Stuffed portobello mushrooms</value>
+  </data>
+  <data name="stuffing121" xml:space="preserve">
+    <value>For stuffing: Heat the oil in a large skillet over the fire, then add the chopped onions, garlic, ginger and hot pepper, while stirring constantly. Add the dried cumin and coriander, while continuing to stir.</value>
+  </data>
+  <data name="substitutes6" xml:space="preserve">
+    <value>Soy-based meat substitutes</value>
+  </data>
+  <data name="suchas8" xml:space="preserve">
+    <value>Nuts, such as macadamia, peanuts, cashews, almonds or pistachios</value>
+  </data>
+  <data name="sugars4" xml:space="preserve">
+    <value>Refined sugars and flour</value>
+  </data>
+  <data name="Sugary9" xml:space="preserve">
+    <value>Sugary drinks</value>
+  </data>
+  <data name="Supereasy9" xml:space="preserve">
+    <value>Super-easy spaghetti and meatballs with Italian arugula salad</value>
+  </data>
+  <data name="Swiss9" xml:space="preserve">
+    <value>Swiss cheese and grapes</value>
+  </data>
+  <data name="Tahini8" xml:space="preserve">
+    <value>Tahini</value>
+  </data>
+  <data name="tbsp6" xml:space="preserve">
+    <value>Light sour cream or cream cheese, limited to 2 tbsp</value>
+  </data>
+  <data name="Thedough121" xml:space="preserve">
+    <value>The dough is divided into equal size sections; each section is spread on a table top, formed in a circle, by a cup of coffee cup, then the circle is divided into two halves, by a sharp knife.</value>
+  </data>
+  <data name="toastand5" xml:space="preserve">
+    <value>Spiced red lentil, tomato and kale soup with whole-grain toast and hummus.</value>
+  </data>
+  <data name="tofu5" xml:space="preserve">
+    <value>Tofu</value>
+  </data>
+  <data name="Tofu7" xml:space="preserve">
+    <value>Tofu banh mi sandwich with pickled slaw</value>
+  </data>
+  <data name="Tofuu7" xml:space="preserve">
+    <value> Tofu scramble with sauteed peppers, onions and spinach</value>
+  </data>
+  <data name="tomato4" xml:space="preserve">
+    <value>Raw tomato soup with marinated veggies</value>
+  </data>
+  <data name="Tomatojuice6" xml:space="preserve">
+    <value>Tomato juice or vegetable juice</value>
+  </data>
+  <data name="Trans6" xml:space="preserve">
+    <value>Trans-fat-free margarine</value>
+  </data>
+  <data name="Tubers3" xml:space="preserve">
+    <value>Tubers: Potatoes, sweet potatoes, turnips, yams, etc.</value>
+  </data>
+  <data name="tunasalad3" xml:space="preserve">
+    <value>A tuna salad, dressed in olive oil. A piece of fruit for dessert</value>
+  </data>
+  <data name="Turkey9" xml:space="preserve">
+    <value>Turkey, apple and blue cheese wrap</value>
+  </data>
+  <data name="turnips6" xml:space="preserve">
+    <value>Beets, carrots, corn, turnips, yams, peas, white potatoes and winter squash</value>
+  </data>
+  <data name="unsweetened6" xml:space="preserve">
+    <value>Sugar-free or unsweetened cocoa or chocolate syrup</value>
+  </data>
+  <data name="Veganbreakfast5" xml:space="preserve">
+    <value>Vegan breakfast sandwich with tofu, lettuce, tomato, turmeric and a plant-milk chai latte.</value>
+  </data>
+  <data name="Veganchili5" xml:space="preserve">
+    <value>Vegan chili on a bed of amaranth.</value>
+  </data>
+  <data name="Vegetable121" xml:space="preserve">
+    <value>Vegetable oil: 2 teaspoon</value>
+  </data>
+  <data name="Vegetable7" xml:space="preserve">
+    <value>Vegetable paella with a side salad</value>
+  </data>
+  <data name="vegetables4" xml:space="preserve">
+    <value>All raw vegetables</value>
+  </data>
+  <data name="Vegetables7" xml:space="preserve">
+    <value>Vegetables: Leafy greens, asparagus, broccoli, tomatoes, carrots</value>
+  </data>
+  <data name="Vegetarianprotein8" xml:space="preserve">
+    <value>Vegetarian protein, tofu, other soy products</value>
+  </data>
+  <data name="veggie4" xml:space="preserve">
+    <value>Raw veggie sushi and chopped veggies</value>
+  </data>
+  <data name="veggies3" xml:space="preserve">
+    <value>Omelet with veggies and olives</value>
+  </data>
+  <data name="Veggiesushi5" xml:space="preserve">
+    <value>Veggie sushi rolls, miso soup, edamame and wakame salad.</value>
+  </data>
+  <data name="Water121" xml:space="preserve">
+    <value>Water: a cup</value>
+  </data>
+  <data name="Water13" xml:space="preserve">
+    <value>Water: half a cup</value>
+  </data>
+  <data name="whipped6" xml:space="preserve">
+    <value>Light whipped topping, limited to 2 tbsp</value>
+  </data>
+  <data name="White14" xml:space="preserve">
+    <value>White pepper: a sprinkle</value>
+  </data>
+  <data name="Whole7" xml:space="preserve">
+    <value>Whole-wheat toast with avocado and nutritional yeast</value>
+  </data>
+  <data name="Wholegrain3" xml:space="preserve">
+    <value>Whole-grain sandwich with vegetables</value>
+  </data>
+  <data name="Wholegrains3" xml:space="preserve">
+    <value>Whole grains: Whole oats, brown rice, rye, barley, corn, buckwheat, whole wheat, whole-grain bread and pasta.</value>
+    <comment>3</comment>
+  </data>
+  <data name="Wholemilk6" xml:space="preserve">
+    <value>Whole milk</value>
+  </data>
+  <data name="withbroccoli6" xml:space="preserve">
+    <value>Lean steak with broccoli</value>
+  </data>
+  <data name="Yellowpepper13" xml:space="preserve">
+    <value>Yellow pepper: 1 tablet (sliced)</value>
+  </data>
+  <data name="Yogurt13" xml:space="preserve">
+    <value>Yogurt: 1 tablespoon</value>
+  </data>
+  <data name="Yogurt3" xml:space="preserve">
+    <value>Yogurt with sliced fruits and nuts.</value>
+  </data>
+  <data name="Zucchini7" xml:space="preserve">
+    <value>Zucchini boats stuffed with veggies and feta with tomato soup</value>
+  </data>
+  <data name="BMI" xml:space="preserve">
+    <value>BMI</value>
+  </data>
+  <data name="Anchovies2" xml:space="preserve">
+    <value>Anchovies tinned</value>
+  </data>
+  <data name="Apple3" xml:space="preserve">
+    <value>Apple</value>
+  </data>
+  <data name="Bagel1" xml:space="preserve">
+    <value>Bagel ( 1 average )</value>
+  </data>
+  <data name="Banana3" xml:space="preserve">
+    <value>Banana</value>
+  </data>
+  <data name="Beansbakedbeans3" xml:space="preserve">
+    <value>Beans baked beans</value>
+  </data>
+  <data name="Beansdried3" xml:space="preserve">
+    <value>Beans dried (boiled)</value>
+  </data>
+  <data name="Beef21" xml:space="preserve">
+    <value>Beef (roast)</value>
+  </data>
+  <data name="Beefburgers2" xml:space="preserve">
+    <value>Beef burgers frozen</value>
+  </data>
+  <data name="Biscuit1" xml:space="preserve">
+    <value>Biscuit digestives</value>
+  </data>
+  <data name="Blackberries3" xml:space="preserve">
+    <value>Blackberries</value>
+  </data>
+  <data name="Blackcurrant3" xml:space="preserve">
+    <value>Blackcurrant</value>
+  </data>
+  <data name="Bombay5" xml:space="preserve">
+    <value>Bombay mix</value>
+  </data>
+  <data name="BREAD1" xml:space="preserve">
+    <value>BREADS &amp; CEREALS</value>
+  </data>
+  <data name="Breadd1" xml:space="preserve">
+    <value>Bread white (thick slice) </value>
+  </data>
+  <data name="Breadd11" xml:space="preserve">
+    <value>Bread wholemeal (thick)</value>
+  </data>
+  <data name="Broccoli3" xml:space="preserve">
+    <value>Broccoli</value>
+  </data>
+  <data name="Butter5" xml:space="preserve">
+    <value>Butter</value>
+  </data>
+  <data name="Cabbage3" xml:space="preserve">
+    <value>Cabbage (boiled)</value>
+  </data>
+  <data name="Calories1" xml:space="preserve">
+    <value>Calories</value>
+  </data>
+  <data name="cals2" xml:space="preserve">
+    <value>Calories</value>
+  </data>
+  <data name="Carrot3" xml:space="preserve">
+    <value>Carrot (boiled)</value>
+  </data>
+  <data name="Cauliflower3" xml:space="preserve">
+    <value>Cauliflower (boiled)</value>
+  </data>
+  <data name="Celeryi3" xml:space="preserve">
+    <value>Celery (boiled)</value>
+  </data>
+  <data name="Chapatis1" xml:space="preserve">
+    <value>Chapatis</value>
+  </data>
+  <data name="Cheddar4" xml:space="preserve">
+    <value>Cheddar</value>
+  </data>
+  <data name="Cheese4" xml:space="preserve">
+    <value>Cheese average</value>
+  </data>
+  <data name="Cherry3" xml:space="preserve">
+    <value>Cherry</value>
+  </data>
+  <data name="Chewing5" xml:space="preserve">
+    <value>Chewing gum</value>
+  </data>
+  <data name="Chicken2" xml:space="preserve">
+    <value>Chicken</value>
+  </data>
+  <data name="chip2" xml:space="preserve">
+    <value>Cod chip shop food</value>
+  </data>
+  <data name="Chocolate5" xml:space="preserve">
+    <value>Chocolate</value>
+  </data>
+  <data name="Cockles2" xml:space="preserve">
+    <value>Cockles</value>
+  </data>
+  <data name="Codfresh2" xml:space="preserve">
+    <value>Cod fresh</value>
+  </data>
+  <data name="Codliver5" xml:space="preserve">
+    <value>Cod liver oil</value>
+  </data>
+  <data name="Cornflakes1" xml:space="preserve">
+    <value>Cornflakes</value>
+  </data>
+  <data name="Cornsnack5" xml:space="preserve">
+    <value>Corn snack</value>
+  </data>
+  <data name="Cottage4" xml:space="preserve">
+    <value>Cottage cheese</value>
+  </data>
+  <data name="Courgette3" xml:space="preserve">
+    <value>Courgette</value>
+  </data>
+  <data name="Crabfresh2" xml:space="preserve">
+    <value>Crab fresh</value>
+  </data>
+  <data name="Crackerbread1" xml:space="preserve">
+    <value>Crackerbread</value>
+  </data>
+  <data name="Cream4" xml:space="preserve">
+    <value>Cream cheese</value>
+  </data>
+  <data name="Creamcrackers1" xml:space="preserve">
+    <value>Cream crackers</value>
+  </data>
+  <data name="Crisps5" xml:space="preserve">
+    <value>Crisps (chips US) average</value>
+  </data>
+  <data name="Crumpets1" xml:space="preserve">
+    <value>Crumpets</value>
+  </data>
+  <data name="Cucumber3" xml:space="preserve">
+    <value>Cucumber</value>
+  </data>
+  <data name="Custard4" xml:space="preserve">
+    <value>Custard</value>
+  </data>
+  <data name="Dairyproduce4" xml:space="preserve">
+    <value>Milk &amp; Dairy produce </value>
+  </data>
+  <data name="Dates3" xml:space="preserve">
+    <value>Dates</value>
+  </data>
+  <data name="Duckroast2" xml:space="preserve">
+    <value>Duck roast</value>
+  </data>
+  <data name="Eggs4" xml:space="preserve">
+    <value>Eggs</value>
+  </data>
+  <data name="Fats5" xml:space="preserve">
+    <value>Fats &amp; Sugars</value>
+  </data>
+  <data name="Fishcake2" xml:space="preserve">
+    <value>Fish cake</value>
+  </data>
+  <data name="Fishfingers2" xml:space="preserve">
+    <value>Fish fingers</value>
+  </data>
+  <data name="Flapjacks1" xml:space="preserve">
+    <value>Flapjacks basic fruit mix</value>
+  </data>
+  <data name="Grapefruit3" xml:space="preserve">
+    <value>Grapefruit</value>
+  </data>
+  <data name="Grapes3" xml:space="preserve">
+    <value>Grapes</value>
+  </data>
+  <data name="Haddock2" xml:space="preserve">
+    <value>Haddock fresh</value>
+  </data>
+  <data name="Halibutfresh2" xml:space="preserve">
+    <value>Halibut fresh</value>
+  </data>
+  <data name="Herring2" xml:space="preserve">
+    <value>Herring fresh grilled</value>
+  </data>
+  <data name="Honey" xml:space="preserve">
+    <value>Honey</value>
+  </data>
+  <data name="Ice4" xml:space="preserve">
+    <value>Ice cream</value>
+  </data>
+  <data name="Jaffa1" xml:space="preserve">
+    <value>Jaffa cake</value>
+  </data>
+  <data name="Jam5" xml:space="preserve">
+    <value>Jam</value>
+  </data>
+  <data name="Kidney2" xml:space="preserve">
+    <value>Kidney</value>
+  </data>
+  <data name="Kipper2" xml:space="preserve">
+    <value>Kipper</value>
+  </data>
+  <data name="Kiwi3" xml:space="preserve">
+    <value>Kiwi</value>
+  </data>
+  <data name="Lamb2" xml:space="preserve">
+    <value>Lamb (roast)</value>
+  </data>
+  <data name="Lentils3" xml:space="preserve">
+    <value>Lentils (boiled)</value>
+  </data>
+  <data name="Lettuce3" xml:space="preserve">
+    <value>Lettuce</value>
+  </data>
+  <data name="Liver2" xml:space="preserve">
+    <value>Liver</value>
+  </data>
+  <data name="Liverpate2" xml:space="preserve">
+    <value>Liver pate</value>
+  </data>
+  <data name="Lobsterboiled2" xml:space="preserve">
+    <value>Lobster boiled</value>
+  </data>
+  <data name="Low5" xml:space="preserve">
+    <value>Low fat spread</value>
+  </data>
+  <data name="Luncheon2" xml:space="preserve">
+    <value>Luncheon meat</value>
+  </data>
+  <data name="Macaroni1" xml:space="preserve">
+    <value>Macaroni (boiled)</value>
+  </data>
+  <data name="Mackeral2" xml:space="preserve">
+    <value>Mackeral</value>
+  </data>
+  <data name="Margarine5" xml:space="preserve">
+    <value>Margarine</value>
+  </data>
+  <data name="Meats2" xml:space="preserve">
+    <value>Meats &amp; Fish</value>
+  </data>
+  <data name="Melon3" xml:space="preserve">
+    <value>Melon</value>
+  </data>
+  <data name="Milk4" xml:space="preserve">
+    <value>Milk whole</value>
+  </data>
+  <data name="Milkskimmed4" xml:space="preserve">
+    <value>Milk skimmed</value>
+  </data>
+  <data name="MilkSoya4" xml:space="preserve">
+    <value>Milk Soya</value>
+  </data>
+  <data name="Mint5" xml:space="preserve">
+    <value>Mint sweets</value>
+  </data>
+  <data name="Mousse4" xml:space="preserve">
+    <value>Mousse flavored</value>
+  </data>
+  <data name="Muesli1" xml:space="preserve">
+    <value>Muesli</value>
+  </data>
+  <data name="Mushrooms3" xml:space="preserve">
+    <value>Mushrooms (boiled)</value>
+  </data>
+  <data name="Mussels2" xml:space="preserve">
+    <value>Mussels</value>
+  </data>
+  <data name="Naan1" xml:space="preserve">
+    <value>Naan bread (normal)</value>
+  </data>
+  <data name="Noodels1" xml:space="preserve">
+    <value>Noodles (boiled)</value>
+  </data>
+  <data name="Oils5" xml:space="preserve">
+    <value>Oils -corn, sunflower, olive</value>
+  </data>
+  <data name="Olives3" xml:space="preserve">
+    <value>Olives</value>
+  </data>
+  <data name="Omelette4" xml:space="preserve">
+    <value>Omelette with cheese</value>
+  </data>
+  <data name="Onion3" xml:space="preserve">
+    <value>Onion (boiled)</value>
+  </data>
+  <data name="Orange3" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="Peasi3" xml:space="preserve">
+    <value>Peas</value>
+  </data>
+  <data name="per2" xml:space="preserve">
+    <value>per 100 grams</value>
+  </data>
+  <data name="percake2" xml:space="preserve">
+    <value>cals per cake</value>
+  </data>
+  <data name="perpiec2" xml:space="preserve">
+    <value>cals per piec</value>
+  </data>
+  <data name="Pheasantroast2" xml:space="preserve">
+    <value>Pheasant roast</value>
+  </data>
+  <data name="Pilchards2" xml:space="preserve">
+    <value>Pilchards (tinned)</value>
+  </data>
+  <data name="Popcorn5" xml:space="preserve">
+    <value>Popcorn average</value>
+  </data>
+  <data name="Portion2" xml:space="preserve">
+    <value>Portion size</value>
+  </data>
+  <data name="Potatoes1" xml:space="preserve">
+    <value>Potatoes (boiled)</value>
+  </data>
+  <data name="PUREFAT5" xml:space="preserve">
+    <value>PURE FAT</value>
+  </data>
+  <data name="Rice1" xml:space="preserve">
+    <value>Rice (white boiled)</value>
+  </data>
+  <data name="Sugarwhite5" xml:space="preserve">
+    <value>Sugar white table sugar</value>
+  </data>
+  <data name="Sweets5" xml:space="preserve">
+    <value>Sweets (boiled)</value>
+  </data>
+  <data name="Syrup5" xml:space="preserve">
+    <value>Syrup</value>
+  </data>
+  <data name="Toffee5" xml:space="preserve">
+    <value>Toffee</value>
+  </data>
+  <data name="Trifle4" xml:space="preserve">
+    <value>Trifle with cream</value>
+  </data>
+  <data name="Turkey2" xml:space="preserve">
+    <value>Turkey</value>
+  </data>
+  <data name="Vegetablesff2" xml:space="preserve">
+    <value>Vegetables &amp; Fruits</value>
+  </data>
+  <data name="Yogurt4" xml:space="preserve">
+    <value>Yogurt natural</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Male</value>
   </data>
 </root>

@@ -12,9 +12,12 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     <script src="~/Scripts/scripts.js"></script>
+
+
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+
+    <div @*class="navbar navbar-inverse navbar-fixed-top*@ ">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,53 +31,56 @@
                 <ul class="nav navbar-nav">
 
                     <li>
-                        <a href="/" class="badge badge-primary"> @Resource.Home</a>
+
+                        <a href="/" class="btn btn-danger btn-lg active"> @Resource.Home</a>
                         @*<a href="/"> @Resource.Home </a>*@
                     </li>
                     <li>
-                        <a href="@Url.Content("~/Account/IdealWeight")" class="badge badge-secondary">@Resource.IdealWeight</a>
+
+                        <a href="@Url.Content("~/Account/IdealWeight")" class="btn btn-warning btn-lg active">@Resource.IdealWeight</a>
 
                         @*<a href="@Url.Content("~/Account/IdealWeight")">Ideal Weight</a>*@
                     </li>
                     <li>
-                        <a href="@Url.Content("~/DitePrograms/Dietprogram")" class="badge badge-success">@Resource.Dietprograms</a>
+
+                        <a href="@Url.Content("~/DitePrograms/Dietprogram")" class="btn btn-success btn-lg active">@Resource.Dietprograms</a>
 
                         @*<a href="@Url.Content("~/DitePrograms/Dietprogram")">@Resource.Dietprograms</a>*@
                     </li>
                     <li>
-                        <a href="@Url.Content("~/RrcipesBook/RecipesBook")" class="badge badge-danger">@Resource.RecipesBook</a>
+
+                        <a href="@Url.Content("~/RrcipesBook/RecipesBook")" class="btn btn-danger btn-lg active">@Resource.RecipesBook</a>
 
                         @*<a href="@Url.Content("~/RrcipesBook/RecipesBook")">@Resource.RecipesBook</a>*@
                     </li>
                     <li>
-                        <a href="@Url.Content("~/CalorieGuide/CalorieGuide")" class="badge badge-warning">@Resource.CalorieGuide</a>
+                        <a href="@Url.Content("~/CalorieGuide/CalorieGuide")" class="btn btn-warning btn-lg active">@Resource.CalorieGuide</a>
 
                         @*<a href="@Url.Content("~/CalorieGuide/CalorieGuide")">@Resource.CalorieGuide</a>*@
                     </li>
                     <li>
 
-                        <a href="@Url.Content("~/Exercise/Exercise")" class="badge badge-info">@Resource.Exercise</a>
-                    </li>
-                    <li>
+                        <a href="@Url.Content("~/Exercise/Exercise")" class="btn btn-success btn-lg active">@Resource.Exercise</a>
                     </li>
 
                     <li>
 
-                        <a href="@Url.Content("~/Contact/contact")" class="badge badge-light">@Resource.Contact</a>
+                        <a href="@Url.Content("~/Contact/contact")" class="btn btn-danger btn-lg active">@Resource.Contact</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav">
                     @{
                         CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 
-                        <li><a href="/Home/ChangeCurrentCulture/0">English</a></li>
-                        <li><a href="/Home/ChangeCurrentCulture/1">عربي</a></li>
+                        <li><a href="/Home/ChangeCurrentCulture/0" class="btn btn-secondary btn-lg active">English</a></li>
+                        <li><a href="/Home/ChangeCurrentCulture/1" class="btn btn-secondary btn-lg active">عربي</a></li>
                     }
                 </ul>
             </div>
 
         </div>
     </div>
+
 
     <div class="container body-content">
         <div id="loginctrl">
@@ -94,8 +100,8 @@
             {
                 // add links
 
-                <a href="@Url.Content("~/account/signin")">@Resource.Signin</a>
-                <a href="@Url.Content("~/account/signup")">@Resource.signup</a>
+                <a href="@Url.Content("~/account/signin")" class="btn btn-info btn-lg active" role="button" aria-pressed="true">@Resource.Signin</a>
+                <a href="@Url.Content("~/account/signup")" class="btn btn-info btn-lg active" role="button" aria-pressed="true">@Resource.signup</a>
             }
         </div>
 

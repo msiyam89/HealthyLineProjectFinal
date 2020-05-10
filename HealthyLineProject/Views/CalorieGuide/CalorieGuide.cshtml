@@ -1,351 +1,675 @@
 ﻿@model HealthyLineProject.Models.FoodMainCategoriesModel
+@using R
 @using (Html.BeginForm())
 {
-    <fieldset>
-        <legend>Calorie Guide</legend>
-        <ul>
-            <li>
-                <fieldset>
-                    <legend>BREADS & CEREALS</legend>
-                    <select name="Food Name">
-                        <optgroup label="BREADS & CEREALS ">
-                            <option>
-                                Bagel ( 1 average )
-                            </option>
-                            <option>
-                                Biscuit digestives
-                            </option>
-                            <option>
-                                Jaffa cake
-                            </option>
-                            <option>
-                                Bread white (thick slice)
-                            </option>
-                            <option>
-                                Bread wholemeal (thick)
-                            </option>
-                            <option>
-                                Chapatis
-                            </option>
-                            <option>
-                                Cornflakes
-                            </option>
-                            <option>
-                                Crackerbread
-                            </option>
-                            <option>
-                                Cream crackers
-                            </option>
-                            <option>
-                                Crumpets
-                            </option>
-                            <option>
-                                Flapjacks basic fruit mix
-                            </option>
-                            <option>
-                                Macaroni (boiled)
-                            </option>
-                            <option>
-                                Muesli
-                            </option>
-                            <option>
-                                Naan bread (normal)
-                            </option>
-                            <option>
-                                Noodles (boiled)
-                            </option>
-                            <option>
-                                Pasta ( normal boiled)
-                            </option>
-                            <option>
-                                Pasta (wholemeal boiled)
-                            </option>
-                            <option>
-                                Porridge oats (with water)
-                            </option>
-                            <option>
-                                Potatoes** (boiled)
-                            </option>
-                            <option>
-                                Rice (white boiled)
-                            </option>
-                            <option>
-                                Rice (egg-fried)
-                            </option>
-                            <option>
-                                Rice ( Brown )
-                            </option>
-                            <option>
-                                Rice cakes
-                            </option>
-                            <option>
-                                Ryvita Multi grain
-                            </option>
-                            <option>
-                                Ryvita + seed & Oats
-                            </option>
-                            <option>
-                                Spaghetti (boiled)
-                            </option>
+    <h1>@Resource.CalorieGuide</h1>
+   <table class="table">
+        <thead class=" table-bordered h3 table-hover  bg-warning"  >
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">@Resource.BREAD1</th>
+                <th scope="col">@Resource.cals2 (100g)</th>
 
-                        </optgroup>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>@Resource.Bagel1 </td>
+                <td>140 @Resource.cals2  </td>
 
-                    </select>
-                </fieldset>
-            </li>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>@Resource.Biscuit1 </td>
+                <td>86 @Resource.cals2 </td>
 
-            <li>
-                <fieldset>
-                    <legend>Meats & Fish</legend>
-                    <select name="Food Name">
-                        <optgroup label="Meats & Fish">
-                            <option>Anchovies tinned</option>
-                            <option>Bacon average fried</option>
-                            <option>Bacon average grilled</option>
-                            <option>Beef (roast)</option>
-                            <option>Beef burgers frozen</option>
-                            <option>Chicken </option>
-                            <option>Cockles </option>
-                            <option>Cod fresh</option>
-                            <option>Cod chip shop food</option>
-                            <option>Crab fresh</option>
-                            <option>Duck roast</option>
-                            <option>Fish cake</option>
-                            <option>Fish fingers</option>
-                            <option>Gammon</option>
-                            <option>Haddock fresh</option>
-                            <option>Halibut fresh</option>
-                            <option>Ham</option>
-                            <option>Herring fresh grilled</option>
-                            <option>Kidney</option>
-                            <option>Kipper</option>
-                            <option>Liver</option>
-                            <option>Liver pate</option>
-                            <option>Lamb (roast)</option>
-                            <option>Lobster boiled</option>
-                            <option>Luncheon meat</option>
-                            <option>Mackeral</option>
-                            <option>Mussels</option>
-                            <option>Pheasant roast</option>
-                            <option>Pilchards (tinned)</option>
-                            <option>Prawns</option>
-                            <option>Pork </option>
-                            <option>Pork pie</option>
-                            <option>Rabbit</option>
-                            <option>Salmon fresh</option>
-                            <option>Sardines tinned in oil</option>
-                            <option>Sardines in tomato sauce</option>
-                            <option>Sausage pork fried</option>
-                            <option>Sausage pork grilled</option>
-                            <option>Sausage roll</option>
-                            <option>Scampi fried in oil</option>
-                            <option>Steak & kidney pie</option>
-                            <option>Taramasalata</option>
-                            <option>Trout fresh</option>
-                            <option>Tuna tinned water</option>
-                            <option>Tuna tinned oil</option>
-                            <option>Turkey</option>
-                            <option>Veal</option>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>@Resource.Jaffa1 </td>
+                <td>48 @Resource.cals2  </td>
 
-                        </optgroup>
-                    </select>
-                </fieldset>
-            </li>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>@Resource.Breadd1 </td>
+                <td>96 @Resource.cals2  </td>
 
-            <li>
-                <fieldset>
-                    <legend>Fruits & Vegetables</legend>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>@Resource.Breadd11</td>
+                <td>88 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td> @Resource.Chapatis1</td>
+                <td>250 @Resource.cals2  </td>
 
-                    <select name="Food Name">
-                        <optgroup label="Fruits & Vegetables">
-                            <option>Apple</option>
-                            <option>Banana</option>
-                            <option>Beans baked beans</option>
-                            <option>Beans dried (boiled)</option>
-                            <option>Blackberries</option>
-                            <option>Blackcurrant</option>
-                            <option>Broccoli</option>
-                            <option>Cabbage (boiled)</option>
-                            <option>Carrot (boiled)</option>
-                            <option>Cauliflower (boiled)</option>
-                            <option>Celery (boiled)</option>
-                            <option>Cherry</option>
-                            <option>Courgette</option>
-                            <option>Cucumber</option>
-                            <option>Dates</option>
-                            <option>Grapes</option>
-                            <option>Grapefruit</option>
-                            <option>Kiwi</option>
-                            <option>Leek (boiled)</option>
-                            <option>Lentils (boiled)</option>
-                            <option>Lettuce</option>
-                            <option>Melon</option>
-                            <option>Mushrooms raw one average</option>
-                            <option>Mushrooms (boiled)</option>
-                            <option>Mushrooms (fried)</option>
-                            <option>Olives</option>
-                            <option>Onion (boiled)</option>
-                            <option>One red Onion</option>
-                            <option>Onions spring </option>
-                            <option>Onion (fried)</option>
-                            <option>Orange</option>
-                            <option>Peas</option>
-                            <option>Peas dried & boiled</option>
-                            <option>Peach</option>
-                            <option>Pear</option>
-                            <option>Pepper yellow</option>
-                            <option>Pineapple</option>
-                            <option>Plum</option>
-                            <option>Spinach</option>
-                            <option>Strawberries (1 average)</option>
-                            <option>Sweetcorn</option>
-                            <option>Sweetcorn on the cob</option>
-                            <option>Tomato</option>
-                            <option>Tomato cherry</option>
-                            <option>Tomato puree</option>
-                            <option>Watercress</option>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>@Resource.Cornflakes1 </td>
+                <td> 130 @Resource.cals2 </td>
+
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>@Resource.Bread2</td>
+                <td>13 @Resource.cals2  </td>
+
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td> @Resource.Crackerbread1 </td>
+                <td> 17 @Resource.cals2  </td>
+
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td> @Resource.Creamcrackers1</td>
+                <td>93 @Resource.cals2 </td>
+
+            </tr>
+            <tr>
+                <th scope="row">11</th>
+                <td> @Resource.Crumpets1</td>
+                <td>320 @Resource.cals2 </td>
+
+            </tr>
+            <tr>
+                <th scope="row">12</th>
+                <td>@Resource.Macaroni1  </td>
+                <td>428 @Resource.cals2  </td>
+
+            </tr>
+            <tr>
+                <th scope="row">13</th>
+                <td>@Resource.Muesli1 </td>
+                <td>140 @Resource.cals2  </td>
+
+            </tr>
+            <tr>
+                <th scope="row">14</th>
+                <td>@Resource.Naan1</td>
+                <td>195 @Resource.cals2  </td>
+
+            </tr>
+            <tr>
+                <th scope="row">15</th>
+                <td> @Resource.Noodels1 </td>
+                <td>175 @Resource.cals2  </td>
+
+            </tr>
+            <tr>
+                <th scope="row">16</th>
+                <td>@Resource.Anchovies2 </td>
+                <td>300 @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">17</th>
+                <td>@Resource.Rice1</td>
+                <td>300  @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">18</th>
+                <td>@Resource.Noodels1  </td>
+                <td>320 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">19</th>
+                <td>@Resource.Chicken2 </td>
+                <td>220  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">20</th>
+                <td>@Resource.Anchovies2 </td>
+                <td>300 @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">21</th>
+                <td>@Resource.Beef21 </td>
+                <td>300  @Resource.cals2   </td>
+            </tr>
+            <tr>
+                <th scope="row">22</th>
+                <td>@Resource.Rice1  </td>
+                <td>320 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">23</th>
+                <td>@Resource.Naan1 </td>
+                <td>220  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">24</th>
+                <td>@Resource.Anchovies2  </td>
+                <td>300 @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">25</th>
+                <td>@Resource.Rice1 </td>
+                <td>300  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">26</th>
+                <td>@Resource.Nutbutter2 </td>
+                <td>320 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">27</th>
+                <td>@Resource.Potatoes1</td>
+                <td>220 @Resource.cals2  </td>
+            </tr>
 
 
-                        </optgroup>
-                    </select>
-                </fieldset>
-            <li>
-                <fieldset>
-                    <legend>Milk & Dairy produce</legend>
-                    <select name="Food Name">
-                        <optgroup label="Milk & Dairy produce">
-                            <option>Cheese average</option>
-                            <option>Cheddar types average reduced fat</option>
-                            <option>Cheese spreads average</option>
-                            <option>Cottage cheese low fat</option>
-                            <option>Cottage cheese</option>
-                            <option>Cream cheese</option>
-                            <option>Cream fresh half</option>
-                            <option>Cream fresh single</option>
-                            <option>Cream fresh double</option>
-                            <option>Cream fresh clotted</option>
-                            <option>Custard</option>
-                            <option>Eggs ( 1 average size)</option>
-                            <option>Eggs fried</option>
-                            <option>Fromage frais</option>
-                            <option>Ice cream</option>
-                            <option>Milk whole</option>
-                            <option>Milk semi-skimmed</option>
-                            <option>Milk skimmed</option>
-                            <option>Milk Soya</option>
-                            <option>Mousse flavored</option>
-                            <option>Omelette with cheese</option>
-                            <option>Trifle with cream</option>
-                            <option>Yogurt natural</option>
-                            <option>Yogurt reduced fat</option>
+            @*</tbody>
+        </table>
+         <table class="table">
+             <thead class="table-responsive-smk">
+                 <tr>
+                     <th scope="col">#</th>
+                     <th scope="col">@Resource.Meats2 </th>
+                     <th scope="col">@Resource.cals2 (100g) </th>
 
-                        </optgroup>
-                    </select>
-                </fieldset>
-            <li>
-                <fieldset>
-                    <legend>Fats & Sugars</legend>
-                    <select name="Food Name">
-                        <optgroup label="Fats & Sugars">
-                            <option>PURE FAT</option>
-                            <option>Bombay mix</option>
-                            <option>Butter</option>
-                            <option>Chewing gum</option>
-                            <option>Chocolate</option>
-                            <option>Cod liver oil</option>
-                            <option>Crisps (chips US) average</option>
-                            <option>Honey</option>
-                            <option>Jam</option>
-                            <option>Lard</option>
-                            <option>Low fat spread</option>
-                            <option>Margarine</option>
-                            <option>Mars bar</option>
-                            <option>Mint sweets</option>
-                            <option>Oils -corn, sunflower, olive</option>
-                            <option>Popcorn average</option>
-                            <option>Sugar white table sugar</option>
-                            <option>Sweets (boiled)</option>
-                            <option>Syrup</option>
-                            <option>Toffee</option>
+                 </tr>
+             </thead>
+             <tbody>*@
+            <tr class="disabled h3 table-bordered table-hover bg-info">
+                <th scope="row">#</th>
+                <td>@Resource.Meats2 @*Anchovies tinned*@  </td>
+                <td> @Resource.cals2 (100g) </td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>@Resource.Anchovies2 @*Anchovies tinned*@  </td>
+                <td>300 @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>@Resource.Beef21 </td>
+                <td>300  @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>@Resource.Beefburgers2  </td>
+                <td>320 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>@Resource.Chicken2 </td>
+                <td>220  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>@Resource.Cockles2 </td>
+                <td>50  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>@Resource.Codfresh2  </td>
+                <td>48 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>@Resource.chip2 </td>
+                <td>140  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>@Resource.Crabfresh2 </td>
+                <td>200 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td>@Resource.Duckroast2  </td>
+                <td>400 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td>@Resource.Fishcake2 </td>
+                <td>90 @Resource.percake2 </td>
+            </tr>
+            <tr>
+                <th scope="row">11</th>
+                <td>@Resource.Fishfingers2 </td>
+                <td>50  @Resource.perpiec2 </td>
+            </tr>
+            <tr>
+                <th scope="row">12</th>
+                <td>@Resource.Haddock2  </td>
+                <td>200  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">13</th>
+                <td>@Resource.Halibutfresh2 </td>
+                <td>220  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">14</th>
+                <td>@Resource.Herring2 </td>
+                <td>300   @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">15</th>
+                <td> @Resource.Kidney2</td>
+                <td>200 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">16</th>
+                <td>@Resource.Kipper2 </td>
+                <td>200 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">17</th>
+                <td> @Resource.Liver2</td>
+                <td>200  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">18</th>
+                <td>@Resource.Liverpate2 </td>
+                <td>150  @Resource.cals2  </td>
+            </tr>
 
-                        </optgroup>
-                    </select>
-                </fieldset>
-            <li>
-                <fieldset>
-                    <legend>Fruit</legend>
-                    <select name="Food Name">
-                        <optgroup label="Fruit">
-                            <option>Apple (1 average)</option>
-                            <option>Apple cooking</option>
-                            <option>Apricot</option>
-                            <option>Avocado</option>
-                            <option>Banana</option>
-                            <option>Blackberries each</option>
-                            <option>Blackcurrant each</option>
-                            <option>Blueberries  (new) 100g</option>
-                            <option>Cherry each</option>
-                            <option>Clementine</option>
-                            <option>Currants</option>
-                            <option>Damson</option>
-                            <option>One average date 5g</option>
-                            <option>Dates with inverted sugar 100g</option>
-                            <option>Figs</option>
-                            <option>Gooseberries</option>
-                            <option>Grapes 100g Seedless</option>
-                            <option>one average Grape 6g</option>
-                            <option>Grapefruit whole</option>
-                            <option>Guava</option>
-                            <option>Kiwi</option>
-                            <option>Lemon</option>
-                            <option>Lychees</option>
-                            <option>Mango</option>
-                            <option>Melon Honeydew (130g)</option>
-                            <option>Melon Canteloupe (130g)</option>
-                            <option>Nectarines</option>
-                            <option>Olives</option>
-                            <option>Orange average</option>
-                            <option>Orange large 350g</option>
-                            <option>Papaya Diced (small handful)</option>
-                            <option>Passion Fruit</option>
-                            <option>Paw Paw</option>
-                            <option>Peach</option>
-                            <option>Pear</option>
-                            <option>Pineapple</option>
-                            <option>Plum</option>
-                            <option>Prunes</option>
-                            <option>Raisins</option>
-                            <option>Raspberries each</option>
-                            <option>Rhubarb</option>
-                            <option>Satsuma one average 112g</option>
-                            <option>Satsumas 100g</option>
-                            <option>Strawberries (1 average)</option>
-                            <option>Sultanas</option>
-                            <option>Tangerine</option>
-                            <option>Tomatoes (1 average size)</option>
-                            <option>Tomatoes Cherry (1 average size)</option>
+            <tr>
+                <th scope="row">19</th>
+                <td>@Resource.Lamb2  </td>
+                <td>300 @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">20</th>
+                <td>@Resource.Lobsterboiled2 </td>
+                <td>300  @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">21</th>
+                <td>@Resource.Luncheon2  </td>
+                <td>300  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">22</th>
+                <td>@Resource.Mackeral2 </td>
+                <td>320  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">23</th>
+                <td>@Resource.Mussels2 </td>
+                <td>90  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">24</th>
+                <td>@Resource.Pheasantroast2  </td>
+                <td>200 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">25</th>
+                <td>@Resource.Pilchards2 </td>
+                <td>140  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">26</th>
+                <td>@Resource.Turkey2 </td>
+                <td>200 @Resource.cals2 </td>
+            </tr>
+            @*</tbody>
+        </table>
+
+        <table class="table">
+            <thead class="table-responsive-lg">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">@Resource.Vegetablesff2 </th>
+                    <th scope="col">@Resource.cals2 (100g) </th>
+
+                </tr>
+            </thead>
+            <tbody>*@
+            <tr class="disabled h3 table-bordered table-hover bg-danger">
+                <th scope="row">#</th>
+                <td>@Resource.Vegetablesff2   </td>
+                <td> @Resource.cals2 (100g) </td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>@Resource.Apple3  </td>
+                <td>44 @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>@Resource.Banana3 </td>
+                <td>107 @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>@Resource.Beansbakedbeans3  </td>
+                <td>170 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>@Resource.Beansdried3 </td>
+                <td>180  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>@Resource.Blackberries3  </td>
+                <td>25  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>@Resource.Blackcurrant3  </td>
+                <td>30 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>@Resource.Broccoli3 </td>
+                <td>27  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>@Resource.Cabbage3 </td>
+                <td>15 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td>@Resource.Carrot3  </td>
+                <td>16 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td>@Resource.Cauliflower3 </td>
+                <td>20 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">11</th>
+                <td>@Resource.Celeryi3 </td>
+                <td>5   @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">12</th>
+                <td>@Resource.Cherry3  </td>
+                <td>35  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">13</th>
+                <td>@Resource.Courgette3 </td>
+                <td>8  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">14</th>
+                <td>@Resource.Cucumber3 </td>
+                <td>3 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">15</th>
+                <td> @Resource.Dates3</td>
+                <td>100 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">16</th>
+                <td>@Resource.Grapes3 </td>
+                <td>55 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">17</th>
+                <td> @Resource.Grapefruit3</td>
+                <td>32  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">18</th>
+                <td>@Resource.Kiwi3 </td>
+                <td>40  @Resource.cals2  </td>
+            </tr>
+
+            <tr>
+                <th scope="row">19</th>
+                <td>@Resource.Lentils3 </td>
+                <td>150 @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">20</th>
+                <td>@Resource.Lettuce3 </td>
+                <td>4  @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">21</th>
+                <td>@Resource.Melon3 </td>
+                <td>14  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">22</th>
+                <td>@Resource.Mushrooms3 </td>
+                <td>12  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">23</th>
+                <td>@Resource.Olives3 </td>
+                <td>50  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">24</th>
+                <td>@Resource.Onion3  </td>
+                <td>14 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">25</th>
+                <td>@Resource.Orange3 </td>
+                <td>40  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">26</th>
+                <td>@Resource.Peas3 </td>
+                <td>210 @Resource.cals2 </td>
+            </tr>
+            @*</tbody>
+        </table>
 
 
 
+        <table class="table">
+            <thead class="table-responsive-xl">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">@Resource.Dairyproduce4 </th>
+                    <th scope="col">@Resource.cals2 (100g)</th>
 
-                        </optgroup>
-                    </select>
+                </tr>
+            </thead>
+            <tbody>*@
+            <tr class="disabled h3 table-bordered table-hover bg-success">
+                <th scope="row">#</th>
+                <td>@Resource.Dairyproduce4   </td>
+                <td> @Resource.cals2 (100g)  </td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>@Resource.Cheese4  </td>
+                <td>110 @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>@Resource.Cheddar4 </td>
+                <td>130 @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>@Resource.Cottage4  </td>
+                <td>130 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>@Resource.Cream4 </td>
+                <td>200  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>@Resource.Custard4  </td>
+                <td>210  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>@Resource.Eggs4  </td>
+                <td>90 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>@Resource.Ice4 </td>
+                <td>200  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>@Resource.Milk4 </td>
+                <td>157 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td>@Resource.MilkSoya4  </td>
+                <td>90 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td>@Resource.Mousse4 </td>
+                <td>120 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">11</th>
+                <td>@Resource.Omelette4 </td>
+                <td>300   @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">12</th>
+                <td>@Resource.Trifle4  </td>
+                <td>290  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">13</th>
+                <td>@Resource.Yogurt4 </td>
+                <td>90  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">14</th>
+                <td>@Resource.Milkskimmed4 </td>
+                <td>95    @Resource.cals2 </td>
+            </tr>
 
-                </fieldset>
-            </li>
-        </ul>
-    </fieldset>}
-@*<img src="~/Content/Images/1.jpg" width="850px" height="831px " />
-    <img src="~/Content/Images/2.jpg" width="808px" height="234px " />
-    <img src="~/Content/Images/3jpg" width="844px" height="262px " />
-    <img src="~/Content/Images/4jpg" width="827px" height="774px " />
-    <img src="~/Content/Images/5jpg" width="834px" height="1037 " />
-    <img src="~/Content/Images/6jpg" width="866px" height="978px " />
-    <img src="~/Content/Images/7jpg" width="833px" height="851px " />
-    <img src="~/Content/Images/8jpg" width="796px" height="751px " />
-    <img src="~/Content/Images/9jpg" width="818px" height="1130px " />
-    <img src="~/Content/Images/10.jpg"  width="810px" height="484px " />
-    <img src="~/Content/Images/11.jpg"  width="805px" height="1132px " />*@
+            @*</tbody>
+        </table>
 
+        <table class="table">
+            <thead class="table-responsive-xl">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">@Resource.Fats5 </th>
+                    <th scope="col">@Resource.cals2 (100g) </th>
+
+                </tr>
+            </thead>
+            <tbody>*@
+            <tr class="disabled h3 table-bordered table-hover bg-primary ">
+                <th scope="row">#</th>
+                <td>@Resource.Fats5   </td>
+                <td> @Resource.cals2 (100g)  </td>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>@Resource.PUREFAT5  </td>
+                <td>900  @Resource.cals2  </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>@Resource.Bombay5 </td>
+                <td>500 @Resource.cals2  </td>
+            </tr>=\[]
+            <tr>
+                <th scope="row">3</th>
+                <td>@Resource.Butter5  </td>
+                <td>750 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>@Resource.Chewing5 </td>
+                <td>-- </td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>@Resource.Chocolate5  </td>
+                <td>500  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>@Resource.Codliver5  </td>
+                <td>900 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>@Resource.Cornsnack5  </td>
+                <td>900  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>@Resource.Crisps5 </td>
+                <td>500 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td>@Resource.Honey  </td>
+                <td>280 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td>@Resource.Jam5 </td>
+                <td>250 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">11</th>
+                <td>@Resource.Low5 </td>
+                <td>400    @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">12</th>
+                <td>@Resource.Margarine5  </td>
+                <td>750   @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">13</th>
+                <td>@Resource.Mint5 </td>
+                <td>-- </td>
+            </tr>
+            <tr>
+                <th scope="row">14</th>
+                <td>@Resource.Oils5 </td>
+                <td>3    @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">15</th>
+                <td> @Resource.Popcorn5</td>
+                <td>460  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">16</th>
+                <td>@Resource.Sugarwhite5  </td>
+                <td>400 @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">17</th>
+                <td> @Resource.Sweets5</td>
+                <td>300  @Resource.cals2 </td>
+            </tr>
+            <tr>
+                <th scope="row">18</th>
+                <td>@Resource.Syrup5 </td>
+                <td>300  @Resource.cals2  </td>
+            </tr>
+
+            <tr>
+                <th scope="row">19</th>
+                <td>@Resource.Toffee5 </td>
+                <td>400 @Resource.cals2  </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+}
 
 

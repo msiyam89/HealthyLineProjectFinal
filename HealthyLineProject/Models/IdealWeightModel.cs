@@ -25,9 +25,15 @@ namespace HealthyLineProject.Models
         [Required]
         public float CurrentWeight { get; set; }
 
+        [Display(Name = "BMI", ResourceType = typeof(Resource))]
+        [Required]
+        public float BMI { get; set; }
         [Display(Name = "IdealWeight", ResourceType = typeof(Resource))]
         [Required]
         public float IdealWeight { get; set; }
+        [Required]
+        [Display(Name = "Gender", ResourceType = typeof(Resource))]
+        public bool Gender { get; set; }
         //[Required]
         //public int weight { get; set; }
 

@@ -4,20 +4,19 @@
 
 @using (Html.BeginForm())
 {
-    
-   
-    <div class="form-group">
-        @Html.LabelFor(x => x.UserName)
-        @Html.TextBoxFor(x => x.UserName,new { @class= "form-control", placeholder = @Resource.UserName })
-        @Html.ValidationMessageFor(x=>x.UserName)
-    </div>
-    <div class="form-group">
-        @Html.LabelFor(x => x.Password)
-        @Html.PasswordFor(x => x.Password, new { @class = "form-control", placeholder = @Resource.Password })
-        @Html.ValidationMessageFor(x=>x.Password)
-    </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+
+    @Html.LabelFor(x => x.UserName)
+    @Html.TextBoxFor(x => x.UserName, new { @class = "form-control", placeholder = @Resource.UserName })
+    @Html.ValidationMessageFor(x=>x.UserName)
+
+
+    @Html.LabelFor(x => x.Password)
+    @Html.PasswordFor(x => x.Password, new { @class = "form-control", placeholder = @Resource.Password })
+    @Html.ValidationMessageFor(x => x.Password)
+    <br />
+
+    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
 
 }
 @section Scripts {

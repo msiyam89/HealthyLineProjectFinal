@@ -241,7 +241,7 @@
     <value>الصفحة الرئيسية</value>
   </data>
   <data name="Howto" xml:space="preserve">
-    <value>كيف تستعد</value>
+    <value>طريقة التحضير </value>
   </data>
   <data name="IdealWeight" xml:space="preserve">
     <value>الوزن المثالي</value>
@@ -444,7 +444,7 @@
     <value>: لحم مقدد و بيض.</value>
   </data>
   <data name="Bread2" xml:space="preserve">
-    <value>الخبز والمخبوزات: الخبز الأبيض والخبز المصنوع من القمح الكامل والبسكويت والكعك والكعك والفطائر.</value>
+    <value>الخبز والمخبوزات.</value>
   </data>
   <data name="Bunless1" xml:space="preserve">
     <value>: برجر بالجبنة مع الخضار والزبدة.</value>
@@ -510,7 +510,7 @@
     <value>اللحوم: لحم البقر والضأن والدجاج وغيرها.</value>
   </data>
   <data name="Nutbutter2" xml:space="preserve">
-    <value>زبدة الجوز: زبدة الفول السوداني واللوز والكاجو الطبيعية.</value>
+    <value>زبدة الجوز</value>
   </data>
   <data name="Nutsandseeds1" xml:space="preserve">
     <value>المكسرات والبذور: اللوز ، المكاديميا ، الجوز ، بذور عباد الشمس ، إلخ.</value>
@@ -889,5 +889,1544 @@
   </data>
   <data name="Wipe7" xml:space="preserve">
     <value>امسح القاع الصيني (30 × 40 سم) بملعقة كبيرة من الزيت.</value>
+  </data>
+  <data name="Addedsugar3" xml:space="preserve">
+    <value>السكر المضاف: الصودا والحلويات والآيس كريم وسكر المائدة وغيرها الكثير.</value>
+  </data>
+  <data name="Addflour8" xml:space="preserve">
+    <value>أضف الدقيق والسكر والملح والقرفة واخلط حتى تمتزج المكونات</value>
+  </data>
+  <data name="Addto9" xml:space="preserve">
+    <value>أضيفي نفس البصل المقلي والفلفل الأحمر والفلفل الأصفر والكمون والفلفل الحار المطحون وقلب على نار متوسطة إلى عالية لمدة 5 دقائق</value>
+  </data>
+  <data name="amedium10" xml:space="preserve">
+    <value>في وعاء متوسط ​​، اخلطي الفلفل الحلو ومسحوق الثوم والملح ومسحوق البصل والأعشاب المجففة والفلفل الحار والفلفل الأسود حتى تمتزج المكونات.</value>
+  </data>
+  <data name="athick9" xml:space="preserve">
+    <value>سخني مقلاة سميكة عريضة على نار متوسطة ، ثم أضيفي الزيت واللحم وقلب اللحم لمدة 3 دقائق حتى يصبح لونه بني.</value>
+  </data>
+  <data name="Bakedavocado2" xml:space="preserve">
+    <value>خبز القوارب البيض الأفوكادو</value>
+  </data>
+  <data name="Bakedavocado9" xml:space="preserve">
+    <value>الكزبرة الخضراء: 2 ملعقة صغيرة (طازجة ومفرومة)</value>
+  </data>
+  <data name="Baking12" xml:space="preserve">
+    <value>مسحوق الخبز: نصف ملعقة صغيرة</value>
+  </data>
+  <data name="beef2" xml:space="preserve">
+    <value>لحم بقري مع الخضار</value>
+  </data>
+  <data name="Bunlesssalmon2" xml:space="preserve">
+    <value>برجر سلمون مع خبز البيستو</value>
+  </data>
+  <data name="Butter8" xml:space="preserve">
+    <value>زبدة: 2 ملعقة صغيرة</value>
+  </data>
+  <data name="Caesarsalad2" xml:space="preserve">
+    <value>سلطة سيزر بالدجاج.</value>
+  </data>
+  <data name="Cauliflower2" xml:space="preserve">
+    <value>توست القرنبيط مع الجبن والأفوكادو</value>
+  </data>
+  <data name="Cherry8" xml:space="preserve">
+    <value>الكرز: 2 كوب (المجفف)</value>
+  </data>
+  <data name="Chickenbreast10" xml:space="preserve">
+    <value>صدر الدجاج: 4 صدور (فيليه مطحون)</value>
+  </data>
+  <data name="chili10" xml:space="preserve">
+    <value>الفلفل الحار: ملعقة صغيرة (مطحون)</value>
+  </data>
+  <data name="Cinnamon8" xml:space="preserve">
+    <value>القرفة: 1/4 ملعقة صغيرة (مطحون)</value>
+  </data>
+  <data name="Cobbsalad2" xml:space="preserve">
+    <value>سلطة كوب مصنوعة من الخضار والبيض المسلوق والأفوكادو والجبن والديك الرومي</value>
+  </data>
+  <data name="Coconutchicken2" xml:space="preserve">
+    <value>كاري دجاج بجوز الهند</value>
+  </data>
+  <data name="Coconutmilk2" xml:space="preserve">
+    <value>بودنغ شيا حليب جوز الهند مع جوز الهند والجوز</value>
+  </data>
+  <data name="Cover11" xml:space="preserve">
+    <value>غطي الصينية بورق الألمنيوم وضعيها في الفرن لمدة 25 دقيقة.</value>
+  </data>
+  <data name="Cover9" xml:space="preserve">
+    <value>غطي الصينية بورق الألمنيوم وضعيها في الفرن لمدة 25 دقيقة.</value>
+  </data>
+  <data name="Cumin9" xml:space="preserve">
+    <value>الكمون: نصف ملعقة صغيرة (مطحون).</value>
+  </data>
+  <data name="DriedHerbs10" xml:space="preserve">
+    <value>الأعشاب المجففة: 1 ملعقة كبيرة</value>
+  </data>
+  <data name="DryCoriander12" xml:space="preserve">
+    <value>الكزبرة الجافة: 1 ملعقة صغيرة</value>
+  </data>
+  <data name="Eggs8" xml:space="preserve">
+    <value>بيض: 3 قطع</value>
+  </data>
+  <data name="Fish11" xml:space="preserve">
+    <value>سمك: قطعتين (سمكة ممتلئة / النوع المفضل لديك / كيلو بالوزن / منظف)</value>
+  </data>
+  <data name="Fishseasoning11" xml:space="preserve">
+    <value>توابل السمك: نصف ملعقة صغيرة</value>
+  </data>
+  <data name="Flour12" xml:space="preserve">
+    <value>الطحين: كوبان ونصف</value>
+  </data>
+  <data name="Flour8" xml:space="preserve">
+    <value>طحين: نصف كوب (بني)</value>
+  </data>
+  <data name="Fruits3" xml:space="preserve">
+    <value>الفواكه: التفاح ، الموز ، البرتقال ، الكمثرى ، الفراولة ، العنب ، التمر ، التين ، البطيخ ، الخوخ ، إلخ.</value>
+  </data>
+  <data name="Fry12" xml:space="preserve">
+    <value>تقلى مثلثات العجين في قدر تحتوي على زيت غزير ساخن حتى تصبح ذهبية اللون.</value>
+  </data>
+  <data name="Garlic10" xml:space="preserve">
+    <value>مسحوق الثوم: ملعقتان كبيرتان</value>
+  </data>
+  <data name="Garlic12" xml:space="preserve">
+    <value>(الثوم: 2 فصوص (مفروم ناعم</value>
+  </data>
+  <data name="Ginger12" xml:space="preserve">
+    <value>الزنجبيل: نصف ملعقة صغيرة (طازجة ومبشورة)</value>
+  </data>
+  <data name="Grease10" xml:space="preserve">
+    <value>ادهني الشواية بالزيت بفرشاة ، وضعي الدجاج المتبّل وحركي من كلا الجانبين حتى ينزل ويلين.</value>
+  </data>
+  <data name="Greasethe11" xml:space="preserve">
+    <value>ادهني خليط السمك جيدًا من جميع الجوانب واسكبي باقي الخليط فوق السمك في الصينية.</value>
+  </data>
+  <data name="Green12" xml:space="preserve">
+    <value>فلفل أخضر حار: 1 قطعة (مقطعة إلى مكعبات صغيرة)</value>
+  </data>
+  <data name="Heatthe10" xml:space="preserve">
+    <value>سخني الشواية على نار متوسطة ودهن قطع الدجاج بمزيج من البهارات من جميع الجهات</value>
+  </data>
+  <data name="Highlyprocessedfoods3" xml:space="preserve">
+    <value>الأطعمة عالية المعالجة: أي شيء يسمى "قليل الدسم" أو "حمية" أو يبدو أنه صنع في مصنع</value>
+  </data>
+  <data name="Lemon11" xml:space="preserve">
+    <value>الليمون: حبة واحدة (شرائح)</value>
+  </data>
+  <data name="Makecracks11" xml:space="preserve">
+    <value>اصنع تشققات بسكين حاد في السمك وضعها في صينية الفرن.</value>
+  </data>
+  <data name="Meatballs2" xml:space="preserve">
+    <value>كرات اللحم تقدم مع نودلز الكوسة وجبنة البارميزان</value>
+  </data>
+  <data name="MeatFillet9" xml:space="preserve">
+    <value>شرائح لحم: 500 جرام (مقطع شرائح طولي)</value>
+  </data>
+  <data name="Melt8" xml:space="preserve">
+    <value>نذوب ملعقة الزبدة الأخرى ونضعها في وعاء ثم نضيف وعاء الحليب والبيض والفانيليا ونخلط.</value>
+  </data>
+  <data name="Milk8" xml:space="preserve">
+    <value>الحليب: نصف كوب (قليل الدسم).</value>
+  </data>
+  <data name="Mix12" xml:space="preserve">
+    <value>العجين: اخلط المكونات الجافة (الدقيق ومسحوق الخبز) معًا في وعاء كبير ، صب الزيت والماء مع التقليب ، حتى يتم الحصول على عجين قوي. تُغطّى العجينة وتُترك جانباً حتى تخلو من التحضير</value>
+  </data>
+  <data name="Mixthe11" xml:space="preserve">
+    <value>اخلطي زيت الزيتون وعصير الليمون والثوم والملح والفلفل والكمون وتوابل السمك في طبق جيد.</value>
+  </data>
+  <data name="oil12" xml:space="preserve">
+    <value>الزيت: غزير (للقلي)</value>
+  </data>
+  <data name="Onionpowder10" xml:space="preserve">
+    <value>مسحوق البصل: 1 ملعقة كبيرة</value>
+  </data>
+  <data name="Onions12" xml:space="preserve">
+    <value>البصل: حبة واحدة (صغيرة الحجم / مفرومة ناعماً)</value>
+  </data>
+  <data name="Onions9" xml:space="preserve">
+    <value>البصل: حبة واحدة (شرائح مفرومة)</value>
+  </data>
+  <data name="Paprika10" xml:space="preserve">
+    <value>بابريكا: ملعقتان ونصف ملعقة (مطحون)</value>
+  </data>
+  <data name="Peas12" xml:space="preserve">
+    <value>البازلاء: نصف كوب (مجمد)</value>
+  </data>
+  <data name="Peasand12" xml:space="preserve">
+    <value>تضاف البازلاء والبطاطس إلى المقلاة التي تبردها. ينضج خليط الحشو على نار خفيفة لمدة عشر دقائق ، قبل إزالته من الحرارة ويترك ليبرد.</value>
+  </data>
+  <data name="Place12" xml:space="preserve">
+    <value>ضعي ملعقة كبيرة من الحشوة في النصف الأول من العجين وأغلقها في شكل مثلث. كرر العملية حتى نفاد الكمية.</value>
+  </data>
+  <data name="Potatoes12" xml:space="preserve">
+    <value>البطاطس: حبة واحدة (كبيرة / مقشرة ، مسلوقة ، مهروسة)</value>
+  </data>
+  <data name="Preheat11" xml:space="preserve">
+    <value>سخن الفرن إلى 200 درجة.</value>
+  </data>
+  <data name="Preheat8" xml:space="preserve">
+    <value>سخن الفرن إلى 450 درجة</value>
+  </data>
+  <data name="Preheat9" xml:space="preserve">
+    <value>سخن الفرن إلى 200 درجة.</value>
+  </data>
+  <data name="Processedmeat3" xml:space="preserve">
+    <value>اللحوم المصنعة: النقانق المجهزة ، النقانق ، إلخ.</value>
+  </data>
+  <data name="Reddish11" xml:space="preserve">
+    <value>احمر الوجه والقدمين ساخنين مع السلطات أو الخضار المشوية حسب الرغبة.</value>
+  </data>
+  <data name="Reddish9" xml:space="preserve">
+    <value>احمر الوجه والقدمين ساخنين مع السلطات أو الخضار المشوية حسب الرغبة.</value>
+  </data>
+  <data name="Redhotpepper9" xml:space="preserve">
+    <value>الفلفل الأحمر الحار: نصف ملعقة صغيرة (مطحون)</value>
+  </data>
+  <data name="redpepper9" xml:space="preserve">
+    <value>الفلفل الأحمر: 1 قرص (شرائح مفرومة)</value>
+  </data>
+  <data name="Reduceheat11" xml:space="preserve">
+    <value>خفف الحرارة وأزل ورق الألمنيوم واتركه لمدة 10 دقائق إضافية حتى تنضج الأسماك تمامًا.</value>
+  </data>
+  <data name="Reduceheat9" xml:space="preserve">
+    <value>خفف الحرارة وأزل ورق الألمنيوم واتركه لمدة 10 دقائق إضافية حتى تنضج الأسماك تمامًا.</value>
+  </data>
+  <data name="Refinedgrains3" xml:space="preserve">
+    <value>الحبوب المكررة: الخبز الأبيض والمعكرونة المصنوعة من القمح المكرر ، إلخ.</value>
+  </data>
+  <data name="Refinedoils3" xml:space="preserve">
+    <value>الزيوت المكررة: زيت فول الصويا وزيت الكانولا وزيت بذرة القطن وغيرها.</value>
+  </data>
+  <data name="Rosemary11" xml:space="preserve">
+    <value>روزماري: 2 عصا (طازجة)</value>
+  </data>
+  <data name="rosemary9" xml:space="preserve">
+    <value>إكليل الجبل</value>
+  </data>
+  <data name="Salt8" xml:space="preserve">
+    <value>الملح: 1/4 ملعقة صغيرة</value>
+  </data>
+  <data name="Seasonthe9" xml:space="preserve">
+    <value>يتبل اللحم بالملح والفلفل ويقلب لمدة دقيقة أخرى ، ثم يرفع اللحم من القدر ويوضع جانباً.</value>
+  </data>
+  <data name="Spread11" xml:space="preserve">
+    <value>انشر شرائح الليمون وإكليل الجبل في الصينية.</value>
+  </data>
+  <data name="Spread8" xml:space="preserve">
+    <value>افرد ملعقة كبيرة من الزبدة في صينية صغيرة غير لاصقة وضعها في الفرن حتى تذوب ملعقة الزبدة.</value>
+  </data>
+  <data name="Spreadlemon9" xml:space="preserve">
+    <value>انشر شرائح الليمون و إكليل الجبل في الصينية.</value>
+  </data>
+  <data name="stuffing12" xml:space="preserve">
+    <value>للحشوة: سخني الزيت في مقلاة كبيرة على النار ثم أضيفي البصل المفروم والثوم والزنجبيل والفلفل الحار مع التحريك باستمرار. أضيفي الكمون المجفف والكزبرة مع الاستمرار في التقليب.</value>
+  </data>
+  <data name="Sugar8" xml:space="preserve">
+    <value>السكر: 1 ملعقة كبيرة</value>
+  </data>
+  <data name="Thedough12" xml:space="preserve">
+    <value>تنقسم العجينة إلى أقسام متساوية الحجم ؛ ينتشر كل قسم على سطح طاولة ، يتكون في دائرة ، بواسطة فنجان قهوة ، ثم تنقسم الدائرة إلى نصفين بسكين حاد.</value>
+  </data>
+  <data name="thepreviously8" xml:space="preserve">
+    <value>في الصينية المعدة مسبقًا ، وزعي حبات الكرز ، ثم أضيفي خليط البان كيك</value>
+  </data>
+  <data name="Transfats3" xml:space="preserve">
+    <value>الدهون المتحولة: توجد في المارجرين والأطعمة المصنعة المختلفة.</value>
+  </data>
+  <data name="Vanilla8" xml:space="preserve">
+    <value>الفانيليا: 1 ملعقة صغيرة</value>
+  </data>
+  <data name="Vegetable12" xml:space="preserve">
+    <value>زيت نباتي: 2 ملعقة صغيرة</value>
+  </data>
+  <data name="Vegetables3" xml:space="preserve">
+    <value>الخضروات: الطماطم ، البروكلي ، اللفت ، السبانخ ، البصل ، القرنبيط ، الجزر ، براعم بروكسل ، الخيار ، إلخ.</value>
+  </data>
+  <data name="Water12" xml:space="preserve">
+    <value>الماء: كوب</value>
+  </data>
+  <data name="Yellowpepper9" xml:space="preserve">
+    <value>فلفل أصفر: حبة واحدة (شرائح مفرومة)</value>
+  </data>
+  <data name="Addsoy13" xml:space="preserve">
+    <value>أضيفي صلصة الصويا والملح والفلفل وقلبي.</value>
+  </data>
+  <data name="Alcohol4" xml:space="preserve">
+    <value>الكحول</value>
+  </data>
+  <data name="Alcohol6" xml:space="preserve">
+    <value>الكحول</value>
+  </data>
+  <data name="Almond8" xml:space="preserve">
+    <value>الدجاج اللوز مع الخضار أو الشواء والخضروات لأولئك الذين يتبعون نظامًا غذائيًا نباتيًا أو نباتيًا</value>
+  </data>
+  <data name="Apple4" xml:space="preserve">
+    <value>سلطة التفاح والجوز</value>
+  </data>
+  <data name="Applee4" xml:space="preserve">
+    <value>التفاح والتوت</value>
+  </data>
+  <data name="Applewalnut6" xml:space="preserve">
+    <value>سلطة دجاج بالجوز</value>
+  </data>
+  <data name="apply14" xml:space="preserve">
+    <value>كيفية التقديم: ينقسم الحساء إلى ستة أجزاء متساوية. قدميها ساخنة ، مع توزيع مزيج الطماطم على الوجه.</value>
+  </data>
+  <data name="artificial6" xml:space="preserve">
+    <value>بدائل السكر ، بما في ذلك ستيفيا والمحليات الاصطناعية وكحوليات السكر مثل إكسيليتول وإريثريتول</value>
+  </data>
+  <data name="asberries8" xml:space="preserve">
+    <value>فواكه مثل التوت والتفاح والبرتقال والخوخ وغيرها</value>
+  </data>
+  <data name="avocado4" xml:space="preserve">
+    <value>سلطة الأفوكادو والفواكه</value>
+  </data>
+  <data name="Avocado6" xml:space="preserve">
+    <value>أفوكادو</value>
+  </data>
+  <data name="Avocados8" xml:space="preserve">
+    <value>افوكادو</value>
+  </data>
+  <data name="bagels8" xml:space="preserve">
+    <value>الحبوب والكربوهيدرات المصنعة ، بما في ذلك الخبز والخبز والحبوب.</value>
+  </data>
+  <data name="Baked4" xml:space="preserve">
+    <value>أصناف مخبوزة</value>
+  </data>
+  <data name="Baked9" xml:space="preserve">
+    <value>التفاح المخبوز مع رذاذ الفانيليا</value>
+  </data>
+  <data name="Baking121" xml:space="preserve">
+    <value>مسحوق الخبز: نصف ملعقة صغيرة</value>
+  </data>
+  <data name="Banana4" xml:space="preserve">
+    <value>الموز وزبدة الجوز الخام</value>
+  </data>
+  <data name="Barley9" xml:space="preserve">
+    <value>حساء الشعير والفطر</value>
+  </data>
+  <data name="beans5" xml:space="preserve">
+    <value>فاصوليا</value>
+  </data>
+  <data name="beans6" xml:space="preserve">
+    <value>فاصوليا سوداء ، فاصوليا ، فاصوليا بينتو ، فاصوليا بحرية ، فاصوليا غاربانزو وأنواع أخرى من الفاصوليا</value>
+  </data>
+  <data name="Beef" xml:space="preserve">
+    <value>لحمة مع  خضار</value>
+  </data>
+  <data name="Black9" xml:space="preserve">
+    <value>صندوق الحبة السوداء</value>
+  </data>
+  <data name="bokchoy5" xml:space="preserve">
+    <value>تقلى المقلي مع بوك تشوي والبروكلي.</value>
+  </data>
+  <data name="bolognese5" xml:space="preserve">
+    <value>باستا مع صلصة بولونيز العدس وسلطة جانبية.</value>
+  </data>
+  <data name="Broccolii4" xml:space="preserve">
+    <value>البروكلي والحمص النيء</value>
+  </data>
+  <data name="Burrito7" xml:space="preserve">
+    <value>وعاء بوريتو مع الأرز البني والفاصوليا والأفوكادو والصلصة والخضار</value>
+  </data>
+  <data name="Buttermilk6" xml:space="preserve">
+    <value>اللبن ، اللبن قليل الدسم ، اللبن الزبادي أو اليوناني ، الكفير وحليب الصويا ، يقتصر على كوبين (473 مل) يوميًا</value>
+  </data>
+  <data name="Cakes9" xml:space="preserve">
+    <value>كعك وكوكيز</value>
+  </data>
+  <data name="candies6" xml:space="preserve">
+    <value>حلوى أو مصاصات أو علكة خالية من السكر</value>
+  </data>
+  <data name="Candy9" xml:space="preserve">
+    <value>حلويات</value>
+  </data>
+  <data name="canolaoil8" xml:space="preserve">
+    <value>زيوت مثل زيت الكانولا وزيت السمسم وزيت الفول السوداني وزيت الزيتون</value>
+  </data>
+  <data name="cappuccino5" xml:space="preserve">
+    <value>حمص نباتي وبصل أومليت وكابتشينو مصنوع من حليب نباتي مدعم.</value>
+  </data>
+  <data name="Carrot13" xml:space="preserve">
+    <value>الجزر: 2 حبة (شرائح مفرومة)</value>
+  </data>
+  <data name="Carrots4" xml:space="preserve">
+    <value>الجزر والحمص النيء</value>
+  </data>
+  <data name="Celerysticks6" xml:space="preserve">
+    <value>أصابع الكرفس مع 2 ملعقة صغيرة زبدة فول سوداني</value>
+  </data>
+  <data name="cheese6" xml:space="preserve">
+    <value>الجبن الصلب قليل الدسم وجبن الريكوتا والجبن</value>
+  </data>
+  <data name="cheeses8" xml:space="preserve">
+    <value>أجبان قليلة الدسم</value>
+  </data>
+  <data name="Chia4" xml:space="preserve">
+    <value>بودنغ بذور الشيا مع الفاكهة</value>
+  </data>
+  <data name="Chicken13" xml:space="preserve">
+    <value>صدر الدجاج: 2 صدر (مسلوق ، شرائح رقيقة)</value>
+  </data>
+  <data name="chicken5" xml:space="preserve">
+    <value>دجاج</value>
+  </data>
+  <data name="Chickenbreast13" xml:space="preserve">
+    <value>صدر الدجاج: 2 صدر (فيليه مطحون)</value>
+  </data>
+  <data name="Chickenbroth14" xml:space="preserve">
+    <value>فراخ الدجاج: 6 أكواب</value>
+  </data>
+  <data name="Chickpea7" xml:space="preserve">
+    <value>كاري الحمص مع أرز بسمتي</value>
+  </data>
+  <data name="Chips4" xml:space="preserve">
+    <value>رقائق</value>
+  </data>
+  <data name="Chocolate9" xml:space="preserve">
+    <value>معكرونة مغموسة بالشوكولاتة</value>
+  </data>
+  <data name="cocoa8" xml:space="preserve">
+    <value>تجزئة الفطور المصنوع من اللحم والخضروات ، أو سموثي زبدة التوت بالكاكاو للنباتيين</value>
+  </data>
+  <data name="coconutoil6" xml:space="preserve">
+    <value>زبدة وزيت جوز الهند</value>
+  </data>
+  <data name="Coffee4" xml:space="preserve">
+    <value>القهوة والشاي</value>
+  </data>
+  <data name="Coffee6" xml:space="preserve">
+    <value>قهوة عادية أو منزوعة الكافيين</value>
+  </data>
+  <data name="Coldpressed4" xml:space="preserve">
+    <value>زيت الزيتون وزيت جوز الهند</value>
+  </data>
+  <data name="Cookedfruits4" xml:space="preserve">
+    <value>الفاكهة المطبوخة والخضروات واللحوم والحبوب</value>
+  </data>
+  <data name="Cottagecheese6" xml:space="preserve">
+    <value>الجبن مع الطماطم الكرز</value>
+  </data>
+  <data name="Cranberry9" xml:space="preserve">
+    <value>دقيق الشوفان بالتوت البري والجوز</value>
+  </data>
+  <data name="Cream6" xml:space="preserve">
+    <value>كريمة ، حليب كامل الدسم أو نصف ونصف ، محدود بـ 1 ملعقة كبيرة</value>
+  </data>
+  <data name="crushed13" xml:space="preserve">
+    <value>أضيفي شريحة الدجاج المهروسة ، اخلطيها جيدًا والتوابل ، ثم ضعيها في الثلاجة لمدة ليلة كاملة.</value>
+  </data>
+  <data name="cucumbers8" xml:space="preserve">
+    <value>الخضروات مثل الخيار والفلفل والسبانخ والطماطم والفطر والقرع الأصفر والحمص وغيرها</value>
+  </data>
+  <data name="cucumberslices6" xml:space="preserve">
+    <value>1 كوب شرائح خيار مع 1/4 كوب حمص</value>
+  </data>
+  <data name="Dairy3" xml:space="preserve">
+    <value>منتجات الألبان: الجبن ، اللبن ، الزبادي اليوناني ، إلخ</value>
+  </data>
+  <data name="dairy5" xml:space="preserve">
+    <value>منتجات الألبان</value>
+  </data>
+  <data name="Dairyproducts7" xml:space="preserve">
+    <value>منتجات الألبان: تنطبق هذه القيود على الحليب واللبن والجبن على النباتيين والنباتيين البويضات</value>
+  </data>
+  <data name="decaffeinated6" xml:space="preserve">
+    <value>شاي عادي أو منزوع الكافيين أو عشبي</value>
+  </data>
+  <data name="deep14" xml:space="preserve">
+    <value>يسخن الزيت في قدر عميق ، يضاف البصل ويقلب حتى يصبح فاتح اللون. ثم يضاف الثوم مع التقليب لمدة دقيقة. نسكب المرق ونضع التوابل (ملح ، فلفل حلو ، فلفل أبيض وفلفل حار) ، نخلط البطاطا المقطعة والباذنجان.</value>
+  </data>
+  <data name="Driedfruits4" xml:space="preserve">
+    <value>الفواكه المجففة واللحوم</value>
+  </data>
+  <data name="drinkmixes6" xml:space="preserve">
+    <value>خلطات مشروبات خالية من السكر</value>
+  </data>
+  <data name="DryCoriander121" xml:space="preserve">
+    <value>الكزبرة الجافة: 1 ملعقة صغيرة</value>
+  </data>
+  <data name="Edamame6" xml:space="preserve">
+    <value>ادامامي وفول الصويا</value>
+  </data>
+  <data name="Egg9" xml:space="preserve">
+    <value>سلطة البيض والخضار والأفوكادو مع الطرخون</value>
+  </data>
+  <data name="eggplant14" xml:space="preserve">
+    <value>الباذنجان</value>
+  </data>
+  <data name="Eggplant7" xml:space="preserve">
+    <value>بارميزان باذنجان مع سلطة جانبية</value>
+  </data>
+  <data name="Eggs3" xml:space="preserve">
+    <value>البيض: بيض الدجاج والسمان والبط</value>
+  </data>
+  <data name="eggs5" xml:space="preserve">
+    <value>بيض</value>
+  </data>
+  <data name="Eggs6" xml:space="preserve">
+    <value>بيض وبياض البيض</value>
+  </data>
+  <data name="Eggs7" xml:space="preserve">
+    <value>البيض: ينطبق هذا القيد على النباتيين واللبن النباتيين</value>
+  </data>
+  <data name="eggsand6" xml:space="preserve">
+    <value>3 بيضات و 1 كوب كالي مطبوخ مع 1 ملعقة صغيرة زيت زيتون</value>
+  </data>
+  <data name="Eggsandvegetables3" xml:space="preserve">
+    <value>بيض و خضار مقلي بزيت الزيتون</value>
+  </data>
+  <data name="Eggwhites8" xml:space="preserve">
+    <value>بياض البيض</value>
+  </data>
+  <data name="Eggyolks8" xml:space="preserve">
+    <value>صفار البيض.</value>
+  </data>
+  <data name="fajitaswith6" xml:space="preserve">
+    <value>فاهيتا اللحم مع 1/3 كوب جواكامولي</value>
+  </data>
+  <data name="Farro7" xml:space="preserve">
+    <value>سلطة فارو مع الطماطم والخيار والفيتا مع شوربة العدس المتبلة</value>
+  </data>
+  <data name="fatmilk8" xml:space="preserve">
+    <value>قليل الدسم من اللبنة واللبن</value>
+  </data>
+  <data name="fats9" xml:space="preserve">
+    <value>الدهون الصحية مثل الأفوكادو وزيت الزيتون والمكسرات.</value>
+  </data>
+  <data name="Fatty6" xml:space="preserve">
+    <value>اللحوم الدهنية والدواجن</value>
+  </data>
+  <data name="Fermented4" xml:space="preserve">
+    <value>الأطعمة المخمرة مثل الكيمتشي والمخلل الملفوف</value>
+  </data>
+  <data name="figs4" xml:space="preserve">
+    <value>سلطة التين والمكسرات</value>
+  </data>
+  <data name="fish5" xml:space="preserve">
+    <value>سمك</value>
+  </data>
+  <data name="Fishand8" xml:space="preserve">
+    <value>السمك والمحار</value>
+  </data>
+  <data name="Fishandseafood3" xml:space="preserve">
+    <value>الأسماك والمأكولات البحرية: سمك السلمون ، السردين ، سمك السلمون المرقط ، التونة ، الماكريل ، الجمبري ، المحار ، المحار ، سرطان البحر ، بلح البحر ، إلخ.</value>
+  </data>
+  <data name="Fishandshellfish7" xml:space="preserve">
+    <value>الأسماك والمحار: لا ينطبق هذا القيد</value>
+  </data>
+  <data name="Flatbread7" xml:space="preserve">
+    <value> خبز مع الخضار المشوية و البيستو</value>
+  </data>
+  <data name="Flour121" xml:space="preserve">
+    <value>الطحين: كوبان ونصف</value>
+  </data>
+  <data name="Fresh9" xml:space="preserve">
+    <value>الفاكهة المعلبة الطازجة والمجمدة وغير المحلاة</value>
+  </data>
+  <data name="freshfruits4" xml:space="preserve">
+    <value>جميع الفواكه الطازجة</value>
+  </data>
+  <data name="Freshly4" xml:space="preserve">
+    <value>العصير والمكسرات</value>
+  </data>
+  <data name="Fruitbowl4" xml:space="preserve">
+    <value>وعاء فاكهة</value>
+  </data>
+  <data name="fruitjuice6" xml:space="preserve">
+    <value>جميع الفواكه وعصير الفاكهة</value>
+  </data>
+  <data name="Fruits" xml:space="preserve">
+    <value>الفواكه: التفاح ، الموز ، البرتقال ، الكمثرى ، الفراولة ، العنب ، التمر ، التين ، البطيخ ، الخوخ ، إلخ.</value>
+  </data>
+  <data name="Fruits7" xml:space="preserve">
+    <value>الفواكه: التفاح والموز والتوت والبرتقال والبطيخ والكمثرى والخوخ</value>
+  </data>
+  <data name="Fry121" xml:space="preserve">
+    <value>تقلى مثلثات العجين في قدر تحتوي على زيت غزير ساخن حتى تصبح ذهبية اللون.</value>
+  </data>
+  <data name="Garlic121" xml:space="preserve">
+    <value>(الثوم: 2 فصوص (مفروم ناعم</value>
+  </data>
+  <data name="Garlic13" xml:space="preserve">
+    <value>الثوم: (ناعم مطحون)</value>
+  </data>
+  <data name="garlic14" xml:space="preserve">
+    <value>ثوم</value>
+  </data>
+  <data name="garnishing14" xml:space="preserve">
+    <value>للتزيين: يسخن الزيت في قدر آخر ؛ نضيف الثوم ونقلب لمدة دقيقة ونضيف الطماطم ونسكب الخل. غط الوعاء الذي يترك على النار لمدة ثلاث دقائق. يرش الاوريجانو مع التحريك.</value>
+  </data>
+  <data name="Ginger121" xml:space="preserve">
+    <value>الزنجبيل: نصف ملعقة صغيرة (طازجة ومبشورة)</value>
+  </data>
+  <data name="Ginger9" xml:space="preserve">
+    <value>أرز أسمر مقلي بالزنجبيل والبصل الأخضر مع الروبيان والزنجبيل</value>
+  </data>
+  <data name="Goatcheese9" xml:space="preserve">
+    <value>عجة جبن الماعز والسبانخ والطماطم</value>
+  </data>
+  <data name="Grain" xml:space="preserve">
+    <value>منتجات الحبوب: القمح والأرز والشوفان وحبوب الإفطار والتورتيلا</value>
+  </data>
+  <data name="Grains6" xml:space="preserve">
+    <value>بقوليات</value>
+  </data>
+  <data name="Grains7" xml:space="preserve">
+    <value>الحبوب: الكينوا ، الشعير ، الحنطة السوداء ، الأرز ، الشوفان</value>
+  </data>
+  <data name="grainsandwich3" xml:space="preserve">
+    <value>شطيرة الحبوب الكاملة مع الخضار</value>
+  </data>
+  <data name="Greekyogurt3" xml:space="preserve">
+    <value>زبادي يوناني بالفراولة والشوفان</value>
+  </data>
+  <data name="Greekyogurt7" xml:space="preserve">
+    <value>زبادي يوناني مع بذور الشيا والتوت</value>
+  </data>
+  <data name="Greekyogurti3" xml:space="preserve">
+    <value>زبادي يوناني بالفراولة والشوفان والمكسرات</value>
+  </data>
+  <data name="Green121" xml:space="preserve">
+    <value>فلفل أخضر حار: 1 قطعة (مقطعة إلى مكعبات صغيرة)</value>
+  </data>
+  <data name="Green13" xml:space="preserve">
+    <value>فلفل اخضر: 1 قطعة (شرائح)</value>
+  </data>
+  <data name="Green4" xml:space="preserve">
+    <value>عصير الأخضر</value>
+  </data>
+  <data name="Greenn13" xml:space="preserve">
+    <value>بصل أخضر: 2 عود (مفروم)</value>
+  </data>
+  <data name="Grilledchicken3" xml:space="preserve">
+    <value>الدجاج المشوي مع الخضار والبطاطس. الفاكهة للحلوى</value>
+  </data>
+  <data name="Grilledlamb3" xml:space="preserve">
+    <value>لحم غنم مشوي مع سلطة وبطاطا مشوية</value>
+  </data>
+  <data name="Grilledveggie7" xml:space="preserve">
+    <value>خضروات مشوية وحمص ملفوف مع بطاطا حلوة</value>
+  </data>
+  <data name="guacamole5" xml:space="preserve">
+    <value>فطائر الحمص والجواكامول والصلصة وكوب من عصير البرتقال المدعم.</value>
+  </data>
+  <data name="Guacamole9" xml:space="preserve">
+    <value>جواكامولي مع بسكويت الجزر</value>
+  </data>
+  <data name="hazelnut5" xml:space="preserve">
+    <value>نخب الحبوب الكاملة مع زبدة البندق والموز ولبن نباتي محصن.</value>
+  </data>
+  <data name="Healthy9" xml:space="preserve">
+    <value>الكربوهيدرات الصحية مثل البطاطا الحلوة والأرز البني والشوفان والفاصوليا ومنتجات الحبوب الكاملة.</value>
+  </data>
+  <data name="HealthyFats3" xml:space="preserve">
+    <value>الدهون الصحية: زيت الزيتون البكر الممتاز والزيتون والأفوكادو وزيت الأفوكادو</value>
+  </data>
+  <data name="Healthyfats7" xml:space="preserve">
+    <value>الدهون الصحية: زيت جوز الهند وزيت الزيتون والأفوكادو</value>
+  </data>
+  <data name="Heat13" xml:space="preserve">
+    <value>سخني الشواية وشوي الدجاج المتبّل لمدة 20 دقيقة على كلا الجانبين ، حتى يحمر ويطهى.</value>
+  </data>
+  <data name="Heatthe13" xml:space="preserve">
+    <value>يُسخن الزيت في قدر على نار عالية ويقلب الفطر وشرائح الثوم والفلفل الملون والجزر على نار عالية.</value>
+  </data>
+  <data name="Herbsandspices3" xml:space="preserve">
+    <value>الأعشاب والتوابل: الثوم والريحان والنعناع وإكليل الجبل والمريمية وجوزة الطيب والقرفة والفلفل وغيرها</value>
+  </data>
+  <data name="honey5" xml:space="preserve">
+    <value>عسل</value>
+  </data>
+  <data name="horseradish6" xml:space="preserve">
+    <value>أعشاب ، توابل ، فجل ، خردل ، عصير ليمون أو صلصة</value>
+  </data>
+  <data name="Hot14" xml:space="preserve">
+    <value>الفلفل الحار: ربع ملعقة شاي</value>
+  </data>
+  <data name="Hummus6" xml:space="preserve">
+    <value>حمص ، محدود بـ 1/4 كوب</value>
+  </data>
+  <data name="Jacketsweet5" xml:space="preserve">
+    <value>جاكيت البطاطا الحلوة مع الخس والذرة والفاصوليا والكاجو والجواكامولي.</value>
+  </data>
+  <data name="jellies6" xml:space="preserve">
+    <value>الجيلاتين والمربى والهلام الخالية من السكر</value>
+  </data>
+  <data name="Kale4" xml:space="preserve">
+    <value>سلطة اللفت والفطر</value>
+  </data>
+  <data name="Lean6" xml:space="preserve">
+    <value>لحم بقري ، لحم الضأن ، لحم العجل ولعبة</value>
+  </data>
+  <data name="Leanbeef8" xml:space="preserve">
+    <value>لحم بقري قليل الدهن ولحم الضأن ولحم العجل</value>
+  </data>
+  <data name="leave13" xml:space="preserve">
+    <value>نضيف البردقوش والبصل الأخضر ونترك 5 دقائق إضافية على النار ثم نسكب المرق المتبقي ونقدم ساخنة</value>
+  </data>
+  <data name="Leftover3" xml:space="preserve">
+    <value>بقايا اللازانيا من الليلة السابقة</value>
+  </data>
+  <data name="Leftoverpizza3" xml:space="preserve">
+    <value>بيتزا بقايا من الليلة السابقة</value>
+  </data>
+  <data name="Leftovertuna3" xml:space="preserve">
+    <value>سلطة التونة المتبقية من الليلة السابقة</value>
+  </data>
+  <data name="Legumes3" xml:space="preserve">
+    <value>البقوليات: الفاصوليا والبازلاء والعدس والبقول والفول السوداني والحمص وغيرها</value>
+  </data>
+  <data name="Legumes7" xml:space="preserve">
+    <value>البقوليات: العدس ، البقول ، الحمص</value>
+  </data>
+  <data name="Lemonzest13" xml:space="preserve">
+    <value>بشر الليمون: نصف ملعقة صغيرة</value>
+  </data>
+  <data name="lentils5" xml:space="preserve">
+    <value>العدس</value>
+  </data>
+  <data name="Lentils6" xml:space="preserve">
+    <value>عدس</value>
+  </data>
+  <data name="Lightcoconut6" xml:space="preserve">
+    <value>حليب جوز الهند الخفيف ، 1/4 كوب (59 مل)</value>
+  </data>
+  <data name="limited6" xml:space="preserve">
+    <value> الخل ، مع البلسمي يقتصر على 1 ملعقة كبيرة</value>
+  </data>
+  <data name="Liver8" xml:space="preserve">
+    <value>الكبد واللحوم الأخرى.</value>
+  </data>
+  <data name="mangopineapple5" xml:space="preserve">
+    <value>التاكو النباتي مع صلصة المانجو والأناناس.</value>
+  </data>
+  <data name="Marinated7" xml:space="preserve">
+    <value> جيب التوفو متبل مع سلطة يونانية</value>
+  </data>
+  <data name="Mashed9" xml:space="preserve">
+    <value>تورتيلا مهروسة مع الأفوكادو والطماطم</value>
+  </data>
+  <data name="mayonnaise6" xml:space="preserve">
+    <value>مايونيز قليل الدسم</value>
+  </data>
+  <data name="meal8" xml:space="preserve">
+    <value>بينما تضاف كميات صغيرة من الدهون الصحية إلى كل وجبة ، تجنب اللحوم الحمراء الدهنية.</value>
+  </data>
+  <data name="meat5" xml:space="preserve">
+    <value>لحم</value>
+  </data>
+  <data name="Meat7" xml:space="preserve">
+    <value>اللحوم: لحم بقري ولحم العجل ولحم الخنزير</value>
+  </data>
+  <data name="Meatbasedingredients7" xml:space="preserve">
+    <value>المكونات القائمة على اللحوم: الجيلاتين ، الشحم ، القرمزي ، حمض الأوليك والشحم</value>
+  </data>
+  <data name="Mediterranean3" xml:space="preserve">
+    <value>لازانيا البحر الأبيض المتوسط</value>
+  </data>
+  <data name="Mini9" xml:space="preserve">
+    <value>كب كيك ميني براوني</value>
+  </data>
+  <data name="miso6" xml:space="preserve">
+    <value>صلصة الصويا ، صلصة ستيك أو ميسو ، محدودة بـ 1 1/2 ملعقة صغيرة (7 مل)</value>
+  </data>
+  <data name="Mix121" xml:space="preserve">
+    <value>العجين: اخلط المكونات الجافة (الدقيق ومسحوق الخبز) معًا في وعاء كبير ، صب الزيت والماء مع التقليب ، حتى يتم الحصول على عجين قوي. تُغطّى العجينة وتُترك جانباً حتى تخلو من التحضير</value>
+  </data>
+  <data name="Mix13" xml:space="preserve">
+    <value>نخلط اللبن مع الثوم وزيت الزيتون ونرش الليمون في طبق.</value>
+  </data>
+  <data name="Mushroom13" xml:space="preserve">
+    <value>فطر: 2 كوب (شرائح)</value>
+  </data>
+  <data name="nectar6" xml:space="preserve">
+    <value>العسل وشراب القيقب ورحيق الصبار</value>
+  </data>
+  <data name="Nonoodle9" xml:space="preserve">
+    <value>لازانيا بالخضروات بدون نودلز</value>
+  </data>
+  <data name="Nonstarchy9" xml:space="preserve">
+    <value>الخضروات غير النشوية مثل البروكلي والهليون والخضر والقرنبيط والفلفل.</value>
+  </data>
+  <data name="noodlesoup5" xml:space="preserve">
+    <value>حساء المعكرونة التوفو مع الخضار.</value>
+  </data>
+  <data name="Nut4" xml:space="preserve">
+    <value>حليب البندق</value>
+  </data>
+  <data name="nuts4" xml:space="preserve">
+    <value>المكسرات والبذور الخام</value>
+  </data>
+  <data name="nuts5" xml:space="preserve">
+    <value>المكسرات</value>
+  </data>
+  <data name="Nuts7" xml:space="preserve">
+    <value>المكسرات: اللوز والجوز والكاجو والكستناء</value>
+  </data>
+  <data name="Nutsandseeds3" xml:space="preserve">
+    <value>المكسرات والبذور: اللوز ، الجوز ، المكاديميا ، البندق ، الكاجو ، بذور عباد الشمس ، بذور اليقطين ، إلخ.</value>
+  </data>
+  <data name="Oatmeal3" xml:space="preserve">
+    <value>دقيق الشوفان مع الزبيب</value>
+  </data>
+  <data name="Oatmeal7" xml:space="preserve">
+    <value>دقيق الشوفان مع الفاكهة وبذور الكتان</value>
+  </data>
+  <data name="oatmeal8" xml:space="preserve">
+    <value>الحبوب مثل دقيق الشوفان والشعير</value>
+  </data>
+  <data name="Oatmeali3" xml:space="preserve">
+    <value>دقيق الشوفان مع الزبيب والمكسرات والتفاح.</value>
+  </data>
+  <data name="oil121" xml:space="preserve">
+    <value>الزيت: غزير (للقلي)</value>
+  </data>
+  <data name="oils4" xml:space="preserve">
+    <value>زيوت مكررة</value>
+  </data>
+  <data name="Olive13" xml:space="preserve">
+    <value>زيت الزيتون: ملعقتان كبيرتان</value>
+  </data>
+  <data name="Olives6" xml:space="preserve">
+    <value>زيتون</value>
+  </data>
+  <data name="Omelet3" xml:space="preserve">
+    <value>أومليت بالخضار والطماطم والبصل. قطعة من الفاكهة</value>
+  </data>
+  <data name="Onions121" xml:space="preserve">
+    <value>البصل: حبة واحدة (صغيرة الحجم / مفرومة ناعماً)</value>
+  </data>
+  <data name="Oregano13" xml:space="preserve">
+    <value>الأوريجانو: نصف حبة</value>
+  </data>
+  <data name="Otheranimalproducts7" xml:space="preserve">
+    <value>المنتجات الحيوانية الأخرى: قد يختار النباتيون تجنب العسل وشمع العسل وحبوب اللقاح.</value>
+  </data>
+  <data name="Overnight4" xml:space="preserve">
+    <value>دقيق الشوفان بين عشية وضحاها مع الفواكه المفرومة والمكسرات</value>
+  </data>
+  <data name="Overnight5" xml:space="preserve">
+    <value>الشوفان المصنوع من الفاكهة والحليب النباتي المدعم وبذور الشيا والمكسرات.</value>
+  </data>
+  <data name="pancakes4" xml:space="preserve">
+    <value>فطائر الموز الخام والفواكه</value>
+  </data>
+  <data name="Pasta" xml:space="preserve">
+    <value>معكرونة</value>
+  </data>
+  <data name="Pasta10" xml:space="preserve">
+    <value>باستا</value>
+  </data>
+  <data name="pasta8" xml:space="preserve">
+    <value>ابتعد عن المعكرونة.</value>
+  </data>
+  <data name="PastaRX8" xml:space="preserve">
+    <value>(أورتزو منخفض الكربوهيدرات) مع الدجاج والفاصوليا الخضراء أو السبانخ بالكاري مع التوفو للحصول على خيار نباتي</value>
+  </data>
+  <data name="Pasteurized4" xml:space="preserve">
+    <value>العصائر المبستره ومنتجات الألبان</value>
+  </data>
+  <data name="Pastries" xml:space="preserve">
+    <value>معجنات</value>
+  </data>
+  <data name="Pastries10" xml:space="preserve">
+    <value>معجنات </value>
+  </data>
+  <data name="Peanutbutter8" xml:space="preserve">
+    <value>زبدة الفول السوداني</value>
+  </data>
+  <data name="Peas121" xml:space="preserve">
+    <value>البازلاء: نصف كوب (مجمد)</value>
+  </data>
+  <data name="peas6" xml:space="preserve">
+    <value>تقسيم البازلاء والبازلاء السوداء</value>
+  </data>
+  <data name="Peasand121" xml:space="preserve">
+    <value>تضاف البازلاء والبطاطس إلى المقلاة التي تبردها. ينضج خليط الحشو على نار خفيفة لمدة عشر دقائق ، قبل إزالته من الحرارة ويترك ليبرد.</value>
+  </data>
+  <data name="Peel14" xml:space="preserve">
+    <value>نقشر البطاطس و الباذنجان ونقطعهما إلى مكعبات. يتم توزيع المكعبات في وعاء "ميكروويف" ، ويتم سكب القليل من الماء عليها. يدخل القدر إلى الميكروويف لمدة عشر دقائق. ثم يصفى الخليط ويوضع جانباً.</value>
+  </data>
+  <data name="pepper14" xml:space="preserve">
+    <value>الفلفل الحلو: يرش</value>
+  </data>
+  <data name="pizza3" xml:space="preserve">
+    <value>بيتزا البحر الأبيض المتوسط المصنوعة من القمح الكامل ، مغطاة بالجبن والخضروات والزيتون</value>
+  </data>
+  <data name="Place121" xml:space="preserve">
+    <value>ضعي ملعقة كبيرة من الحشوة في النصف الأول من العجين وأغلقها في شكل مثلث. كرر العملية حتى نفاد الكمية.</value>
+  </data>
+  <data name="Potato9" xml:space="preserve">
+    <value>رقائق البطاطس</value>
+  </data>
+  <data name="Potatoes1" xml:space="preserve">
+    <value>البطاطس: حبة واحدة (كبيرة / مقشرة ، مسلوقة ، مهروسة)</value>
+  </data>
+  <data name="Potatoes8" xml:space="preserve">
+    <value>بطاطا</value>
+  </data>
+  <data name="Poultry3" xml:space="preserve">
+    <value>الدواجن: الدجاج ، البط ، الديك الرومي ، إلخ</value>
+  </data>
+  <data name="Poultry7" xml:space="preserve">
+    <value>الدواجن: الدجاج والديك الرومي</value>
+  </data>
+  <data name="Processed9" xml:space="preserve">
+    <value>اللحوم المصنعة</value>
+  </data>
+  <data name="Proteins7" xml:space="preserve">
+    <value>البروتينات: تمبيه ، توفو ، سيتان ، ناتو ، خميرة غذائية ، سبيرولينا ، بيض ، منتجات ألبان</value>
+  </data>
+  <data name="proteins9" xml:space="preserve">
+    <value>البروتينات الخالية من الدهون مثل الدجاج منزوع الجلد والبيض والتوفو والأسماك والمحار واللبن الخالي من الدسم.</value>
+  </data>
+  <data name="Quickand6" xml:space="preserve">
+    <value>دقيق الشوفان سريعة وسهلة زبدة الفول السوداني</value>
+  </data>
+  <data name="Quinoablack7" xml:space="preserve">
+    <value> كرات لحم الكينوا - الفاصوليا السوداء مع نودلز الكوسة</value>
+  </data>
+  <data name="Raw4" xml:space="preserve">
+    <value>معكرونة كوسة مع صلصة الطماطم والريحان</value>
+  </data>
+  <data name="Raw6" xml:space="preserve">
+    <value>لازانيا خام</value>
+  </data>
+  <data name="Raweggs4" xml:space="preserve">
+    <value>البيض النيء أو منتجات الألبان ، إذا رغبت في ذلك</value>
+  </data>
+  <data name="Rawgrains4" xml:space="preserve">
+    <value>تنبت الحبوب والبقوليات النيئة أو المنقوعة</value>
+  </data>
+  <data name="Rawmeat4" xml:space="preserve">
+    <value>اللحوم النيئة أو السمك ، إذا رغبت في ذلك</value>
+  </data>
+  <data name="Rawnut4" xml:space="preserve">
+    <value>زبدة الجوز الخام</value>
+  </data>
+  <data name="Rawvegetable4" xml:space="preserve">
+    <value>بيتزا الخضار النيئة</value>
+  </data>
+  <data name="Red7" xml:space="preserve">
+    <value> برجر خضار العدس الأحمر مع سلطة الأفوكادو</value>
+  </data>
+  <data name="Redlentil5" xml:space="preserve">
+    <value>سلطة الكوسا الحلزونية والكينوا مع صلصة الفول السوداني.</value>
+  </data>
+  <data name="redpepper13" xml:space="preserve">
+    <value>فلفل أحمر: قطعة واحدة (شرائح)</value>
+  </data>
+  <data name="refinedsugar6" xml:space="preserve">
+    <value>الأطعمة المصنوعة من السكر المكرر</value>
+  </data>
+  <data name="Remove14" xml:space="preserve">
+    <value>إزالة عموم من الحرارة؛ يتم استخدام شريط الخلاط الكهربائي لهرس الخليط حتى يصبح سلسًا. يوضع القدر على النار مرة أخرى ، حتى يبدأ الحساء في الغليان ، مع التحريك المستمر ، حتى يصبح قوام الشوربة أكثر كثافة.</value>
+  </data>
+  <data name="Roasted4" xml:space="preserve">
+    <value>المكسرات والبذور المحمصة</value>
+  </data>
+  <data name="Roastedsalmon6" xml:space="preserve">
+    <value>سلطة السلمون المحمص وسلطة الهليون مع صلصة الخردل</value>
+  </data>
+  <data name="Salad3" xml:space="preserve">
+    <value>سلطة بالطماطم والزيتون وجبن الفيتا</value>
+  </data>
+  <data name="Salad6" xml:space="preserve">
+    <value>تتبيلة السلطة بأقل من 3 جرام سكر</value>
+  </data>
+  <data name="salmon3" xml:space="preserve">
+    <value>سمك السلمون المشوي ، يقدم مع الأرز البني والخضروات</value>
+  </data>
+  <data name="salt4" xml:space="preserve">
+    <value>ملح الطعام</value>
+  </data>
+  <data name="sandwich3" xml:space="preserve">
+    <value>شطيرة الحبوب الكاملة مع الجبن والخضروات الطازجة</value>
+  </data>
+  <data name="sandwich5" xml:space="preserve">
+    <value>ساندوتش سيتان مخلل الملفوف.</value>
+  </data>
+  <data name="sandwichwith5" xml:space="preserve">
+    <value>ساندويتش توفو مشوي مع سلطة طماطم.</value>
+  </data>
+  <data name="saturated8" xml:space="preserve">
+    <value>الأطعمة المصنعة - كلها عالية في المشبعة.</value>
+  </data>
+  <data name="sautéed5" xml:space="preserve">
+    <value>كيشي نباتي توفو مع جانب من الخردل المقلي.</value>
+  </data>
+  <data name="Scrambled7" xml:space="preserve">
+    <value>بيض مخفوق مع الطماطم والثوم والفطر</value>
+  </data>
+  <data name="scrambledtofu5" xml:space="preserve">
+    <value>لفائف السبانخ والتوفو المخفوق وكأس من الحليب النباتي المدعم.</value>
+  </data>
+  <data name="Seaweed4" xml:space="preserve">
+    <value>الأعشاب البحرية</value>
+  </data>
+  <data name="seeds5" xml:space="preserve">
+    <value>بذور</value>
+  </data>
+  <data name="Seeds7" xml:space="preserve">
+    <value>البذور: بذور الكتان وبذور الشيا والقنب</value>
+  </data>
+  <data name="seitan5" xml:space="preserve">
+    <value>سيتان</value>
+  </data>
+  <data name="Serve13" xml:space="preserve">
+    <value>قدميها ساخنة مع الخضار السوتيه أو السلطة حسب الرغبة.</value>
+  </data>
+  <data name="shellfish5" xml:space="preserve">
+    <value>المحار</value>
+  </data>
+  <data name="shellfish6" xml:space="preserve">
+    <value>الأسماك والمحار</value>
+  </data>
+  <data name="shrimp8" xml:space="preserve">
+    <value>سلطة الروبيان أو سلطة الخرشوف الهليون لخيار نباتي</value>
+  </data>
+  <data name="Skinless6" xml:space="preserve">
+    <value>الدجاج وجلد الديك الرومي</value>
+  </data>
+  <data name="Skinlesschicken8" xml:space="preserve">
+    <value>الدجاج وجلد الديك الرومي</value>
+  </data>
+  <data name="Sliced4" xml:space="preserve">
+    <value>شرائح الفلفل وبذور عباد الشمس</value>
+  </data>
+  <data name="slices4" xml:space="preserve">
+    <value>شرائح البرتقال والمكسرات</value>
+  </data>
+  <data name="smoothie4" xml:space="preserve">
+    <value>عصير الأخضر</value>
+  </data>
+  <data name="smoothie5" xml:space="preserve">
+    <value>عصير المانجو والسبانخ المصنوع من حليب النبات المدعم وكعكة الموز وبذور الكتان والجوز.</value>
+  </data>
+  <data name="Smoothie7" xml:space="preserve">
+    <value>عصير اللفت والتوت والموز وزبدة الجوز وحليب اللوز</value>
+  </data>
+  <data name="Soaked4" xml:space="preserve">
+    <value>الشوفان المنقوع مع التوت</value>
+  </data>
+  <data name="Soda8" xml:space="preserve">
+    <value>صودا (عادي أو غذائي)</value>
+  </data>
+  <data name="sodas6" xml:space="preserve">
+    <value>صودا خالية من السكر</value>
+  </data>
+  <data name="Soy13" xml:space="preserve">
+    <value>صلصة الصويا: 1 ملعقة كبيرة</value>
+  </data>
+  <data name="Spaghetti" xml:space="preserve">
+    <value>المعكرونة </value>
+  </data>
+  <data name="spice13" xml:space="preserve">
+    <value>أضيفي الدجاج والملح والتوابل وعصير الليمون والماء ، غطي الوعاء واتركيه على النار لمدة 10-15 دقيقة دون تجفيف الماء.</value>
+  </data>
+  <data name="Spiralized5" xml:space="preserve">
+    <value>سلطة الكوسا الحلزونية والكينوا مع صلصة الفول السوداني.</value>
+  </data>
+  <data name="springrolls5" xml:space="preserve">
+    <value>لفات الربيع النباتي.</value>
+  </data>
+  <data name="Sprouted4" xml:space="preserve">
+    <value>وعاء بوذا الكينوا</value>
+  </data>
+  <data name="Sprouts4" xml:space="preserve">
+    <value>براعم</value>
+  </data>
+  <data name="squash4" xml:space="preserve">
+    <value>معكرونة المعكرونة مع البيستو</value>
+  </data>
+  <data name="squashi4" xml:space="preserve">
+    <value>شوربة الكوسا الخام</value>
+  </data>
+  <data name="Strawberries4" xml:space="preserve">
+    <value>الفراولة واللوز</value>
+  </data>
+  <data name="stringcheese6" xml:space="preserve">
+    <value>1 أوقية (28 جرام) من الجبن مع شرائح الفلفل</value>
+  </data>
+  <data name="Stuffed4" xml:space="preserve">
+    <value>فطر بورتوبيللو محشي</value>
+  </data>
+  <data name="stuffing121" xml:space="preserve">
+    <value>للحشوة: سخني الزيت في مقلاة كبيرة على النار ثم أضيفي البصل المفروم والثوم والزنجبيل والفلفل الحار مع التحريك باستمرار. أضيفي الكمون المجفف والكزبرة مع الاستمرار في التقليب.</value>
+  </data>
+  <data name="substitutes6" xml:space="preserve">
+    <value>بدائل الصويا</value>
+  </data>
+  <data name="suchas8" xml:space="preserve">
+    <value>المكسرات مثل المكاديميا والفول السوداني والكاجو واللوز والفستق</value>
+  </data>
+  <data name="sugars4" xml:space="preserve">
+    <value>السكر المكرر والدقيق</value>
+  </data>
+  <data name="Sugary9" xml:space="preserve">
+    <value>مشروبات سكرية</value>
+  </data>
+  <data name="Supereasy9" xml:space="preserve">
+    <value>معكرونة و كرات لحم مع سلطة جرجير إيطالية</value>
+  </data>
+  <data name="Swiss9" xml:space="preserve">
+    <value>الجبن السويسري والعنب</value>
+  </data>
+  <data name="Tahini8" xml:space="preserve">
+    <value>طحينية</value>
+  </data>
+  <data name="tbsp6" xml:space="preserve">
+    <value>كريمة حامضة خفيفة أو جبن كريمي ، محدودة 2 ملعقة كبيرة</value>
+  </data>
+  <data name="Thedough121" xml:space="preserve">
+    <value>تنقسم العجينة إلى أقسام متساوية الحجم ؛ ينتشر كل قسم على سطح طاولة ، يتكون في دائرة ، بواسطة فنجان قهوة ، ثم تنقسم الدائرة إلى نصفين بسكين حاد.</value>
+  </data>
+  <data name="toastand5" xml:space="preserve">
+    <value>شوربة العدس الأحمر والطماطم واللفت مع التوست والحمص.</value>
+  </data>
+  <data name="tofu5" xml:space="preserve">
+    <value>التوفو</value>
+  </data>
+  <data name="Tofu7" xml:space="preserve">
+    <value>ساندوتش توفو بانه مي بالسلطة المخللة</value>
+  </data>
+  <data name="Tofuu7" xml:space="preserve">
+    <value>يخلط التوفو مع الفلفل المقلي والبصل والسبانخ</value>
+  </data>
+  <data name="tomato4" xml:space="preserve">
+    <value>حساء الطماطم الخام مع الخضار المتبلة</value>
+  </data>
+  <data name="Tomatojuice6" xml:space="preserve">
+    <value>عصير الطماطم أو عصير الخضار</value>
+  </data>
+  <data name="Trans6" xml:space="preserve">
+    <value>مارجرين خالي من الدهون</value>
+  </data>
+  <data name="Tubers3" xml:space="preserve">
+    <value>الدرنات: البطاطس ، البطاطا الحلوة ، اللفت ، اليام ، إلخ.</value>
+  </data>
+  <data name="tunasalad3" xml:space="preserve">
+    <value>سلطة تونة بزيت الزيتون. قطعة فاكهة للحلوى</value>
+  </data>
+  <data name="Turkey9" xml:space="preserve">
+    <value>لفائف ديك رومي وتفاح وجبن أزرق</value>
+  </data>
+  <data name="turnips6" xml:space="preserve">
+    <value>الشمندر والجزر والذرة واللفت والبطاطا والبازلاء والبطاطس البيضاء والقرع الشتوي</value>
+  </data>
+  <data name="unsweetened6" xml:space="preserve">
+    <value>الكاكاو أو السكر غير المحلى أو شراب الشوكولاتة</value>
+  </data>
+  <data name="Veganbreakfast5" xml:space="preserve">
+    <value>ساندوتش إفطار نباتي مع اللوتس والخس والطماطم والكركم ولبن تشاي بالحليب.</value>
+  </data>
+  <data name="Veganchili5" xml:space="preserve">
+    <value>الفلفل النباتي على سرير قطيفة.</value>
+  </data>
+  <data name="Vegetable121" xml:space="preserve">
+    <value>زيت نباتي: 2 ملعقة صغيرة</value>
+  </data>
+  <data name="Vegetable7" xml:space="preserve">
+    <value>الباييلا النباتية مع سلطة جانبية</value>
+  </data>
+  <data name="vegetables4" xml:space="preserve">
+    <value>جميع الخضروات النيئة</value>
+  </data>
+  <data name="Vegetables7" xml:space="preserve">
+    <value>الخضار: الخضروات الورقية والهليون والبروكلي والطماطم والجزر</value>
+  </data>
+  <data name="Vegetarianprotein8" xml:space="preserve">
+    <value>البروتين النباتي والتوفو ومنتجات الصويا الأخرى</value>
+  </data>
+  <data name="veggie4" xml:space="preserve">
+    <value>سوشي نباتي نيئ وخضار مفرومة</value>
+  </data>
+  <data name="veggies3" xml:space="preserve">
+    <value>أومليت بالخضار والزيتون</value>
+  </data>
+  <data name="Veggiesushi5" xml:space="preserve">
+    <value>لفائف سوشي نباتية ، حساء ميسو ، ادامامي وسلطة واكامي.</value>
+  </data>
+  <data name="Water121" xml:space="preserve">
+    <value>الماء: كوب</value>
+  </data>
+  <data name="Water13" xml:space="preserve">
+    <value>الماء: نصف كوب</value>
+  </data>
+  <data name="whipped6" xml:space="preserve">
+    <value>طبقة خفيفة مخفوقة ، محدودة بـ 2 ملعقة كبيرة</value>
+  </data>
+  <data name="White14" xml:space="preserve">
+    <value>الفلفل الأبيض: يرش</value>
+  </data>
+  <data name="Whole7" xml:space="preserve">
+    <value> نخب القمح الكامل مع الأفوكادو والخميرة الغذائية</value>
+  </data>
+  <data name="Wholegrain3" xml:space="preserve">
+    <value>شطيرة الحبوب الكاملة مع الخضار</value>
+  </data>
+  <data name="Wholegrains3" xml:space="preserve">
+    <value>الحبوب الكاملة: الشوفان الكامل ، الأرز البني ، الجاودار ، الشعير ، الذرة ، الحنطة السوداء ، القمح الكامل ، الخبز والحبوب الكاملة والمعكرونة.</value>
+  </data>
+  <data name="Wholemilk6" xml:space="preserve">
+    <value>حليب صافي</value>
+  </data>
+  <data name="withbroccoli6" xml:space="preserve">
+    <value>شريحة لحم صغيرة مع البروكلي</value>
+  </data>
+  <data name="Yellowpepper13" xml:space="preserve">
+    <value>الفلفل الأصفر: 1 قرص (شرائح)</value>
+  </data>
+  <data name="Yogurt13" xml:space="preserve">
+    <value>الزبادي: 1 ملعقة كبيرة</value>
+  </data>
+  <data name="Yogurt3" xml:space="preserve">
+    <value>زبادي مع قطع الفاكهة والمكسرات.</value>
+  </data>
+  <data name="Zucchini7" xml:space="preserve">
+    <value>قوارب الكوسا محشوة بالخضار والفيتا مع حساء الطماطم</value>
+  </data>
+  <data name="BMI" xml:space="preserve">
+    <value>حساب كتلة الجسم</value>
+  </data>
+  <data name="Anchovies2" xml:space="preserve">
+    <value>معلبات الأنشوجة</value>
+  </data>
+  <data name="Apple3" xml:space="preserve">
+    <value>تفاح</value>
+  </data>
+  <data name="Bagel1" xml:space="preserve">
+    <value>الخبز (متوسط 1)</value>
+  </data>
+  <data name="Banana3" xml:space="preserve">
+    <value>موز</value>
+  </data>
+  <data name="Beansbakedbeans3" xml:space="preserve">
+    <value>الفاصوليا المطبوخة</value>
+  </data>
+  <data name="Beansdried3" xml:space="preserve">
+    <value>الفاصوليا المجففة (المسلوقة)</value>
+  </data>
+  <data name="Beef21" xml:space="preserve">
+    <value>(لحم بقري (مشوي</value>
+  </data>
+  <data name="Beefburgers2" xml:space="preserve">
+    <value>لحوم البقر المجمدة</value>
+  </data>
+  <data name="Biscuit1" xml:space="preserve">
+    <value>هضم البسكويت</value>
+  </data>
+  <data name="Blackberries3" xml:space="preserve">
+    <value>شجر العليق</value>
+  </data>
+  <data name="Blackcurrant3" xml:space="preserve">
+    <value>شجرة عنب</value>
+  </data>
+  <data name="Bombay5" xml:space="preserve">
+    <value>مزيج بومباي</value>
+  </data>
+  <data name="BREAD1" xml:space="preserve">
+    <value>الخبز والحبوب</value>
+  </data>
+  <data name="Breadd1" xml:space="preserve">
+    <value>الخبز الأبيض (شريحة سميكة)</value>
+  </data>
+  <data name="Breadd11" xml:space="preserve">
+    <value>خبز القمح الكامل (سميك)</value>
+  </data>
+  <data name="Broccoli3" xml:space="preserve">
+    <value>بروكلي</value>
+  </data>
+  <data name="Butter5" xml:space="preserve">
+    <value>زبدة</value>
+  </data>
+  <data name="Cabbage3" xml:space="preserve">
+    <value>ملفوف (مسلوق)</value>
+  </data>
+  <data name="cals2" xml:space="preserve">
+    <value>سعرة</value>
+  </data>
+  <data name="Carrot3" xml:space="preserve">
+    <value>جزر (مسلوق)</value>
+  </data>
+  <data name="Cauliflower3" xml:space="preserve">
+    <value>قرنبيط (مسلوق)</value>
+  </data>
+  <data name="Celeryi3" xml:space="preserve">
+    <value>كرفس (مسلوق)</value>
+  </data>
+  <data name="Chapatis1" xml:space="preserve">
+    <value>تشاباتيس</value>
+  </data>
+  <data name="Cheddar4" xml:space="preserve">
+    <value>شيدر</value>
+  </data>
+  <data name="Cheese3" xml:space="preserve">
+    <value>متوسط ​​الجبن</value>
+  </data>
+  <data name="Cherry3" xml:space="preserve">
+    <value>كرز</value>
+  </data>
+  <data name="Chewing5" xml:space="preserve">
+    <value>علكة</value>
+  </data>
+  <data name="Chicken2" xml:space="preserve">
+    <value>دجاج</value>
+  </data>
+  <data name="chip2" xml:space="preserve">
+    <value>متجر سمك القد رقاقة الغذاء</value>
+  </data>
+  <data name="Chocolate5" xml:space="preserve">
+    <value>شوكولاتة</value>
+  </data>
+  <data name="Cockles2" xml:space="preserve">
+    <value>كولكز</value>
+  </data>
+  <data name="Codfresh2" xml:space="preserve">
+    <value>سمك القد الطازج</value>
+  </data>
+  <data name="Codliver5" xml:space="preserve">
+    <value>زيت كبد سمك القد</value>
+  </data>
+  <data name="Cornflakes1" xml:space="preserve">
+    <value>رقائق الذرة</value>
+  </data>
+  <data name="Cornsnack5" xml:space="preserve">
+    <value>وجبة خفيفة من الذرة</value>
+  </data>
+  <data name="Cottage4" xml:space="preserve">
+    <value>جبن منزلي</value>
+  </data>
+  <data name="Courgette3" xml:space="preserve">
+    <value>الكوسة</value>
+  </data>
+  <data name="Crabfresh2" xml:space="preserve">
+    <value>السلطعون الطازج</value>
+  </data>
+  <data name="Crackerbread1" xml:space="preserve">
+    <value>مقرمش</value>
+  </data>
+  <data name="Cream4" xml:space="preserve">
+    <value>جبنة الكريمة</value>
+  </data>
+  <data name="Creamcrackers1" xml:space="preserve">
+    <value>بسكويت كريمي </value>
+  </data>
+  <data name="Crisps5" xml:space="preserve">
+    <value>متوسط ​​رقائق البطاطس (الرقائق الأمريكية)</value>
+  </data>
+  <data name="Crumpets1" xml:space="preserve">
+    <value>الفطائر </value>
+  </data>
+  <data name="Cucumber3" xml:space="preserve">
+    <value>خيار</value>
+  </data>
+  <data name="Custard4" xml:space="preserve">
+    <value>كاسترد</value>
+  </data>
+  <data name="Dairyproduce4" xml:space="preserve">
+    <value>الحليب ومنتجات الألبان</value>
+  </data>
+  <data name="Dates3" xml:space="preserve">
+    <value>تمر</value>
+  </data>
+  <data name="Duckroast2" xml:space="preserve">
+    <value>بطة مشوية</value>
+  </data>
+  <data name="Eggs4" xml:space="preserve">
+    <value>بيض</value>
+  </data>
+  <data name="Fats5" xml:space="preserve">
+    <value>الدهون والسكريات</value>
+  </data>
+  <data name="Fishcake2" xml:space="preserve">
+    <value>كعكة السمك</value>
+  </data>
+  <data name="Fishfingers2" xml:space="preserve">
+    <value>اصابع السمك</value>
+  </data>
+  <data name="Flapjacks1" xml:space="preserve">
+    <value>فطائر</value>
+  </data>
+  <data name="Grapefruit3" xml:space="preserve">
+    <value>جريب فروت</value>
+  </data>
+  <data name="Grapes3" xml:space="preserve">
+    <value>العنب</value>
+  </data>
+  <data name="Haddock2" xml:space="preserve">
+    <value>الحدوق طازج</value>
+  </data>
+  <data name="Halibutfresh2" xml:space="preserve">
+    <value>سمك الهلبوت الطازج</value>
+  </data>
+  <data name="Herring2" xml:space="preserve">
+    <value>رنجة مشوية طازجة</value>
+  </data>
+  <data name="Honey" xml:space="preserve">
+    <value>عسل</value>
+  </data>
+  <data name="Ice4" xml:space="preserve">
+    <value>بوظة</value>
+  </data>
+  <data name="Jaffa1" xml:space="preserve">
+    <value>كعكة يافا</value>
+  </data>
+  <data name="Jam5" xml:space="preserve">
+    <value>مربى</value>
+  </data>
+  <data name="Kidney2" xml:space="preserve">
+    <value>الكلى</value>
+  </data>
+  <data name="Kipper2" xml:space="preserve">
+    <value>كيبر</value>
+  </data>
+  <data name="Kiwi3" xml:space="preserve">
+    <value>كيوي</value>
+  </data>
+  <data name="Lamb2" xml:space="preserve">
+    <value>لحم غنم مشوي</value>
+  </data>
+  <data name="Lentils3" xml:space="preserve">
+    <value>عدس (مسلوق)</value>
+  </data>
+  <data name="Lettuce3" xml:space="preserve">
+    <value>الخس</value>
+  </data>
+  <data name="Liver2" xml:space="preserve">
+    <value>الكبد</value>
+  </data>
+  <data name="Liverpate2" xml:space="preserve">
+    <value>بات الكبد</value>
+  </data>
+  <data name="Lobsterboiled2" xml:space="preserve">
+    <value>مسلوق الكركند</value>
+  </data>
+  <data name="Low5" xml:space="preserve">
+    <value>انتشار قليل الدهون</value>
+  </data>
+  <data name="Luncheon2" xml:space="preserve">
+    <value>لحم لانشون</value>
+  </data>
+  <data name="Macaroni1" xml:space="preserve">
+    <value>المكرونة (مسلوقة)</value>
+  </data>
+  <data name="Mackeral2" xml:space="preserve">
+    <value>سمك الأسقمري البحري</value>
+  </data>
+  <data name="Margarine5" xml:space="preserve">
+    <value>سمن</value>
+  </data>
+  <data name="Meats2" xml:space="preserve">
+    <value>اللحوم والأسماك</value>
+  </data>
+  <data name="Melon3" xml:space="preserve">
+    <value>شمام</value>
+  </data>
+  <data name="Milk4" xml:space="preserve">
+    <value>الحليب كامل الدسم</value>
+  </data>
+  <data name="Milkskimmed4" xml:space="preserve">
+    <value>الحليب منزوع الدسم</value>
+  </data>
+  <data name="MilkSoya4" xml:space="preserve">
+    <value>حليب الصويا</value>
+  </data>
+  <data name="Mint5" xml:space="preserve">
+    <value>حلويات النعناع</value>
+  </data>
+  <data name="Mousse4" xml:space="preserve">
+    <value>موس بنكهة</value>
+  </data>
+  <data name="Muesli1" xml:space="preserve">
+    <value>ميسلي</value>
+  </data>
+  <data name="Mushrooms3" xml:space="preserve">
+    <value>فطر (مسلوق)</value>
+  </data>
+  <data name="Mussels2" xml:space="preserve">
+    <value>بلح البحر</value>
+  </data>
+  <data name="Naan1" xml:space="preserve">
+    <value>خبز نان (عادي)</value>
+  </data>
+  <data name="Oils5" xml:space="preserve">
+    <value>زيوت - زيت عباد الشمس - زيتون</value>
+  </data>
+  <data name="Olives3" xml:space="preserve">
+    <value>زيتون</value>
+  </data>
+  <data name="Omelette4" xml:space="preserve">
+    <value>عجة بالجبن</value>
+  </data>
+  <data name="Onion3" xml:space="preserve">
+    <value>بصل (مسلوق)</value>
+  </data>
+  <data name="Orange3" xml:space="preserve">
+    <value> برتقال</value>
+  </data>
+  <data name="Peas" xml:space="preserve">
+    <value>بازيلاء</value>
+  </data>
+  <data name="per2" xml:space="preserve">
+    <value>لكل 100 جرام</value>
+  </data>
+  <data name="percake2" xml:space="preserve">
+    <value>السعرات الحرارية لكل كيك</value>
+  </data>
+  <data name="perpiec2" xml:space="preserve">
+    <value>السعرات الحرارية للقطعة</value>
+  </data>
+  <data name="Pheasantroast2" xml:space="preserve">
+    <value>الدراج المشوي</value>
+  </data>
+  <data name="Pilchards2" xml:space="preserve">
+    <value>بيلشاردز(معلب)</value>
+  </data>
+  <data name="Popcorn5" xml:space="preserve">
+    <value>متوسط ​​الفشار</value>
+  </data>
+  <data name="Portion2" xml:space="preserve">
+    <value>حجم الجزء</value>
+  </data>
+  <data name="PUREFAT5" xml:space="preserve">
+    <value>الدهون النقية</value>
+  </data>
+  <data name="Rice1" xml:space="preserve">
+    <value>ارز</value>
+  </data>
+  <data name="Sugarwhite5" xml:space="preserve">
+    <value>سكر أبيض وسكر مائدة</value>
+  </data>
+  <data name="Sweets5" xml:space="preserve">
+    <value>حلويات (مسلوقة)</value>
+  </data>
+  <data name="Syrup5" xml:space="preserve">
+    <value>شراب مركز</value>
+  </data>
+  <data name="Toffee5" xml:space="preserve">
+    <value>التوفي</value>
+  </data>
+  <data name="Trifle4" xml:space="preserve">
+    <value>ترفل مع كريمة</value>
+  </data>
+  <data name="Turkey2" xml:space="preserve">
+    <value>ديك رومي</value>
+  </data>
+  <data name="Vegetablesff2" xml:space="preserve">
+    <value>فواكة وخضار</value>
+  </data>
+  <data name="Yogurt4" xml:space="preserve">
+    <value>زبادي طبيعي</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>انثى</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>ذكر</value>
+  </data>
+  <data name="Noodels1" xml:space="preserve">
+    <value>المعكرونة</value>
   </data>
 </root>

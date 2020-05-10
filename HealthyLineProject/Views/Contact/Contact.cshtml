@@ -6,34 +6,32 @@
     @Html.ValidationSummary(true)
 
     <fieldset id="cont">
-        <legend> @Resource.Contact </legend>
-        <ul>
-            <li>
+        <h1> @Resource.Contact </h1>
+            <div>
                 @Html.LabelFor(x => x.FullNameArabic)
-                @Html.TextBoxFor(x => x.FullNameArabic)
-            </li>
+                @Html.TextBoxFor(x => x.FullNameArabic, new { @class = "form-control", placeholder = @Resource.FullNameArabic })
+            </div>
 
-            <li>
+            <div>
                 @Html.LabelFor(x => x.FullNameEnglish)
-                @Html.TextBoxFor(x => x.FullNameEnglish)
-            </li>
-            <li>
+                @Html.TextBoxFor(x => x.FullNameEnglish, new { @class = "form-control", placeholder = @Resource.FullNameEnglish })
+            </div>
+            <div>
                 @Html.LabelFor(x => x.UserEmail)
-                @Html.TextBoxFor(x => x.UserEmail)
-            </li>
-            <li>
+                @Html.TextBoxFor(x => x.UserEmail, new { @class = "form-control", placeholder = @Resource.UserEmail })
+            </div>
+            <div>
                 @Html.LabelFor(x => x.UserName)
-                @Html.TextAreaFor(x => x.UserName)
-            </li>
-            <li>
+                @Html.TextBoxFor(x => x.UserName, new { @class = "form-control", placeholder = @Resource.UserName })
+            </div>
+            <div>
                 @Html.LabelFor(x => x.Messaage)
-                @Html.TextAreaFor(x => x.Messaage)
-            </li>
-
-            <li>
-                <input type="submit" value="@Resource.Send " />
-        </ul>
-
+                @Html.TextAreaFor(x => x.Messaage, new { @class = "form-control", placeholder = @Resource.Messaage })
+            </div>
+        <br />
+            <div>
+                <input type="submit" value="@Resource.Send "  class="btn btn-danger btn-lg" />
+</div>
 
     </fieldset>
     @*<div>

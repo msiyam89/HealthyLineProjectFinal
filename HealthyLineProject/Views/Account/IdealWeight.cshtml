@@ -4,94 +4,90 @@
 @using (Html.BeginForm())
 {
     @Html.ValidationSummary(true)
+    
 
     <fieldset>
-        <legend>@Resource.CalculateIdealWeight</legend>
-        <ul>
-            <li>
+        <h1>@Resource.CalculateIdealWeight</h1>
+        
+            <div>
                 @Html.LabelFor(x => x.TargetWeight)
-                @Html.TextBoxFor(x => x.TargetWeight)
+                @Html.TextBoxFor(x => x.TargetWeight, new { @class = "form-control", placeholder = @Resource.TargetWeight })
                 @Html.ValidationMessageFor(x => x.TargetWeight)
-            </li>
-            <li>
+            </div>
+            <div>
                 @Html.LabelFor(x => x.Height)
-                @Html.TextBoxFor(x => x.Height)
+                @Html.TextBoxFor(x => x.Height, new { @class = "form-control", placeholder = @Resource.Height })
                 @Html.ValidationMessageFor(x => x.Height)
-            </li>
-            <li>
-                <label>weight</label>
-                @Html.TextBoxFor(x => x.weight)KG<br />
+            </div>
+            <div>
+                @Html.LabelFor(x => x.weight)
+                @Html.TextBoxFor(x => x.weight, new { @class = "form-control", placeholder = @Resource.weight })
                 @Html.ValidationMessageFor(x => x.weight)
-                @Html.ValidationMessageFor(x => x.weight)
 
-            </li>
-            <li>
-                @Html.LabelFor(x => x.CurrentWeight)
-                @Html.TextBoxFor(x => x.CurrentWeight)
-                @Html.ValidationMessageFor(x => x.CurrentWeight)
-            </li>
-            <li>
-                @Html.LabelFor(x => x.IdealWeight)
-                @Html.DisplayFor(x => x.IdealWeight)
-             
-            </li>
-            @* <li>
-            <label>weight</label>
-            @Html.TextBoxFor(x => x.weight)KG<br />
-            @Html.ValidationMessageFor(x => x.weight)
+            </div>
+            <div>
+                @Html.LabelFor(x => x.Gender)
+                <div class="form-group">
 
-        </li>
+                    <div class="radio-inline">
+
+                        @Html.RadioButton("gender", "false", true,
+
+                            new { id = "IsMale" })Male
+
+                    </div>
+
+                    <div class="radio-inline">
+
+                        @Html.RadioButton("gender", "true",false,
+
+                             new { id = "IsFemale" }) Female
+
+                    </div>
+                    @Html.ValidationMessageFor(x => x.Gender)
+                </div>
+
+                <div>
+                    <input type="submit" value="@Resource.Calculate" class="btn btn-warning btn-lg active" role="button" />
+                </div>
+                <div>
+            @Html.LabelFor(x => x.BMI)
+            @Html.DisplayFor(x => x.BMI)
+
+        </div>
+                @*<div class="form-group">
+                    @Html.LabelFor(model => model.BMI, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DisplayFor(model => model.BMI)
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.IdealWeight, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DisplayFor(model => model.IdealWeight)
+
+                    </div>
+                </div>*@
+                <div>
+            @Html.LabelFor(x => x.IdealWeight)
+            @Html.DisplayFor(x => x.IdealWeight)
+
+        </div>
 
 
-        <li>
-            <label>Height</label>
-            @Html.TextBoxFor(x => x.height)CM<br />
-            @Html.ValidationMessageFor(x => x.height)
-        </li>
-        <li>
-            <label>Age</label>
-            @Html.TextBoxFor(x => x.age)
-            @Html.ValidationMessageFor(x => x.age)
-        </li>
-        <li>
-            <label>Gender</label>
-            <select name="Gender" id="Gender">
-                @foreach (DataAccess.Gender gender in Enum.GetValues(typeof(DataAccess.Gender)))
-                {
-                    <option value="@((byte)gender)">@gender.ToString()</option>
-                }
-            </select>
-            @Html.ValidationMessageFor(x => x.Gender)
-        </li>
-        @* <label>Daily ُffort</label>
-                 <select name="Dailyeffort" id="effort">
-                @foreach (DataAccess.Dailyeffort dailyeffort in Enum.GetValues(typeof(DataAccess.Dailyeffort)))
-                {
-                    <option value="@((byte)gender)">@gender.ToString()</option>
-                }
-            </select>
-            @Html.ValidationMessageFor(x=>x.Dailyeffort)
-                </li>*@
 
-
-
-
-            <li>
-                <input type="submit" value="@Resource.Calculate" />
-            </li>
-        </ul>
-    </fieldset>
+</fieldset>
     <p>
-        <label>@Resource.TheCalorieCalculator</label>
+        @*<label>@Resource.TheCalorieCalculator</label>*@
         @*"The Calorie Calculator can be used to estimate the number of calories a person needs to consume each day. This calculator can also provide some simple guidelines for gaining or losing weigh
-        Your ideal body weight varies based on gender, age, and current health. This ideal weight calculator is an approximation and based on the standard equations provided by Welltech Solutions. Calculators are appropriate for healthy, non-pregnant adults."*@
+            Your ideal body weight varies based on gender, age, and current health. This ideal weight calculator is an approximation and based on the standard equations provided by Welltech Solutions. Calculators are appropriate for healthy, non-pregnant adults."*@
     </p>
+    <img src="~/Content/Images/bmi1.jpg" width = "900px" height = "400px " />
 
-
-    @*<div>
-            @Html.ActionLink("Back to List", "IdelWeight")
-        </div>*@
 }
+
+
 @section Scripts {
     @*Scripts.Render("~/bundles/jqueryval")*@
 }

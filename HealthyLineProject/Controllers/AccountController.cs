@@ -139,16 +139,38 @@ namespace HealthyLineProject.Controllers
         public ActionResult IdealWeight(IdealWeightModel model)
         {
 
-            float IdealWeight = model.weight / (model.Height * model.Height);
-            ViewBag.Title = "IdealWeight";
-            model.IdealWeight = IdealWeight;
+            float BMI =( model.weight / (model.Height * model.Height))*10000;
+            ViewBag.Title = "BMI";
+            model.BMI = BMI;
+            //float IdealWeight;
+            if (model.Gender == true)
+            {
+                float IdealWeight = model.Height - 100;
+                ViewBag.Title = "IdealWeight";
+                model.IdealWeight = IdealWeight;
+
+            }
+            else
+            {
+                float IdealWeight = model.Height - 110;
+                ViewBag.Title = "IdealWeight";
+                model.IdealWeight = IdealWeight;
+
+            }
+
+
+
+
+
+
             DataAccessLayer.UserProfile userProfile = new DataAccessLayer.UserProfile
             {
                 UserName = User.Identity.Name,
-
-                CurrentWeight =  model.weight,
+                
                 Height = model.Height,
-                IdealWeight = model.IdealWeight
+                IdealWeight = model.IdealWeight,
+                Gender =model.Gender
+
             };
 
             return View(model);

@@ -1,74 +1,165 @@
 ﻿@using R
 @model HealthyLineProject.Models.RrcipesModel
+@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="card-deck">
+    <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div>
 <div id="loginbar2">
     <div class="center">
         <div id="loginctrl3">
-            <fieldset>
-                <legend>@Resource.RecipesBook</legend>
+            @*<fieldset>*@
+            <h1>@Resource.RecipesBook</h1>
 
-                <a href="@Url.Content("~/RrcipesBook/Potato")">@Resource.Potato </a>
-                <img src="~/Content/Images/imag1.jpg" width="550px" height="550px " />
 
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
-                <a href="@Url.Content("~/RrcipesBook/Boiled")">@Resource.carrot</a>
-                <img src="~/Content/Images/image2.jpg" width="550px" height="550px" />
+            <div class=" container">
 
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
+                <div>
 
-                <a href="@Url.Content("~/RrcipesBook/Grilledfish")"> @Resource.fish</a>
-                <img src="~/Content/Images/imag3.jpg" width="550px" height="550px" />
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
+                    <a href="@Url.Content("~/RrcipesBook/Potato")" class="btn btn-danger btn-lg active  " role="button" aria-pressed="true">
+                        @*@Resource.Potato*@
+                        <img src="~/Content/Images/imagee1.jpg" width="550px" height="550px " class="img-circle ">
+                    </a>
+                </div>
+                <h3>
+                    @Resource.Potato
+                </h3>
 
-                <a href="@Url.Content("~/RrcipesBook/Beef")">@Resource.Beeffajita</a>
-                <img src="~/Content/Images/imag4.jpg" width="550px" height="550px" />
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
+            </div>
 
-                <a href="@Url.Content("~/RrcipesBook/Grilledchicken")">@Resource.Grilledchicken</a>
-                <img src="~/Content/Images/imag5.jpg" width="550px" height="550px" />
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
+            <div>
 
-                <a href="@Url.Content("~/RrcipesBook/Chinese")">@Resource.Chinesepumpkin</a>
-                <img src="~/Content/Images/imag6.jpg" width="550px" height="550px" />
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
 
-                <a href="@Url.Content("~/RrcipesBook/Bulgurtomato")">@Resource.Bulgurtomato</a>
-                <img src="~/Content/Images/imag7.jpg" width="550px" height="550px" />
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
-
-                <a href="@Url.Content("~/RrcipesBook/Grilledchickenlemon")">@Resource.chickenherbs</a>
-                <img src="~/Content/Images/imag8.jpg" width="550px" height="550px" />
-
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
-
-                <a href="@Url.Content("~/RrcipesBook/BroccoliLight")">@Resource.Broccoli </a>
-                <img src="~/Content/Images/imag9.jpg" width="550px" height="550px" />
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
-
-                <a href="@Url.Content("~/RrcipesBook/crisppancake")">@Resource.crisppancake </a>
-                <img src="~/Content/Images/imag10.jpg" width="550px" height="550px" />
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
-
-                <a href="@Url.Content("~/RrcipesBook/Asparagus")">@Resource.Asparaguspasta</a>
-                <img src="~/Content/Images/imag11.jpg" width="550px" height="550px" />
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
-
-                <a href="@Url.Content("~/RrcipesBook/>Chickenhot")">>@Resource.Chickenhot</a>
-                <img src="~/Content/Images/imag12.jpg" width="550px" height="550px" />
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
-
-                <a href="@Url.Content("~/RrcipesBook/Mushroomchicken")"> @Resource.Mushroomchicken</a>
-                <img src="~/Content/Images/imag13.jpg" width="550px" height="550px" />
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
-
-                <a href="@Url.Content("~/RrcipesBook/Indiansamosa")"> @Resource.samosa</a>
-                <img src="~/Content/Images/imag14.jpg" width="550px" height="550px" />
-                <p class="line">------------------------------------------------------------------------------------------------------</p>
-
-                <a href="@Url.Content("~/RrcipesBook/Marinatedchicken")">@Resource.Marinatedchicken</a>
-                <img src="~/Content/Images/imag15.jpg" width="550px" height="550px" />
-            </fieldset>
-
+                <a href="@Url.Content("~/RrcipesBook/Boiled")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                    <img src="~/Content/Images/image2.jpg" width="550px" height="550px" class="img-circle" />
+                </a>
+                <h3>@Resource.carrot</h3>
+            </div>
         </div>
+
+        <div>
+            <a href="@Url.Content("~/RrcipesBook/Grilledfish")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag3.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3>@Resource.fish</h3>
+        </div>
+
+
+
+        <div>
+
+
+            <a href="@Url.Content("~/RrcipesBook/Beef")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imagee4.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3> @Resource.Beeffajita</h3>
+        </div>
+
+        <div>
+
+            <a href="@Url.Content("~/RrcipesBook/Grilledchicken")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag5.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3>@Resource.Grilledchicken  </h3>
+        </div>
+
+        <div>
+
+            <a href="@Url.Content("~/RrcipesBook/Chinese")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag6.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3>      @Resource.Chinesepumpkin</h3>
+        </div>
+
+        <div>
+            <a href="@Url.Content("~/RrcipesBook/Bulgurtomato")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag7.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3>
+                @Resource.Bulgurtomato
+            </h3>
+        </div>
+
+        <div>
+            <a href="@Url.Content("~/RrcipesBook/Grilledchickenlemon")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag8.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3> @Resource.chickenherbs</h3>
+        </div>
+
+        <div>
+            <a href="@Url.Content("~/RrcipesBook/BroccoliLight")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag9.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3>@Resource.Broccoli</h3>
+        </div>
+
+        <div>
+            <a href="@Url.Content("~/RrcipesBook/crisppancake")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag10.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3>@Resource.crisppancake</h3>
+        </div>
+
+
+        <div>
+            <a href="@Url.Content("~/RrcipesBook/Asparagus")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag11.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3>@Resource.Asparaguspasta</h3>
+        </div>
+        <div>
+            <a href="@Url.Content("~/RrcipesBook/Chickenhot")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag12.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h2>@Resource.Chickenhot</h2>
+        </div>
+
+        <div>
+            <a href="@Url.Content("~/RrcipesBook/Mushroomchicken")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag13.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3>@Resource.Mushroomchicken</h3>
+        </div>
+        <div>
+            <a href="@Url.Content("~/RrcipesBook/Indiansamosa")" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag14.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3> @Resource.samosa</h3>
+        </div>
+        <div>
+            <a href="@Url.Content("~/RrcipesBook/Marinatedchicken")" class="btn btn-danger btn-lg active " role="button" aria-pressed="true">
+                <img src="~/Content/Images/imag15.jpg" width="550px" height="550px" class="img-circle" />
+            </a>
+            <h3>@Resource.Marinatedchicken</a></h3>
+        </div>
+
+        @*</fieldset>*@
+
     </div>
 </div>
 

@@ -16,11 +16,17 @@
     white-space: normal;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
+/* Set width on the ; input elements since they're 100% wide by default */
 input,
 select,
 textarea {
     max-width: 280px;
+    font-size:large;
+
+}
+h1{font:bold}
+p,label,li{
+    font-size:20px;
 }
 
 .dropbtn {
@@ -31,7 +37,6 @@ textarea {
     border: none;
     cursor: pointer;
     font-weight: bold;
-    font-family: cursive;
 }
 
     .dropbtn:hover, .dropbtn:focus {
@@ -62,10 +67,16 @@ textarea {
         text-decoration: none;
         display: block;
     }
+body {
+    background-color: #efedc7;
+}
 
 .dropdown a:hover {
     background-color: #ddd;
 }
 .show {
     display: block;
+}
+#loginbar > .center {
+    align-content:center;
 }
